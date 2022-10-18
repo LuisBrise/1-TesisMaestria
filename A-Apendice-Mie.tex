@@ -1,0 +1,87 @@
+Para construir la solución buscada se define ahora la transformada de Fourier espaciotemporal como
+\begin{align}
+\vv{F}\varsk = &\intt{\intTE{ \vv{F}\vars \rme^{-\rmi \var{\vv{k}\cdot\vv{r}-\w t}} }},\nonumber \\
+\vv{F}\vars = \frac{1}{\var{2\pi}^4}&\intw{\intTER{ \vv{F}\varsk \rme^{\rmi\var{\vv{k}\cdot\vv{r}-\w t}} }},
+\end{align}
+donde T.E. significa integrar sobre todo el espacio y T.E.R. significa integrar sobre todo el espacio recíproco. Aplicando la transformada de Fourier a las Ecs. \eqref{eq: scalar potential} y \eqref{eq: vector potential} se obtiene 
+\begin{align}
+\var{-k^2+\frac{\w^2}{c^2}}\phi\varsk =& -\cgs{4\pi\epsilon_0}\frac{1}{\epsilon_0}\rho_{\text{tot}}\varsk, \\
+\var{-k^2+\frac{\w^2}{c^2}}\vv{A}\varsk =& - \cgs{\frac{4\pi}{\mu_0 c}}\mu_0\vv{J}_{\text{tot}}\varsk, 
+\end{align}
+y usando el hecho de que $\vv{J} = \rho \vv{v}$ y $\mu_0 \epsilon_0 c^2 = 1$ se obtiene
+\begin{align}
+\phi\varsk &= \cgs{4\pi\epsilon_0}\frac{1}{k^2-\w^2/c^2} \frac{\rho_{\rm tot}\varsk}{\epsilon_0}, \label{eqap: phi Fourier kw} \\
+\vv{A}\varsk &= \cgs{\frac{4\pi}{\mu_0 c}}\frac{\mu_0}{k^2-\w^2/c^2}\,\vv{J}_{\text{tot}}\varsk = \cgs{c}\frac{\vv{v}}{c^2}\phi\varsk. \label{eqap: A Fourier kw}
+\end{align}
+Ahora, calculando la transformada de Fourier de la Ec. \eqref{eq: E field potentials} se obtiene 
+\begin{equation}
+\vv{E}\varsk = - \rmi \vv{k} \phi\varsk + \cgs{\frac{1}{c}}\rmi \w \vv{A}\varsk \label{eqap: E Fourier kw}.
+\end{equation}
+Sustituyendo las Ecs. \eqref{eqap: phi Fourier kw} y \eqref{eqap: A Fourier kw} en la Ec. \eqref{eqap: E Fourier kw} se obtiene
+\begin{equation}
+\vv{E}\varsk = \rmi \var{-\vv{k}+\frac{\w}{c^2}\vv{v}}\phi\varsk, 
+\end{equation}
+y calculando la transformada inversa de Fourier de la expresionan anterior, únicamente en el espacio $\vv{k}$, se obtiene
+\begin{equation}
+\vv{E}\varsw = \var{-\nabla+\rmi \frac{\w}{c^2}\vv{v}}\phi\varsw.
+\end{equation}
+
+Realizando el proceso análogo para calcular el campo magnético $\vv{B}\varsw$ se obtiene
+\begin{align}
+\vv{B}\varsk &= \rmi \vv{k}\times\vv{A}\varsk = \rmi \vv{k}\times\frac{\vv{v}}{c^2}\phi\varsk\\
+\vv{B}\varsw &= \cgs{c}\nabla \phi\varsw\times\frac{\vv{v}}{c^2}.
+\end{align}
+
+Considerando la densidad de carga del electrón en movimiento es $\rho_{\text tot}\vars = -e \delta(\vv{r}-\vv{r}_t)$, donde $\vv{r}_t = (b,0,vt)$ es el vector posición del electrón, y calculando la transformada de Fourier de la Ec. \eqref{eq: scalar potential} se obtiene la Ec. de Helmholtz
+\begin{equation}
+\nabla^2\phi\varsw + k^2\phi\varsw = -\frac{e}{\epsilon_0}\intt{\rme^{\rmi \w t} \delta(\vv{r}-\vv{r}_t)},
+\end{equation}
+donde $k = \w/c$ es el número de onda en el vacío y la solución para $\phi\varsw$ se escribe como \cite{maciel2019electromagnetic, de1999relativistic,barton1989elements} 
+\begin{align}
+\phi\varsw &= -\frac{e}{4\pi\epsilon_0}\intTE{G_0(\vv{r}-\vv{r}\,^{\prime})\intt{\rme^{\rmi \w t}\delta(\vv{r}-\vv{r}_t)}}^{\prime},\\
+		   &= -\frac{e}{4\pi\epsilon_0}\intt{\rme^{\rmi \w t} \intTE{ G_0(\vv{r}-\vv{r}\,^{\prime}) \delta(\vv{r}-\vv{r}_t)}^{\prime}},\\
+		   &= -\frac{e}{4\pi\epsilon_0}\intt{\rme^{\rmi \w t}G_0\var{\vv{r}-\vv{r}_t}},
+\end{align}
+con 
+\begin{equation}
+G_0\var{\vv{r}-\vv{r}_t} = \frac{\rme^{\rmi k \abs{\vv{r}-\vv{r}_t}}}{\abs{\vv{r}-\vv{r}_t}},
+\end{equation}
+la función de Green de la ecuación de Helmholtz. De esta forma, el campo eléctrico del electrón se puede escribir como
+\begin{equation}
+\EE{ext}\varsw = \frac{e}{4\pi\epsilon_0}\var{\nabla-\rmi \frac{k\vv{v}}{c}} \intt{\rme^{\rmi \w t} G_0 \var{\vv{r}-\vv{r}_t}}. 
+\label{eqap: electric field green apendix}
+\end{equation}
+
+Al reescribir la función de Green en una base esférica se obtiene 
+\begin{equation}
+G_0(\vv{r},\vv{r}_t)=4\pi k \sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) h_{\ell}^{(+)}(k \, r_t) Y_{\ell,m}\var{\Omega_r} Y_{\ell, m}^{*}\var{\Omega_{r_t}}, \label{eqap: green spherical apendix}
+\end{equation}
+donde $h_{\ell}^{(+)}(x)= \rmi \, h_{\ell}^{(1)}(x)$ es la función esférica de Hankel de orden $\ell$ \cite{abramowitz1964handbook}. Sustituyendo la Ec. \eqref{eqap: green spherical apendix} en la Ec. \eqref{eqap: electric field green apendix} se obtiene
+\begin{equation}
+\EE{ext}\varsw = \frac{e}{4\pi\epsilon_0}\var{\nabla-\rmi \frac{k\vv{v}}{c}} \sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) Y_{\ell,m}\var{\Omega_r} \phi_{\ell, m},
+\label{eqap: ext electric field spherical}
+\end{equation}
+donde 
+\begin{equation}
+\phi_{\ell, m} = 4\pi k \intt{\rme^{\rmi \w t} h_{\ell}^{(+)}(k \, r_t) Y_{\ell, m}^{*}\var{\Omega_{r_t}}}.
+\label{eqap: phi lm apendix}
+\end{equation}
+
+Para calcular las constantes $\phi_{\ell, m}$ de la Ec. \eqref{eqap: phi lm apendix} se calcula la transformada de Fourier de la función de Green en el espacio de frecuencias \cite{maciel2019electromagnetic}
+\begin{equation}
+\intt{\rme^{\rmi \w t} \,\frac{\rme^{\rmi k \abs{\vv{r}-\vv{r}_t}}}{\abs{\vv{r}-\vv{r}_t}}} = \frac{2}{v} K_0\wR \, \rme^{\rmi \w z/v}
+\label{eqap: green fourier transform}
+\end{equation}
+donde $R = \sqrt{(x-b)^2+y^2}$, $v$ la rapidez de electrón y $K_0$ la función Bessel modificada del segundo tipo de orden cero. A partir de las Ecs. \eqref{eqap: electric field green apendix}, \eqref{eqap: ext electric field spherical} y \eqref{eqap: green fourier transform} se puede obtener la ecuaciación
+\begin{equation}
+\sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) Y_{\ell,m}\var{\Omega_r} \phi_{\ell, m} = \frac{2}{v} K_0\wR \, \rme^{\rmi \w z/v} 
+\end{equation}
+y al usar la ortonormalidad de los armónicos esféricos se obtiene
+\begin{equation}
+\phi_{\ell,m} = \frac{2}{v \,j_{\ell}(k\,r)} \int_{0}^{4\pi} Y_{\ell,m}^{*}(\Omega_r) K_0\wR \rme^{\rmi \w z /v} \, d\Omega_{r}.
+\label{eq: appendix coeffs phi l m}
+\end{equation}
+Al realizar la integral de la Ec.  \eqref{eq: appendix coeffs phi l m} se obtiene  \cite{de1999relativistic}
+\begin{equation}
+\phi_{\ell,m} = \frac{2}{v}
+\end{equation}

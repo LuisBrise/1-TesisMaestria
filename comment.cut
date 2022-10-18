@@ -1,0 +1,93 @@
+%%-------------------------------------------------------------------------------------
+%
+%-------------------------------------------------------
+%
+%-----------------    Apéndice A ------------------------
+%
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\renewcommand{\theequation}{A.\arabic{equation}}
+\renewcommand{\thefigure}{A.\arabic{figure}}
+\apendice{Apéndice A\\ Solución de Mie extendida}{A-Apendice-Mie.tex}
+%
+%------------------------------------------------------------------------------------
+%
+%------------------------------------------------------------------------------------
+%-----------------    Apéndice B ------------------------
+%
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\renewcommand{\theequation}{B.\arabic{equation}}
+\renewcommand{\thefigure}{B.\arabic{figure}}
+%\apendice{Apéndice B\\  Solución de Mie extendida}{Apendice-Mie.tex}
+%
+%------------------------------------------------------------------------------------
+%
+%%-------------------------------------------------------------------------------------
+%
+%-----------------    Apéndice C ------------------------
+%
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\renewcommand{\theequation}{C.\arabic{equation}}
+\renewcommand{\thefigure}{C.\arabic{figure}}
+%\apendice{Apéndice C\\ Efecto de las correcciones por tamaño a la función dieléctrica en la TMA}{Apendice-size-corrections.tex}
+%\apendice{Apéndice C\\ Efecto de las correcciones por tamaño a $\varepsilon\var{\w}$ en la TMA}{Apendice-size-corrections.tex}
+%
+%------------------------------------------------------------------------------------
+%-------------------------------------------------------
+%
+%-----------------    Apéndice D ------------------------
+%
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\renewcommand{\theequation}{D.\arabic{equation}}
+\renewcommand{\thefigure}{D.\arabic{figure}}
+%\apendice{Apéndice D\\Diferencias con un método previo para el límite de partícula pequeña}{Apendice-GdA.tex}
+%
+%------------------------------------------------------------------------------------
+%------------------------------------------------------
+%
+%-----------------    Apéndice E ------------------------
+%
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\renewcommand{\theequation}{E.\arabic{equation}}
+\renewcommand{\thefigure}{E.\arabic{figure}}
+%\apendice{Apéndice E\\ Convergencia de los cálculos de la TMA}{Apendice-convergencia.tex}
+%
+%------------------------------------------------------------------------------------
+%------------------------------------------------------
+%
+%------------------------------------------------------------------------------------
+%-------------------------------------------------------
+%
+%-----------------    Apéndice F ------------------------
+%
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\renewcommand{\theequation}{F.\arabic{equation}}
+\renewcommand{\thefigure}{F.\arabic{figure}}
+%\apendice{Apéndice F\\ Tiempos de cómputo de la TMA}{Apendice-tiempos-de-computo.tex}
+%
+%------------------------------------------------------------------------------------
+%------------------------------------------------------
+%
+%------------------------------------------------------------------------------------
+%-------------------------------------------------------
+%------------------------------------------------------------------------------------
+%-------------------------------------------------------
+%
+%-----------------    Lista de publicaciones------------------------
+%
+%\sincapitulo{Lista de publicaciones}{Publicaciones.tex}
+%------------------------------------------------------------------------------------
+%------------------------------------------------------
+%
+%------------------------------------------------------------------------------------
+%-------------------------------------------------------
+%------------------------------------------------------------------------------------
+
+%
+%%-------------------------------------------------------------------------------------
+%--------------------------------- END EXCLUIMOS--------------------------------------

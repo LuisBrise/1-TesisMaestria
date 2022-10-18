@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 0-Tesis-de-maestria-JLBG.aux
+The style file: unsrt-jacr.bst
+Database file #1: references-links-arc.bib
+Warning--I didn't find a database entry for "de1999relativistic"
+Warning--I didn't find a database entry for "barton1989elements"
+Warning--I didn't find a database entry for "abramowitz1964handbook"
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            475 strings with 4112 characters,
+and the built_in function-call counts, 567 in all, are:
+= -- 49
+> -- 20
+< -- 0
++ -- 8
+- -- 5
+* -- 26
+:= -- 95
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 29
+empty$ -- 62
+format.name$ -- 5
+if$ -- 126
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 5
+newline$ -- 19
+num.names$ -- 3
+pop$ -- 15
+preamble$ -- 2
+purify$ -- 0
+quote$ -- 0
+skip$ -- 8
+stack$ -- 0
+substring$ -- 25
+swap$ -- 3
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 5
+width$ -- 4
+write$ -- 34
+(There were 3 warnings)

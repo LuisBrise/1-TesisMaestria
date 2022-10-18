@@ -1,0 +1,20 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{1}
+
+\bibitem{jackson}
+J.~D. Jackson.
+\newblock {\em Classical Electrodynamics}.
+\newblock John Wiley \& Sons, 2007.
+
+\bibitem{maciel2019electromagnetic}
+C.~Maciel-Escudero y A.~Reyes-Coronado.
+\newblock \href{https://doi.org/10.1016/j.wavemoti.2019.01.005}{Electromagnetic
+  fields produced by a swift electron: A source of white light}.
+\newblock {\em Wave Motion}, 86:137--149, 2019.
+
+\bibitem{Good}
+R.~H. Good y T.~J. Nelson.
+\newblock {\em Classical Theory of Electric and Magnetic Fields}.
+\newblock Academic Press, 2013.
+
+\end{thebibliography}
