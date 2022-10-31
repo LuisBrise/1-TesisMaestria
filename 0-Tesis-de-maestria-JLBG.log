@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.6)  18 OCT 2022 13:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.6)  31 OCT 2022 11:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1015,26 +1015,26 @@ LaTeX Info: Redefining \% on input line 26.
 )
 \openout1 = `0-Tesis-de-maestria-JLBG.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 269.
-LaTeX Font Info:    ... okay on input line 269.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 269.
-LaTeX Font Info:    ... okay on input line 269.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 269.
-LaTeX Font Info:    ... okay on input line 269.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 269.
-LaTeX Font Info:    ... okay on input line 269.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 269.
-LaTeX Font Info:    ... okay on input line 269.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 269.
-LaTeX Font Info:    ... okay on input line 269.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 269.
-LaTeX Font Info:    ... okay on input line 269.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 269.
-LaTeX Font Info:    ... okay on input line 269.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 269.
-LaTeX Font Info:    ... okay on input line 269.
-LaTeX Info: Redefining \. on input line 269.
-LaTeX Info: Redefining \% on input line 269.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 270.
+LaTeX Font Info:    ... okay on input line 270.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 270.
+LaTeX Font Info:    ... okay on input line 270.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 270.
+LaTeX Font Info:    ... okay on input line 270.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 270.
+LaTeX Font Info:    ... okay on input line 270.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 270.
+LaTeX Font Info:    ... okay on input line 270.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 270.
+LaTeX Font Info:    ... okay on input line 270.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 270.
+LaTeX Font Info:    ... okay on input line 270.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 270.
+LaTeX Font Info:    ... okay on input line 270.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 270.
+LaTeX Font Info:    ... okay on input line 270.
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1098,7 +1098,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count376
-Package hyperref Info: Link coloring ON on input line 269.
+Package hyperref Info: Link coloring ON on input line 270.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1111,15 +1111,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count377
 )
-LaTeX Info: Redefining \ref on input line 269.
-LaTeX Info: Redefining \pageref on input line 269.
-LaTeX Info: Redefining \nameref on input line 269.
+LaTeX Info: Redefining \ref on input line 270.
+LaTeX Info: Redefining \pageref on input line 270.
+LaTeX Info: Redefining \nameref on input line 270.
 
 (./0-Tesis-de-maestria-JLBG.out) (./0-Tesis-de-maestria-JLBG.out)
 \@outlinefile=\write6
 \openout6 = `0-Tesis-de-maestria-JLBG.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 269.
+Package backref Info: ** backref set up for natbib ** on input line 270.
 
 Including 'toexclude' comment.
 \openout5 = `comment.cut'.
@@ -1368,21 +1368,17 @@ LaTeX Info: Redefining \. on input line 201.
 LaTeX Info: Redefining \% on input line 201.
  [18]
 
-Package natbib Warning: Citation `de1999relativistic' on page 19 undefined on i
-nput line 212.
-
-
-LaTeX Warning: Reference `Tsymmetry' on page 19 undefined on input line 217.
+LaTeX Warning: Reference `Tsymmetry' on page 19 undefined on input line 224.
 
 
 LaTeX Warning: Reference `indexangularmomentumconservation' on page 19 undefine
-d on input line 217.
+d on input line 224.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 272.
-LaTeX Info: Redefining \% on input line 272.
+LaTeX Info: Redefining \. on input line 268.
+LaTeX Info: Redefining \% on input line 268.
  [19])
 LaTeX Info: Redefining \. on input line 100.
 LaTeX Info: Redefining \% on input line 100.
@@ -1392,23 +1388,23 @@ Cap\'{\i }tulo 3.
 (./ResultadosyDiscusion.tex)
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 380.
+(blindtext)                 on input line 381.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 380.
+(blindtext)                 on input line 381.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 380.
+(blindtext)                 on input line 381.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 380.
+(blindtext)                 on input line 381.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 380.
+(blindtext)                 on input line 381.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1418,30 +1414,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 380.
+(blindtext)                 on input line 381.
 
-LaTeX Info: Redefining \. on input line 380.
-LaTeX Info: Redefining \% on input line 380.
+LaTeX Info: Redefining \. on input line 381.
+LaTeX Info: Redefining \% on input line 381.
 [22] (./Conclusionesyperspectivas.tex)
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 381.
+(blindtext)                 on input line 382.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 381.
+(blindtext)                 on input line 382.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 381.
+(blindtext)                 on input line 382.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 381.
+(blindtext)                 on input line 382.
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 381.
+(blindtext)                 on input line 382.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1451,10 +1447,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 381.
+(blindtext)                 on input line 382.
 
-LaTeX Info: Redefining \. on input line 381.
-LaTeX Info: Redefining \% on input line 381.
+LaTeX Info: Redefining \. on input line 382.
+LaTeX Info: Redefining \% on input line 382.
 [24] Including 'toexclude' comment.
 \openout5 = `comment.cut'.
 
@@ -1470,43 +1466,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [25
 
 ]
-
-Package natbib Warning: Citation `de1999relativistic' on page 26 undefined on i
-nput line 39.
-
-
-Package natbib Warning: Citation `barton1989elements' on page 26 undefined on i
-nput line 39.
-
-
-Package natbib Warning: Citation `abramowitz1964handbook' on page 26 undefined 
-on input line 59.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 68.
 LaTeX Info: Redefining \% on input line 68.
- [26]
-
-Package natbib Warning: Citation `de1999relativistic' on page 27 undefined on i
-nput line 84.
-
-)
+ [26])
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- [27]) (./0-Tesis-de-maestria-JLBG.bbl (./0-Tesis-de-maestria-JLBG.brf)
+
+[27]) (./0-Tesis-de-maestria-JLBG.bbl (./0-Tesis-de-maestria-JLBG.brf)
 \tf@brf=\write8
 \openout8 = `0-Tesis-de-maestria-JLBG.brf'.
 
-
-[28
+ [28
 
 
 ])
-
-Package natbib Warning: There were undefined citations.
-
 [29] (./0-Tesis-de-maestria-JLBG.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
@@ -1514,18 +1489,26 @@ LaTeX Info: Redefining \% on input line 26.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.out' has not change
 d.
 (rerunfilecheck)             Checksum: 876C520ADE49DA3FAAB571DCE836788D;2027.
-Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.brf' has not change
-d.
-(rerunfilecheck)             Checksum: DC82C1B411A7258E6CB8D3694B834321;560.
+
+Package rerunfilecheck Warning: File `0-Tesis-de-maestria-JLBG.brf' has changed
+.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `0-Tesis-de-maestria-JLBG.brf':
+(rerunfilecheck)             Before: 9802E98C3CC4B474CDC9A011049AC35E;1000
+(rerunfilecheck)             After:  D42759AD7BB060B8676DA329488DEF44;1000.
  ) 
 Here is how much of TeX's memory you used:
- 33697 strings out of 478287
- 657819 string characters out of 5849290
- 998563 words of memory out of 5000000
- 51097 multiletter control sequences out of 15000+600000
+ 33743 strings out of 478287
+ 658734 string characters out of 5849290
+ 998842 words of memory out of 5000000
+ 51135 multiletter control sequences out of 15000+600000
  488528 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,16n,99p,838b,993s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1544,21 +1527,22 @@ mmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on 0-Tesis-de-maestria-JLBG.pdf (29 pages, 683131 bytes).
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on 0-Tesis-de-maestria-JLBG.pdf (29 pages, 699895 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 412 compressed objects within 5 object streams
- 121 named destinations out of 1000 (max. 500000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 129 named destinations out of 1000 (max. 500000)
  255 words of extra memory for PDF output out of 10000 (max. 10000000)
 

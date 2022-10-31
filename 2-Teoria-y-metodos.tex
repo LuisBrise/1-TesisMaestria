@@ -204,15 +204,22 @@ que son expresiones cerradas con simetría cilíndrica. Como también se buscan 
 El campo eléctrico producido por el electrón se puede obtener mediante la función de Green dependiente del tiempo \cite{maciel2019electromagnetic}  
 \begin{equation}
 \EE{ext}\varsw = \cgs{4\pi\epsilon_0}\frac{e}{4\pi\epsilon_0}\var{\nabla-\rmi \frac{k\vv{v}}{c}} \intt{\rme^{\rmi \w t} G_0 \var{\vv{r}-\vv{r}_t}},
+\label{eq: E field Green function}
 \end{equation}
 donde la función de Green $G_0 \var{\vv{r}-\vv{r}_t}$ está dada por 
 \begin{equation}
-G_0 \var{\vv{r}-\vv{r}_t} = \frac{\rme^{\rmi k \abs{\vv{r}-\vv{r}_t}}}{\abs{\vv{r}-\vv{r}_t}},
+G_0 \var{\vv{r}-\vv{r}_t} = \frac{\cgs{4\pi\epsilon_0}}{4\pi\epsilon_02}\frac{\rme^{\rmi k \abs{\vv{r}-\vv{r}_t}}}{\abs{\vv{r}-\vv{r}_t}},
 \end{equation}
 con $k = \w/c$ el número de onda en el vacío, $\vv{r}_t=\vv{r}_0+\vv{v}t$ la posición del electrón al tiempo $t$. Al expandir la función de Green en base esférica se obtiene \cite{de1999relativistic}
 \begin{equation}
-G_0(\vv{r},\vv{r}_t) = 4\pi \sum_{\ell = 0}^{\infty} \sum_{m=-\ell}^{\ell} 
+G_0(\vv{r},\vv{r}_t) = \frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} \sum_{\ell = 0}^{\infty} \sum_{m=-\ell}^{\ell} j_{\ell}(kr) h_{\ell}^{+}(k r_t) Y_{\ell, m}(\Omega_r) Y_{\ell, m}(\Omega_{r_t})^{*},
+\label{eq: Green function spherical base}
 \end{equation}
+donde $h_{\ell}^{+}(x) = \rmi h_{\ell}^{1}(x)$ es la función de Hankel esférica de orden $\ell$ \citep{Abramowitz}. Sustituyendo la Ec. \ref{eq: Green function spherical base} en la Ec. \ref{eq: E field Green function}, se obtiene
+\begin{equation}
+\EE{ext}\vars = 
+\end{equation}
+
 
 De este modo, sustituyendo la Ec. (\ref{Tsymmetry}) en la Ec. (\ref{indexangularmomentumconservation}) se obtiene que
 %
