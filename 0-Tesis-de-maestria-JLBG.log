@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.6)  31 OCT 2022 11:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  8 NOV 2022 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -28,7 +28,7 @@ File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count194
 \U@D=\dimen139
-\l@unhyphenated=\language87
+\l@unhyphenated=\language12
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -1468,8 +1468,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
  [26])
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -1489,28 +1489,20 @@ LaTeX Info: Redefining \% on input line 26.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.out' has not change
 d.
 (rerunfilecheck)             Checksum: 876C520ADE49DA3FAAB571DCE836788D;2027.
-
-Package rerunfilecheck Warning: File `0-Tesis-de-maestria-JLBG.brf' has changed
-.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `0-Tesis-de-maestria-JLBG.brf':
-(rerunfilecheck)             Before: 9802E98C3CC4B474CDC9A011049AC35E;1000
-(rerunfilecheck)             After:  D42759AD7BB060B8676DA329488DEF44;1000.
+Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.brf' has not change
+d.
+(rerunfilecheck)             Checksum: D42759AD7BB060B8676DA329488DEF44;1000.
  ) 
 Here is how much of TeX's memory you used:
- 33743 strings out of 478287
- 658734 string characters out of 5849290
- 998842 words of memory out of 5000000
- 51135 multiletter control sequences out of 15000+600000
+ 33743 strings out of 480071
+ 658734 string characters out of 5891616
+ 994335 words of memory out of 5000000
+ 50904 multiletter control sequences out of 15000+600000
  488528 words of font info for 97 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 107 hyphenation exceptions out of 8191
  90i,16n,99p,838b,993s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{AppendixCubatures} has been referenced but does n
 ot exist, replaced by a fixed one
