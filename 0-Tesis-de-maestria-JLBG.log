@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  8 NOV 2022 12:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  9 NOV 2022 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1331,22 +1331,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
  [14]
 <17-imagenes/2-TeoriaMetodos/system.pdf, id=210, 653.3208pt x 427.35661pt>
 File: 17-imagenes/2-TeoriaMetodos/system.pdf Graphic file (type pdf)
 <use 17-imagenes/2-TeoriaMetodos/system.pdf>
 Package pdftex.def Info: 17-imagenes/2-TeoriaMetodos/system.pdf  used on input 
-line 78.
+line 79.
 (pdftex.def)             Requested size: 250.24199pt x 163.68834pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 100.
-LaTeX Info: Redefining \% on input line 100.
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
  [15 <./17-imagenes/2-TeoriaMetodos/system.pdf>]
-LaTeX Font Info:    Trying to load font information for U+eus on input line 124
+LaTeX Font Info:    Trying to load font information for U+eus on input line 125
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
@@ -1354,31 +1354,31 @@ File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 135.
-LaTeX Info: Redefining \% on input line 135.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
  [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 172.
-LaTeX Info: Redefining \% on input line 172.
+LaTeX Info: Redefining \. on input line 173.
+LaTeX Info: Redefining \% on input line 173.
  [17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 201.
-LaTeX Info: Redefining \% on input line 201.
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
  [18]
 
-LaTeX Warning: Reference `Tsymmetry' on page 19 undefined on input line 224.
+LaTeX Warning: Reference `Tsymmetry' on page 19 undefined on input line 228.
 
 
 LaTeX Warning: Reference `indexangularmomentumconservation' on page 19 undefine
-d on input line 224.
+d on input line 228.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 268.
-LaTeX Info: Redefining \% on input line 268.
+LaTeX Info: Redefining \. on input line 263.
+LaTeX Info: Redefining \% on input line 263.
  [19])
 LaTeX Info: Redefining \. on input line 100.
 LaTeX Info: Redefining \% on input line 100.
@@ -1470,19 +1470,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
- [26])
+ [26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+ [27])
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 
-[27]) (./0-Tesis-de-maestria-JLBG.bbl (./0-Tesis-de-maestria-JLBG.brf)
+[28]) (./0-Tesis-de-maestria-JLBG.bbl (./0-Tesis-de-maestria-JLBG.brf)
 \tf@brf=\write8
 \openout8 = `0-Tesis-de-maestria-JLBG.brf'.
 
- [28
+)
+[29
 
 
-])
-[29] (./0-Tesis-de-maestria-JLBG.aux
+] (./0-Tesis-de-maestria-JLBG.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
@@ -1494,14 +1499,14 @@ d.
 (rerunfilecheck)             Checksum: 876C520ADE49DA3FAAB571DCE836788D;2027.
 Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.brf' has not change
 d.
-(rerunfilecheck)             Checksum: D42759AD7BB060B8676DA329488DEF44;1000.
+(rerunfilecheck)             Checksum: 3114A3986F8793B251B615E2F3E61862;1000.
  ) 
 Here is how much of TeX's memory you used:
- 33743 strings out of 480071
- 658734 string characters out of 5891616
- 994335 words of memory out of 5000000
- 50904 multiletter control sequences out of 15000+600000
- 488528 words of font info for 97 fonts, out of 8000000 for 9000
+ 33749 strings out of 480071
+ 658837 string characters out of 5891616
+ 994491 words of memory out of 5000000
+ 50907 multiletter control sequences out of 15000+600000
+ 488728 words of font info for 98 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
  90i,16n,99p,838b,993s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{AppendixCubatures} has been referenced but does n
@@ -1531,10 +1536,10 @@ m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on 0-Tesis-de-maestria-JLBG.pdf (29 pages, 699895 bytes).
+Output written on 0-Tesis-de-maestria-JLBG.pdf (29 pages, 702312 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 129 named destinations out of 1000 (max. 500000)
+ 560 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
+ 132 named destinations out of 1000 (max. 500000)
  255 words of extra memory for PDF output out of 10000 (max. 10000000)
 

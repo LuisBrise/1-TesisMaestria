@@ -109,3 +109,16 @@ I_{i_1,i_2}^{m,m} =
 \right.
 \end{equation}
 y donde B(x,y) es la función beta \citep{Abramowitz}.
+
+Si ahora calculamos la Transformada de Fourier de las Ecuaciones de Maxwell, Ecs. \ref{eq: Maxwell equations}, se obtiene
+\begin{align}
+\nabla\cdot\vv{E} =& \cgs{4\pi\epsilon_0}\frac{\rho_{\text{tot}}}{\epsilon_0}, \qquad \qquad \nabla\times\vv{E}= \rmi \,\w\cgs{\frac{1}{c}}\vv{B}, \nonumber \\
+\nabla\cdot\vv{B} =& 0, \qquad \qquad \qquad \qquad \nabla\times\vv{B}=\cgs{\frac{4\pi}{\mu_0 c}}\mu_0\vv{J}_{\text{tot}}- \rmi \, \w\frac{\cgs{c}}{c^2}\vv{E},
+\label{eq: Maxwell equations freq}
+\end{align}
+al desacoplarlas, aplicando las relaciones constitutivas $\vv{D}=\epsilon(\w)\vv{E}$ y $\vv{B} = \mu(\w) \vv{H}$, y sin considerar las fuentes\footnote{Hola} se obtiene
+\begin{align*}
+(\nabla^2 + k_{\w}^2)\vv{E} = 0, \\
+(\nabla^2 + k_{\w}^2)\vv{H} = 0.
+\end{align*}
+en donde $k_{\w}^2=\w^2 \epsilon(\w) \mu(\w)$
