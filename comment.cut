@@ -8,7 +8,7 @@
 \setcounter{figure}{0}
 \renewcommand{\theequation}{A.\arabic{equation}}
 \renewcommand{\thefigure}{A.\arabic{figure}}
-\apendice{Apéndice A\\ Solución de Mie extendida}{A-Apendice-Mie.tex}
+\apendice{Apéndice A\\ Método del potencial escalar}{A-Apendice-ScalarPotentials.tex}
 %
 %------------------------------------------------------------------------------------
 %

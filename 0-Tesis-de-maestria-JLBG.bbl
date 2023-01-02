@@ -1,10 +1,22 @@
  \newcommand{\noop}[1]{}
 \begin{thebibliography}{1}
 
+\bibitem{deabajo2021optical}
+F.~J.~G. de~Abajo y V.~D. Giulio.
+\newblock \href{https://doi.org/10.1021/acsphotonics.0c01950}{Optical
+  Excitations with Electron Beams: Challenges and Opportunities}.
+\newblock {\em ACS Photonics}, 8(4):945--974, 2021.
+
 \bibitem{jackson}
 J.~D. Jackson.
 \newblock {\em Classical Electrodynamics}.
 \newblock John Wiley \& Sons, 2007.
+
+\bibitem{castellanos2021phdthesis}
+José~Ángel Castellanos-Reyes.
+\newblock {\em Transferencia de momento angular de electrones rápidos a
+  nanopartículas}.
+\newblock Tesis de doctorado, Facultad de Ciencias, UNAM, 9 2021.
 
 \bibitem{maciel2019electromagnetic}
 C.~Maciel-Escudero y A.~Reyes-Coronado.
@@ -18,21 +30,26 @@ F.~J. Garc\'{\i}a~de Abajo.
   interaction of a dielectric sphere with an external electron beam.
 \newblock {\em Phys. Rev. B}, 59:3095--3107, Jan 1999.
 
+\bibitem{Abramowitz}
+M.~Abramowitz, I.~A. Stegun y R.~H. Romer.
+\newblock {\em Handbook of Mathematical Functions with Formulas, Graphs, and
+  Mathematical Tables}.
+\newblock American Association of Physics Teachers, 1988.
+
 \bibitem{Good}
 R.~H. Good y T.~J. Nelson.
 \newblock {\em Classical Theory of Electric and Magnetic Fields}.
 \newblock Academic Press, 2013.
+
+\bibitem{Low}
+F.~E. Low.
+\newblock {\em Classical Field Theory: Electromagnetism and Gravitation}.
+\newblock John Wiley \& Sons, 2008.
 
 \bibitem{barton1989elements}
 Gy{\"o}rgy Barton y Gabriel Barton.
 \newblock {\em Elements of Green's functions and propagation: potentials,
   diffusion, and waves}.
 \newblock Oxford University Press, 1989.
-
-\bibitem{Abramowitz}
-M.~Abramowitz, I.~A. Stegun y R.~H. Romer.
-\newblock {\em Handbook of Mathematical Functions with Formulas, Graphs, and
-  Mathematical Tables}.
-\newblock American Association of Physics Teachers, 1988.
 
 \end{thebibliography}

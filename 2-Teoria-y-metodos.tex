@@ -1,11 +1,13 @@
 % !TeX root = ./0-Tesis-de-maestria-JLBG.tex
+En este capítulo se muestra el enfoque de la electrodinámica clásica empleado para describir la interacción de un electrón rápido y una nanopartícula (NP) esférica. En partícular, se estudia la interacción a partir del momento lineal transferido del electrón a la NP. Un trabajo reciente de García de Abajo \cite{deabajo2021optical} justifica que bajo la condiciones establecidas en la introducción, no es necesaria una descripción cuántica del fenómeno.
+
 Las siguientes ecuaciones se encuentran en el sistema $\cgs{\text{cgs}}$ Internacional; es decir, se proporciona en color \textbf{negro} la ecuación en sistema Internacional, y entre paréntesis y resaltado con color $\cgs{\text{magenta}}$ el factor necesario para expresar la ecuación en el sistema cgs. Por ejemplo, la fuerza entre dos cargas puntuales $q_1$ y $q_2$ separadas una distancia $r$ se escribiría como
 \begin{equation}
 \vv{F} = \cgs{4\pi\epsilon_0}\frac{1}{4\pi\epsilon_0} \frac{q_1 q_2}{r^2} \hat{r}
 \end{equation}
 
 \subsection{Conservación del momento angular en electrodinámica}
-Trabajando en el sistema internacional, las ecuaciones de Maxwell se escriben como \cite{jackson}
+Trabajando en el sistema $\cgs{\text{cgs}}$ internacional, las ecuaciones de Maxwell se escriben como \cite{jackson}
 %%%%%%%%%%%%%%%% ECUACIONES DE MAXWELL
 \begin{align}
 \nabla\cdot\vv{E} =& \cgs{4\pi\epsilon_0}\frac{\rho_{\text{tot}}}{\epsilon_0}, \qquad \qquad \nabla\times\vv{E}=-\cgs{\frac{1}{c}}\frac{\partial\vv{B}}{\partial t}, \nonumber \\
@@ -152,9 +154,14 @@ con
 
 Si se elige una esfera como superficie de integración, y se denota a $R$ como el radio de la superficie de integración esférica $S$ y a $\hat{r}_i$ como la $i$-ésima componente del vector unitario radial, es posible expresar a $\mathcal{L}_i \var{\w}$ de la siguiente manera
 \begin{equation}
-\mathcal{L}_i\var{\w} = \frac{R^2}{\pi} \int_0^{4\pi} \Var{\epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}^{E}_{jk}\varsw n^k + \epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}^{H}_{jk}\varsw n^k}\,d\Omega,
+\mathcal{L}_i\var{\w} = \frac{R^2}{\pi} \int_0^{4\pi} \Var{\epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}^{\, \rm E}_{jk}\varsw n^k + \epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}^{\, \rm H}_{jk}\varsw n^k}\,d\Omega,
+\label{Eq: complete spectral component of AMT with spherical symmetry}
 \end{equation}
-donde únicamente falta integral en el ángulo sólido $\Omega$.
+donde únicamente falta integral en el ángulo sólido $\Omega$. Se puede separar la contribución eléctrica de la magnética en la Ec. \eqref{Eq: complete spectral component of AMT with spherical symmetry} de la siguiente manera
+\begin{align}
+\mathcal{L}_i^{\rm E}\var{\w} = \frac{R^2}{\pi} \int_0^{4\pi} \Var{\epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}^{\,\rm E}_{jk}\varsw n^k}\,d\Omega, \\
+\mathcal{L}_i^{\rm H}\var{\w} = \frac{R^2}{\pi} \int_0^{4\pi} \Var{\epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}^{\,\rm H}_{jk}\varsw n^k}\,d\Omega.
+\end{align}
 
 Se pueden separar a los campos electromagnéticos $\vv{E}$ y $\vv{H}$ en sus contribuciones de campo externo (ext) y campo esparcido (scat) como 
 \begin{equation}
@@ -185,7 +192,11 @@ con
 \tensE{\mathcal{T}}_{\rm se} =& \frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} \re{\EE{scat}\EE{ext}^{*}-\frac{\tensa{I}}{2}\EE{scat}\cdot\EE{ext}^{*}}.
 \label{eq: tensor de esfuerzos final}
 \end{align}
-Análogamente al hacer la sustitución $\epsilon_0 \to \mu_0$ y $\vv{E}\to\vv{H}$ en las Ecs. \eqref{eq: tensor de esfuerzos inicio} a \eqref{eq: tensor de esfuerzos final}, se obtiene las contribuciones magnéticas al tensor $\tensa{\mathcal{T}}$.
+Análogamente al hacer la sustitución $\epsilon_0 \to \mu_0$ y $\vv{E}\to\vv{H}$ en las Ecs. \eqref{eq: tensor de esfuerzos inicio} a \eqref{eq: tensor de esfuerzos final}, se obtiene las contribuciones magnéticas al tensor $\tensa{\mathcal{T}}$, denotadas por $\hspace{-0.6 em}\tensH{\mathcal{T}}_{\rm ij}$ donde $\rm ij$ pueden tomar los valores \{$\rm e$, $\rm s$\}.
+
+Se puede interpretar a $\tensa{\mathcal{T}}_{\rm int}$ como la componente que está relacionada con la interacción del campo electromagnético del electrón con las cargas y corrientes inducidas en la NP. En el caso en que no exista NP, nada altera el movimiento del electrón, por lo que no pierde ni cede energía, momento lineal ni momento angular ($\Delta L = 0$) \cite{castellanos2021phdthesis}. Al no existir NP, los campos electromagnéticos esparcidos serían nulos, por lo que la única contribución al momento angular proviene de la componente $\tensa{\mathcal{T}}_{\rm ee}$. Por tanto, de manera general, se concluye que la contribución al momento angular transferido debido a $\tensa{\mathcal{T}}_{\rm ee}$ es nula, por lo que no será considerada en los cálculos subsecuentes. También vale la pena mencionar que la componente $\tensa{\mathcal{T}}_{\rm ss}$, al depender únicamente de los campos electromagnéticos esparcidos por la NP, está relacionada con la interacción de la NP consigo misma, referida por algunos autores como reacción de radiación \cite{jackson}.  
+
+En la siguiente sección se presentan las expresiones analíticas de los campos electromagnéticos externos (producidos por el electrón) y de los esparcidos por la NP, para poder integrarlos dentro de la Ec. \eqref{Eq: complete spectral component of AMT with spherical symmetry}.
 %
 % 	TRANSFERENCIA DE MOMENTO ANGULAR DE UN ELECTRÓN RÁPIDO A UNA NANOPARTÍCULA ESFÉRICA
 %
@@ -216,14 +227,17 @@ con $k = \w/c$ el número de onda en el vacío, $\vv{r}_t=\vv{r}_0+\vv{v}t$ la p
 G_0(\vv{r}-\vv{r}_t) = \frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} k \sum_{\ell = 0}^{\infty} \sum_{m=-\ell}^{\ell} j_{\ell}(kr) h_{\ell}^{+}(k r_t) Y_{\ell, m}(\Omega_r) Y_{\ell, m}(\Omega_{r_t})^{*},
 \label{eq: Green function spherical base}
 \end{equation}
-donde $h_{\ell}^{+}(x) = \rmi h_{\ell}^{1}(x)$ es la función de Hankel esférica de orden $\ell$ \citep{Abramowitz}. Sustituyendo la Ec. \ref{eq: Green function spherical base} en la Ec. \ref{eq: E field Green function}, se obtiene
+donde $h_{\ell}^{+}(x) = \rmi h_{\ell}^{1}(x)$ es la función de Hankel esférica de orden $\ell$ \citep{Abramowitz}. Sustituyendo la Ec. \eqref{eq: Green function spherical base} en la Ec. \eqref{eq: E field Green function}, se obtiene
 \begin{equation}
 \EE{ext}\vars = \var{\nabla-\rmi \frac{k\vv{v}}{c}} \sum_{\ell = 0}^{\infty} \sum_{m=-\ell}^{\ell} j_{\ell}(kr) Y_{\ell, m}(\Omega_{r})\phi_{\ell, m}
 \end{equation}
 donde 
 \begin{equation}
 \phi_{\ell, m} = \frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} k \intt{e^{i \omega t} h_{\ell}^{+}(k r_{t}) Y_{\ell, m}^{*}(\Omega_{r_t}) }.
+\label{Eq: GdA phi coeffs}
 \end{equation}
+
+En el \hyperref[AppendixScalarPotentials]{Apéndice A} se muestran los detalles del cálculo de la Ec. \eqref{Eq: GdA phi coeffs}. Como se muestra también en el \hyperref[AppendixScalarPotentials]{Apéndice A}, es posible obtener expresiones para el campo electromagnético externo en representación multipolar esférica:
 
 De este modo, sustituyendo la Ec. (\ref{Tsymmetry}) en la Ec. (\ref{indexangularmomentumconservation}) se obtiene que
 %
@@ -286,5 +300,4 @@ y
 %*******************************************************
 %*******************************************************
 
-En el \hyperlink{AppendixCubatures}{Apéndice A} se presentan los detalles de los métodos numéricos utilizados en este trabajo, incluyendo una discusión sobre CUHRE. Todos los resultados reportados en este trabajo han sido calculados asegurando que sus primeras tres cifras significativas sean correctas.
 
