@@ -6,7 +6,8 @@
 \contentsline {chapter}{\numberline {2}Teoría y métodos}{13}{chapter.2}%
 \contentsline {subsection}{\numberline {2.0.1}Conservación del momento angular en electrodinámica}{13}{subsection.2.0.1}%
 \contentsline {subsection}{\numberline {2.0.2}Transferencia de momento angular de un electrón rápido a una nanopartícula}{19}{subsection.2.0.2}%
-\contentsline {chapter}{\numberline {3}Resultados y discusión}{21}{chapter.3}%
-\contentsline {chapter}{Conclusiones y perspectivas}{23}{chapter*.8}%
-\contentsline {chapter}{Apéndice A\\ Método del potencial escalar}{25}{chapter*.9}%
-\contentsline {chapter}{Referencias}{31}{chapter*.10}%
+\contentsline {subsection}{\numberline {2.0.3}Campos electromagnéticos esparcidos por la nanopartícula}{21}{subsection.2.0.3}%
+\contentsline {chapter}{\numberline {3}Resultados y discusión}{23}{chapter.3}%
+\contentsline {chapter}{Conclusiones y perspectivas}{25}{chapter*.8}%
+\contentsline {chapter}{Apéndice A\\ Método del potencial escalar}{27}{chapter*.9}%
+\contentsline {chapter}{Referencias}{33}{chapter*.10}%

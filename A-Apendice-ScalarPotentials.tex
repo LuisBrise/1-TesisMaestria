@@ -18,7 +18,7 @@ al desacoplarlas, aplicando las relaciones constitutivas $\vv{D}=\epsilon(\w)\vv
 (\nabla^2 + k_{\w}^2)\vv{E} = 0, \\
 (\nabla^2 + k_{\w}^2)\vv{H} = 0.
 \end{align*}
-en donde $k_{\w}^2=\w^2 \epsilon(\w) \mu(\w)$\footnote{Se coloca el subíndice $\w$ para diferencia a $k_\w$ con $k$ de la Transformada de Fourier.}.
+en donde $k_{\w}^2= \cgs{c^{-2}} \w^2 \epsilon(\w) \mu(\w)$\footnote{Se coloca el subíndice $\w$ para diferencia a $k_\w$ con $k$ de la Transformada de Fourier.}.
 
 El campo eléctrico $\vv{E}$ puede ser descrito de la siguiente manera \cite{Low}
 \begin{equation}
@@ -103,12 +103,12 @@ G_0(\vv{r},\vv{r}_t)=\frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} k \sum_{\ell=0}^{\i
 \end{equation}
 donde $h_{\ell}^{(+)}(x)= \rmi \, h_{\ell}^{(1)}(x)$ es la función esférica de Hankel de orden $\ell$ \cite{Abramowitz}. Sustituyendo la Ec. \eqref{eqap: green spherical apendix} en la Ec. \eqref{eqap: electric field green apendix} se obtiene
 \begin{equation}
-\EE{ext}\varsw = \cgs{4\pi\epsilon_0}\frac{e}{4\pi\epsilon_0}\var{\nabla-\rmi \frac{k\vv{v}}{c}} \sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) Y_{\ell,m}\var{\Omega_r} \phi_{\ell, m},
+\EE{ext}\varsw = e\var{\nabla-\rmi \frac{k\vv{v}}{c}} \sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) Y_{\ell,m}\var{\Omega_r} \phi_{\ell, m},
 \label{eqap: ext electric field spherical}
 \end{equation}
 donde 
 \begin{equation}
-\phi_{\ell, m} = 4\pi k \intt{\rme^{\rmi \w t} h_{\ell}^{(+)}(k \, r_t) Y_{\ell, m}^{*}\var{\Omega_{r_t}}}.
+\phi_{\ell, m} = \frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} k \intt{e^{i \omega t} h_{\ell}^{+}(k r_{t}) Y_{\ell, m}^{*}(\Omega_{r_t}) }.
 \label{eqap: phi lm apendix}
 \end{equation}
 
@@ -119,16 +119,16 @@ Para calcular las constantes $\phi_{\ell, m}$ de la Ec. \eqref{eqap: phi lm apen
 \end{equation}
 donde $R = \sqrt{(x-b)^2+y^2}$, $v$ la rapidez de electrón y $K_0$ la función Bessel modificada del segundo tipo de orden cero. A partir de las Ecs. \eqref{eqap: electric field green apendix}, \eqref{eqap: ext electric field spherical} y \eqref{eqap: green fourier transform} se puede obtener la ecuaciación
 \begin{equation}
-\sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) Y_{\ell,m}\var{\Omega_r} \phi_{\ell, m} = \frac{2}{v} K_0\wR \, \rme^{\rmi \w z/v},
+\sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) Y_{\ell,m}\var{\Omega_r} \phi_{\ell, m} = \frac{\cgs{4\pi\epsilon_0}}{4\pi\epsilon_0}\frac{2}{v} K_0\wR \, \rme^{\rmi \w z/v},
 \end{equation}
 y al usar la ortonormalidad de los armónicos esféricos se obtiene
 \begin{equation}
-\phi_{\ell,m} = \frac{2}{v \,j_{\ell}(k\,r)} \int_{0}^{4\pi} Y_{\ell,m}^{*}(\Omega_r) K_0\wR \rme^{\rmi \w z /v} \, d\Omega_{r}.
+\phi_{\ell,m} = \frac{\cgs{4\pi\epsilon_0}}{4\pi\epsilon_0}\frac{2}{v \,j_{\ell}(k\,r)} \int_{0}^{4\pi} Y_{\ell,m}^{*}(\Omega_r) K_0\wR \rme^{\rmi \w z /v} \, d\Omega_{r}.
 \label{eq: appendix coeffs phi l m}
 \end{equation}
 Al realizar la integral de la Ec.  \eqref{eq: appendix coeffs phi l m} se obtiene \cite{de1999relativistic}
 \begin{equation}
-\phi_{\ell,m} = 4\pi k \frac{A_{\ell, m}^{+}}{\omega}K_m\wb,
+\phi_{\ell,m} = \frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} k \frac{A_{\ell, m}^{+}}{\omega}K_m\wb,
 \label{eq: phi lm GdA AlmKm}
 \end{equation}
 donde $K_m$ es la función Bessel modificada del segundo tipo de orden m, y los coeficientes $A_{\ell, m}^{+}$ están dados por

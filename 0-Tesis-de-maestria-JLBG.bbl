@@ -1,5 +1,5 @@
  \newcommand{\noop}[1]{}
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{deabajo2021optical}
 F.~J.~G. de~Abajo y V.~D. Giulio.
@@ -36,15 +36,20 @@ M.~Abramowitz, I.~A. Stegun y R.~H. Romer.
   Mathematical Tables}.
 \newblock American Association of Physics Teachers, 1988.
 
-\bibitem{Good}
-R.~H. Good y T.~J. Nelson.
-\newblock {\em Classical Theory of Electric and Magnetic Fields}.
-\newblock Academic Press, 2013.
-
 \bibitem{Low}
 F.~E. Low.
 \newblock {\em Classical Field Theory: Electromagnetism and Gravitation}.
 \newblock John Wiley \& Sons, 2008.
+
+\bibitem{Bohren}
+C.~F. Bohren y D.~R. Huffman.
+\newblock {\em Absorption and Scattering of Light by Small Particles}.
+\newblock John Wiley \& Sons, 2008.
+
+\bibitem{Good}
+R.~H. Good y T.~J. Nelson.
+\newblock {\em Classical Theory of Electric and Magnetic Fields}.
+\newblock Academic Press, 2013.
 
 \bibitem{barton1989elements}
 Gy{\"o}rgy Barton y Gabriel Barton.

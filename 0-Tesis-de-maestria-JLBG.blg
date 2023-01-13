@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 0-Tesis-de-maestria-JLBG.aux
 The style file: unsrt-jacr.bst
 Database file #1: references-links-arc.bib
-You've used 9 entries,
+You've used 10 entries,
             1791 wiz_defined-function locations,
-            511 strings with 5084 characters,
-and the built_in function-call counts, 1655 in all, are:
-= -- 148
-> -- 59
+            515 strings with 5181 characters,
+and the built_in function-call counts, 1821 in all, are:
+= -- 161
+> -- 67
 < -- 0
-+ -- 24
-- -- 15
-* -- 85
-:= -- 271
-add.period$ -- 27
-call.type$ -- 9
++ -- 27
+- -- 17
+* -- 90
+:= -- 299
+add.period$ -- 30
+call.type$ -- 10
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 84
-empty$ -- 179
-format.name$ -- 15
-if$ -- 369
+cite$ -- 10
+duplicate$ -- 94
+empty$ -- 198
+format.name$ -- 17
+if$ -- 408
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 13
-newline$ -- 49
-num.names$ -- 9
-pop$ -- 40
+int.to.str$ -- 10
+missing$ -- 15
+newline$ -- 54
+num.names$ -- 10
+pop$ -- 47
 preamble$ -- 2
 purify$ -- 0
 quote$ -- 0
-skip$ -- 24
+skip$ -- 26
 stack$ -- 0
 substring$ -- 81
-swap$ -- 9
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 15
-width$ -- 10
-write$ -- 97
+while$ -- 16
+width$ -- 12
+write$ -- 107

@@ -227,7 +227,7 @@ con $k = \w/c$ el número de onda en el vacío, $\vv{r}_t=\vv{r}_0+\vv{v}t$ la p
 G_0(\vv{r}-\vv{r}_t) = \frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} k \sum_{\ell = 0}^{\infty} \sum_{m=-\ell}^{\ell} j_{\ell}(kr) h_{\ell}^{+}(k r_t) Y_{\ell, m}(\Omega_r) Y_{\ell, m}(\Omega_{r_t})^{*},
 \label{eq: Green function spherical base}
 \end{equation}
-donde $h_{\ell}^{+}(x) = \rmi h_{\ell}^{1}(x)$ es la función de Hankel esférica de orden $\ell$ \citep{Abramowitz}. Sustituyendo la Ec. \eqref{eq: Green function spherical base} en la Ec. \eqref{eq: E field Green function}, se obtiene
+donde $Y_{\ell,m}$ son los armónicos esféricos escalares, $h_{\ell}^{+}(x) = \rmi h_{\ell}^{1}(x)$ es la función de Hankel esférica de orden $\ell$ y $j_{\ell}(x)$ es la función esférica de Bessel de orden $\ell$ \citep{Abramowitz}. Sustituyendo la Ec. \eqref{eq: Green function spherical base} en la Ec. \eqref{eq: E field Green function}, se obtiene
 \begin{equation}
 \EE{ext}\vars = \var{\nabla-\rmi \frac{k\vv{v}}{c}} \sum_{\ell = 0}^{\infty} \sum_{m=-\ell}^{\ell} j_{\ell}(kr) Y_{\ell, m}(\Omega_{r})\phi_{\ell, m}
 \end{equation}
@@ -239,7 +239,63 @@ donde
 
 En el \hyperref[AppendixScalarPotentials]{Apéndice A} se muestran los detalles del cálculo de la Ec. \eqref{Eq: GdA phi coeffs}. Como se muestra también en el \hyperref[AppendixScalarPotentials]{Apéndice A}, es posible obtener expresiones para el campo electromagnético externo en representación multipolar esférica:
 
+\begin{align}
+\EE{ext} &= \sum_{\ell, m} \var{\mathscr{E}_{\ell, m}^{\text{er}}\hat{r} +\mathscr{E}_{\ell, m}^{\text{e}\theta}\hat{\theta} + \mathscr{E}_{\ell, m}^{\text{e}\varphi}\hat{\varphi}}\\
+\HH{ext} &= \sum_{\ell, m} \var{\mathscr{H}_{\ell, m}^{\text{er}}\hat{r} +\mathscr{H}_{\ell, m}^{\text{e}\theta}\hat{\theta} + \mathscr{H}_{\ell, m}^{\text{e}\varphi}\hat{\varphi}}
+\end{align}
+donde
+\begin{align}
+& \qquad\qquad \mathscr{E}_{\ell, m}^{\text{er}}=\rme^{\rmi m \varphi} D_{\ell, m}^{\text{ext}} \ell (\ell +1 ) P_{\ell}^{m}\var{\cos\theta}\frac{j_{\ell}\var{k_0 r}}{k_0 r},\\
+%
+\mathscr{E}_{\ell, m}^{\text{e}\theta}=&-\rme^{\rmi m \varphi}C_{\ell, m}^{\text{ext}} \frac{m}{\sin\theta}j_{\ell}\var{k_0 r}P_{\ell}^{m}(\cos\theta)-\rme^{\rmi m \varphi}D_{\ell, m}^{\text{ext}}\bigg[ \var{\ell + 1}\frac{\cos\theta}{\sin\theta} P_{\ell}^{m}\var{\cos\theta}- \nonumber \\
+&\frac{\var{\ell-m+1}}{\sin\theta}P_{\ell+1}^{m}\var{\cos\theta} \bigg] \Var{\var{\ell +1}\frac{j_{\ell}\var{k_0 r}}{k_0 r}-j_{\ell +1}\var{k_0 r}},\\
+%
+\mathscr{E}_{\ell, m}^{\text{e}\varphi}=& \,\rmi\, \rme^{\rmi m \varphi}C_{\ell, m}^{\text{ext}}\, j_{\ell}\var{k_0 r}\Var{\var{\ell +1}\frac{\cos\theta}{\sin\theta}P_{\ell}^{m}\var{\cos\theta}+\frac{\ell-m+1}{\sin\theta}P_{\ell +1}^{m}\var{\cos\theta}} \nonumber \\
+&+\rmi\,\rme^{\rmi m \varphi}D_{\ell, m}^{\text{ext}}\frac{m}{\sin\theta}P_{\ell}\var{\cos\theta}\Var{\var{\ell +1}\frac{j_{\ell}\var{k_0 r}}{k_0 r}-j_{\ell + 1}(k_0 r)},
+\end{align}
+y
+\begin{align}
+& \qquad\qquad \mathscr{H}_{\ell, m}^{\text{er}}=\rme^{\rmi m \varphi} C_{\ell, m}^{\text{ext}} \ell (\ell +1 ) P_{\ell}^{m}\var{\cos\theta}\frac{j_{\ell}\var{k_0 r}}{k_0 r},\\
+%
+\mathscr{H}_{\ell, m}^{\text{e}\theta}=&\,\rme^{\rmi m \varphi}D_{\ell, m}^{\text{ext}} \frac{m}{\sin\theta}j_{\ell}\var{k_0 r}P_{\ell}^{m}(\cos\theta)-\rme^{\rmi m \varphi}C_{\ell, m}^{\text{ext}}\bigg[ \var{\ell + 1}\frac{\cos\theta}{\sin\theta} P_{\ell}^{m}\var{\cos\theta}- \nonumber \\
+&\frac{\var{\ell-m+1}}{\sin\theta}P_{\ell+1}^{m}\var{\cos\theta} \bigg] \Var{\var{\ell +1}\frac{j_{\ell}\var{k_0 r}}{k_0 r}-j_{\ell +1}\var{k_0 r}},\\
+%
+\mathscr{H}_{\ell, m}^{\text{e}\varphi}=&- \,\rmi\, \rme^{\rmi m \varphi} D_{\ell, m}^{\text{ext}}\, j_{\ell}\var{k_0 r}\Var{\var{\ell +1}\frac{\cos\theta}{\sin\theta}P_{\ell}^{m}\var{\cos\theta}-\frac{\ell-m+1}{\sin\theta}P_{\ell +1}^{m}\var{\cos\theta}} \nonumber \\
+&+\rmi\,\rme^{\rmi m \varphi}C_{\ell, m}^{\text{ext}}\frac{m}{\sin\theta}P_{\ell}\var{\cos\theta}\Var{\var{\ell +1}\frac{j_{\ell}\var{k_0 r}}{k_0 r}-j_{\ell + 1}(k_0 r)},
+\end{align}
+donde $k_0 = \w /c$, $P_{\ell}^{m}$ son las funciones asociadas de Legendre, y los coeficientes escalares $C_{\ell, m}^{\text{ext}}$ y $D_{\ell, m}^{\text{ext}}$ están dados por 
+\begin{align}
+C_{\ell, m}^{\text{ext}} =& \rmi^{\ell}\sqrt{\frac{2\ell +1}{4\pi}\frac{\var{\ell - m}!}{\var{\ell +m}!}}\psi_{\ell, m}^{M, \text{ext}},\\
+D_{\ell, m}^{\text{ext}} =& \rmi^{\ell}\sqrt{\frac{2\ell +1}{4\pi}\frac{\var{\ell - m}!}{\var{\ell +m}!}}\psi_{\ell, m}^{E, \text{ext}},
+\end{align} 
+con $\psi_{\ell, m}^{E, \text{ext}}$ y $\psi_{\ell, m}^{M, \text{ext}}$ los coeficientes de la representación esférica de los potenciales auxiliares definidos en el \hyperref[AppendixScalarPotentials]{Apéndice A}.
 
+\subsection{Campos electromagnéticos esparcidos por la nanopartícula}
+Como se muestra en el \hyperref[AppendixScalarPotentials]{Apéndice A}, los campos electromagnéticos satisfacen la ecuación de Helmholtz sin fuentes,
+\begin{align}
+\var{\nabla^2+k^2}\EE{} = \vv{0},\label{Eq: Helmholtz E}\\
+\var{\nabla^2+k^2}\HH{} = \vv{0},\label{Eq: Helmholtz H}
+\end{align}
+donde $k^2 = \cgs{c^{-2}}\w^2\epsilon\var{\w}\mu\var{\w}$. La solución de las Ecs. \eqref{Eq: Helmholtz E} y \eqref{Eq: Helmholtz H} puede ser escrita como \cite{Low}
+\begin{align}
+\EE{} = \nabla\psi^{\rm L} + \vv{L}\psi^{\rm M}-\frac{\rmi}{k}\nabla\times\vv{L}\psi^{\rm E},
+\HH{} = -\frac{\rmi}{k}\nabla\times\vv{L}\psi^{M}-\vv{L}\psi^{\rm E},
+\end{align}
+donde $\vv{L}=-\rmi \vv{r}\times\nabla$ es el operador de momento angular orbital. Las funciones escalares $\psi^{\rm L}$, $\psi^{\rm E}$ y $\psi^{\rm M}$, a su vez, satisfacen la ecuación escalar de Helmholtz. Como el campo eléctrico externo es un campo solenoidal ($\nabla\cdot\EE{}=0$), la función escalar $\psi^{\rm L}$ debe ser nula. Las funciones escalares $\psi^{\rm E}$ y $\psi^{\rm M}$ pueden ser expandidas en una base esférica definida a partir del sistema de coordenadas de la Fig. \ref{fig: system}, como
+\begin{align}
+\psi^{\rm E, \text{ext}}(\vv{r})=\sum_{\ell =1}^{\infty}\sum_{m=-\ell}^{\ell}\rmi^{\ell}h_{\ell}^{+}\var{kr}Y_{\ell, m}(\Omega_r)\psi_{\ell, m}^{\rm E, \text{ext}},\\
+\psi^{\rm E, \text{ext}}(\vv{r})=\sum_{\ell =1}^{\infty}\sum_{m=-\ell}^{\ell}\rmi^{\ell}h_{\ell}^{+}\var{kr}Y_{\ell, m}(\Omega_r)\psi_{\ell, m}^{\rm E, \text{ext}}.
+\end{align}
+Aplicando las condiciones de frontera, para una partícula esférica, se pueden calcular los potenciales escalares electromagnéticos esparcidos por la NP, en función de los potenciales escalares electromagnéticos externos, de la siguiente manera
+\begin{align}
+\psi_{\ell, m}^{\rm E, scat} =& \,t_{\ell}^{\rm E} \psi_{\ell, m}^{\rm E, \text{ext}},\\
+\psi_{\ell, m}^{\rm M, scat} =& \,t_{\ell}^{\rm M} \psi_{\ell, m}^{\rm M, \text{ext}}.
+\end{align} 
+Donde los coeficientes $t_{\ell}^{\rm E}$ y $t_{\ell}^{\rm M}$, para el caso de partículas esféricas homogéneas, corresponden a los coeficientes de la solución de Mie: \cite{Bohren}
+
+\begin{align}
+t_{\ell}^{\rm E}=\frac{-j_{\ell}(x_0)\Var{x_i j_{\ell}(x_i)}^{\prime}+\epsilon_i\,j_{\ell}(x_i)\Var{x_0j_{\ell}(x_0)}^{\prime}}{h}
+\end{align}
 
 De este modo, sustituyendo la Ec. (\ref{Tsymmetry}) en la Ec. (\ref{indexangularmomentumconservation}) se obtiene que
 %
