@@ -2,8 +2,8 @@
 \label{AppendixScalarPotentials}
 Para construir la solución buscada se define ahora la transformada de Fourier espaciotemporal como
 \begin{align}
-\vv{F}\varsk = &\intt{\intTE{ \vv{F}\vars \rme^{-\rmi \var{\vv{k}\cdot\vv{r}-\w t}} }},\nonumber \\
-\vv{F}\vars = \frac{1}{\var{2\pi}^4}&\intw{\intTER{ \vv{F}\varsk \rme^{\rmi\var{\vv{k}\cdot\vv{r}-\w t}} }},
+\vv{F}\varsk = &\intt{\intTE{ \vv{F}\vars \rme^{-\rmi \var{\vv{q}\cdot\vv{r}-\w t}} }},\nonumber \\
+\vv{F}\vars = \frac{1}{\var{2\pi}^4}&\intw{\intTER{ \vv{F}\varsk \rme^{\rmi\var{\vv{q}\cdot\vv{r}-\w t}} }},
 \end{align}
 donde T.E. significa integrar sobre todo el espacio y T.E.R. significa integrar sobre todo el espacio recíproco. 
 
@@ -15,10 +15,10 @@ Si ahora calculamos solo la Transformada de Fourier temporal de las Ecuaciones d
 \end{align}
 al desacoplarlas, aplicando las relaciones constitutivas $\vv{D}=\epsilon(\w)\vv{E}$ y $\vv{B} = \mu(\w) \vv{H}$, y sin considerar las fuentes se obtiene
 \begin{align*}
-(\nabla^2 + k_{\w}^2)\vv{E} = 0, \\
-(\nabla^2 + k_{\w}^2)\vv{H} = 0.
+(\nabla^2 + k^2)\vv{E} = 0, \\
+(\nabla^2 + k^2)\vv{H} = 0.
 \end{align*}
-en donde $k_{\w}^2= \cgs{c^{-2}} \w^2 \epsilon(\w) \mu(\w)$\footnote{Se coloca el subíndice $\w$ para diferencia a $k_\w$ con $k$ de la Transformada de Fourier.}.
+en donde $k^2= \cgs{c^{-2}} \w^2 \epsilon(\w) \mu(\w)$.
 
 El campo eléctrico $\vv{E}$ puede ser descrito de la siguiente manera \cite{Low}
 \begin{equation}
@@ -28,17 +28,17 @@ El campo eléctrico $\vv{E}$ puede ser descrito de la siguiente manera \cite{Low
 en donde $\vv{L}=-i\vv{r}\times\nabla$ es el operador de momento angular orbital. A partir de la Ec. \eqref{Eq: electric field identity tensor} se pueden definir las funciones escalares: longitudinal, eléctrica y magnética: \cite{Low}
 \begin{align}
 \psi^{\rm L} &= \frac{1}{\nabla^2} \nabla\cdot \vv{E}, \\
-\psi^{\rm E} &= \frac{-i k_\w}{L^2 \Delta^2}\var{\vv{L}\times\nabla}\cdot\vv{E}, \\
+\psi^{\rm E} &= \frac{-i k}{L^2 \Delta^2}\var{\vv{L}\times\nabla}\cdot\vv{E}, \\
 \psi^{\rm M} &= \frac{1}{L^2}\vv{L}\cdot\vv{E},
 \end{align}
 en donde cada uno satisface la ecuación escalar de Helmholtz sin fuentes:
 \begin{equation}
-\var{\nabla^2 + k_\w^2}\psi^{\{\rm L,E,M\}}=0.
+\var{\nabla^2 + k^2}\psi^{\{\rm L,E,M\}}=0.
 \end{equation}
-Por tanto, los campos electromagnéticos se pueden escribir a partir de los potenciales escalares como\footnote{En el trabajo original de García de Abajo, se hace la suposición de que los campos electromagnéticos están en el vacío; i.e. $k_\w = \w /c$.}
+Por tanto, los campos electromagnéticos se pueden escribir a partir de los potenciales escalares como\footnote{En el trabajo original de García de Abajo, se hace la suposición de que los campos electromagnéticos están en el vacío; i.e. $k = \w /c$.}
 \begin{align}
-\vv{E} &= \nabla\psi^{\rm L} + \vv{L}\psi^{\rm M}-\frac{i}{k_\w}\nabla\times\vv{L}\psi^{\rm E},\\
-\vv{H} &= \frac{\cgs{c}}{c}\var{-\frac{i}{k_\w}\nabla\times\vv{L}\psi^{\rm M}-\vv{L}\psi^{\rm E}}.
+\vv{E} &= \nabla\psi^{\rm L} + \vv{L}\psi^{\rm M}-\frac{i}{k}\nabla\times\vv{L}\psi^{\rm E},\\
+\vv{H} &= \frac{\cgs{c}}{c}\var{-\frac{i}{k}\nabla\times\vv{L}\psi^{\rm M}-\vv{L}\psi^{\rm E}}.
 \end{align} 
 
 En el problema de interés para este trabajo se considera al electrón viajando en vacío y a velocidad constante, por lo que los modos longitudinales no contribuyen ($\nabla\cdot\vv{E}=0$), es decir, $\psi^{\rm L} = 0$. Las funciones escalares restantes se pueden expresar en términos de una base esférica de la siguiente manera \cite{de1999relativistic}
@@ -50,13 +50,13 @@ donde $j_{\ell}(x)$ son las funciones esféricas de Bessel de orden $\ell$, $Y_{
 
 Aplicando ahora la transformada de Fourier a las Ecs. \eqref{eq: scalar potential} y \eqref{eq: vector potential} se obtiene 
 \begin{align}
-\var{-k^2+\frac{\w^2}{c^2}}\phi\varsk =& -\cgs{4\pi\epsilon_0}\frac{1}{\epsilon_0}\rho_{\text{tot}}\varsk, \\
-\var{-k^2+\frac{\w^2}{c^2}}\vv{A}\varsk =& - \cgs{\frac{4\pi}{\mu_0 c}}\mu_0\vv{J}_{\text{tot}}\varsk, 
+\var{-q^2+\frac{\w^2}{c^2}}\phi\varsk =& -\cgs{4\pi\epsilon_0}\frac{1}{\epsilon_0}\rho_{\text{tot}}\varsk, \\
+\var{-q^2+\frac{\w^2}{c^2}}\vv{A}\varsk =& - \cgs{\frac{4\pi}{\mu_0 c}}\mu_0\vv{J}_{\text{tot}}\varsk, 
 \end{align}
 y usando el hecho de que $\vv{J} = \rho \vv{v}$ y $\mu_0 \epsilon_0 c^2 = 1$ se obtiene
 \begin{align}
-\phi\varsk &= \cgs{4\pi\epsilon_0}\frac{1}{k^2-\w^2/c^2} \frac{\rho_{\rm tot}\varsk}{\epsilon_0}, \label{eqap: phi Fourier kw} \\
-\vv{A}\varsk &= \cgs{\frac{4\pi}{\mu_0 c}}\frac{\mu_0}{k^2-\w^2/c^2}\,\vv{J}_{\text{tot}}\varsk = \cgs{c}\frac{\vv{v}}{c^2}\phi\varsk. \label{eqap: A Fourier kw}
+\phi\varsk &= \cgs{4\pi\epsilon_0}\frac{1}{q^2-\w^2/c^2} \frac{\rho_{\rm tot}\varsk}{\epsilon_0}, \label{eqap: phi Fourier kw} \\
+\vv{A}\varsk &= \cgs{\frac{4\pi}{\mu_0 c}}\frac{\mu_0}{q^2-\w^2/c^2}\,\vv{J}_{\text{tot}}\varsk = \cgs{c}\frac{\vv{v}}{c^2}\phi\varsk. \label{eqap: A Fourier kw}
 \end{align}
 Ahora, calculando la transformada de Fourier de la Ec. \eqref{eq: E field potentials} se obtiene 
 \begin{equation}
@@ -64,7 +64,7 @@ Ahora, calculando la transformada de Fourier de la Ec. \eqref{eq: E field potent
 \end{equation}
 Sustituyendo la Ec. \eqref{eqap: A Fourier kw} en la Ec. \eqref{eqap: E Fourier kw} se obtiene
 \begin{equation}
-\vv{E}\varsk = \rmi \var{-\vv{k}+\frac{\w}{c^2}\vv{v}}\phi\varsk, 
+\vv{E}\varsk = \rmi \var{-\vv{q}+\frac{\w}{c^2}\vv{v}}\phi\varsk, 
 \end{equation}
 y calculando la Transformada Inversa de Fourier en el espacio de la expresión anterior, se obtiene
 \begin{equation}
