@@ -62,16 +62,24 @@ Si se define $\tensa{M}\var{\vv{r},t}=\vv{r}\times\tensa{T}\var{\vv{r},t}$ \text
 donde se ha usado $\delta^{nk}\delta_{nl}\,\epsilon_{j}^{\,\,\,\, li}T_{ik} = \epsilon_{j}^{\,\,\,\, ni}T_{in} = 0$, porque el tensor de esfuerzos de Maxwell es simétrico $\var{T_{in}=T_{ni}}$ y el símbolo de Levi-Civita es antisimétirco $\var{\epsilon_{j}^{\,\,\,\, ni}=-\epsilon_{j}^{\,\,\,\, in}}$.
 
 A partir de este resultado se puede escribir la conservación del momento angular como
-\begin{equation}
+%
+%-------conservation of angular momentum ----------
+\begin{empheq}[box=\mymath]{equation}
 \frac{\partial}{\partial t} \var{\vvb{\ell}^{\rm \, mec}\var{\vv{r},t}+\vvb{\ell}^{\rm \, em}\var{\vv{r},t}} = \nabla \cdot \tensa{M}\var{\vv{r},t},
 \label{eq: cons momento angular}
-\end{equation}
+\end{empheq}
+%-------------------------------------------------
+%
 qe es una ecuación local. Para escribir la conservación del momento angular de forma global, se debe integrar la Ec. \eqref{eq: cons momento angular} sobre un volumen $V$ delimitado por una superficie $S$ de la siguiente manera
-\begin{align}
-\frac{d}{dt}\var{\vv{L}^{\rm mec}\var{t}+\vv{L}^{\rm em}\var{t}} =& \int_V \nabla\cdot\tensa{M}\var{\vv{r},t} \, dV, \nonumber \\
-\frac{d}{dt}\var{\vv{L}^{\rm mec}\var{t}+\vv{L}^{\rm em}\var{t}} =& \oint_S \tensa{M}\var{\vv{r},t} \, \cdot d\vv{S},
+%
+\begin{mybox}{\centering  Conservación del momento angular global en electrodinámica}
+	\begin{equation}
+\frac{d}{dt}\var{\vv{L}^{\rm mec}\var{t}+\vv{L}^{\rm em}\var{t}} = \oint_S \tensa{M}\var{\vv{r},t} \, \cdot d\vv{S},
 \label{eq: cons momento angular global}
-\end{align}
+	\end{equation}
+\end{mybox}	
+%
+% 
 donde se ha usado el teorema de la divergencia en la última igualdad, y se han definido 
 \begin{equation}
 \vv{L}^{\rm mec}\var{t} = \int_V \vvb{\ell}^{\, \rm mec}\var{\vv{r},t}\, dV, \qquad\qquad \text{y} \qquad\qquad \vv{L}^{\rm em}\var{t} = \int_V \vvb{\ell}^{\, \rm em}\var{\vv{r},t}\, dV.
@@ -99,9 +107,13 @@ y
 donde este último término, para el sistema de estudio de este trabajo, es nulo porque en el tiempo $t\to -\infty$ el electrón se encuentra infinitamente lejos y no ha interactuado con la NP, por lo que los campos electromagnéticos son nulos \textemdash$\vv{E}\var{t\to-\infty}=\vv{0}$ y $\vv{H}\var{t\to-\infty}=\vv{0}$\textemdash; posteriormente, para cuando $t\to\infty$, el electrón se encontrará infinitamente lejos de la NP pero ya habrá interactuado con ella, por lo que se habrán inducido distribuciones de cargas y corrientes eléctricas dentro de la NP, que habrán desaparecido para cuando $t\to\infty$ debido a procesos disipativos. Por tanto $\vv{L}^{\rm em}\var{t\to\pm\infty}=0$.
 
 Entonces
-\begin{equation}
+%
+%-------conservation of angular momentum 2----------
+\begin{empheq}[box=\mymath]{equation}
 \Delta\vv{L} = \intt{\intS{\tensa{M}\var{\vv{r},t}}},
-\end{equation}
+\end{empheq}
+%-------------------------------------------------
+%
 o usando notación de índices
 \begin{equation}
 \Delta L_i =  \intt{\oint_S \epsilon_{i}^{\,\,\,\, lj} r_l T_{jk}\var{\vv{r},t} n^k\,dS},
@@ -124,19 +136,27 @@ donde $\vv{F}\in \{ \vv{B}, \vv{H}\}$ y para que $\vv{F}(t)$ sea una función de
 y se puede realizar el proceso análogo para las componentes del campo $\vv{H}$.
 
 De esta manera se puede reescribir la Ec. \eqref{eq: angular momentum transfer index notation} como
-\begin{equation}
+%
+%-------Angular momentum transfer----------
+\begin{empheq}[box=\mymath]{equation}
 \Delta L_i = \frac{1}{\pi} \intwo{\oint_S \epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}_{jk}\varsw n^k\,dS},
 \label{eq: angular momentum transfer index notation freq domain}
-\end{equation}
+\end{empheq}
+%-------------------------------------------------
+%
 donde se ha definido 
 \begin{align}
 \tensa{\mathcal{T}}\varsw =& \,{\rm Re}\Bigg[\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} \vv{E} \varsw \vv{E}^{*}\varsw-\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} \frac{\tensa{I}}{2} \vv{E} \varsw\cdot\vv{E}_j^{*}\varsw \nonumber \\
 & + \frac{\mu_0}{\cgs{4\pi\mu_0}} \vv{H}_i \varsw \vv{H}_j^{*}\varsw- \frac{\mu_0}{\cgs{4\pi\mu_0}} \frac{\tensa{I}}{2}  \vv{H} \varsw\cdot\vv{H}^{*}\vars \Bigg], \label{Eq: tensor maxwell freq}
 \end{align}
 donde $\tensa{I}$ es el tensor identidad de rango 2. De esta forma se puede definir finalmente la <<densidad espectral>> de momento angular 
-\begin{equation}
+%
+%-------Spectral density----------
+\begin{empheq}[box=\mymath]{equation}
 \mathcal{L}_i\var{\w} = \frac{1}{\pi} \oint_S \epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}_{jk}\varsw n^k\,dS. \label{Eq: spectral density AMT}
-\end{equation}
+\end{empheq}
+%-------------------------------------------------
+%
 y calcular la transferencia de momento angular a través de 
 \begin{equation}
 \Delta \vv{L} = \intwo{\vv{\mathcal{L}}\var{\w}}.
@@ -240,12 +260,20 @@ donde
 
 En el \hyperref[AppendixScalarPotentials]{Apéndice A} se muestran los detalles del cálculo analítico de la Ec. \eqref{Eq: GdA phi coeffs}. Como se muestra también en el \hyperref[AppendixScalarPotentials]{Apéndice A}, es posible obtener expresiones para el campo electromagnético externo en representación multipolar esférica:
 
+%
+\begin{mybox}{\centering  Expansión multipolar del campo electromagnético externo producido por el electrón}
+\vspace{-0.3cm}
 \begin{align}
 \EE{ext} &= \sum_{\ell, m} \var{\mathscr{E}_{\ell, m}^{\text{er}}\hat{r} +\mathscr{E}_{\ell, m}^{\text{e}\theta}\hat{\theta} + \mathscr{E}_{\ell, m}^{\text{e}\varphi}\hat{\varphi}}\\
 \HH{ext} &= \sum_{\ell, m} \var{\mathscr{H}_{\ell, m}^{\text{er}}\hat{r} +\mathscr{H}_{\ell, m}^{\text{e}\theta}\hat{\theta} + \mathscr{H}_{\ell, m}^{\text{e}\varphi}\hat{\varphi}}
 \end{align}
+\end{mybox}	
+%
+% 
 donde
-\begin{align}
+%
+%-------Components of ext electric field ----------
+\begin{empheq}[box=\mymath]{align}
 & \qquad\qquad \mathscr{E}_{\ell, m}^{\text{er}}=\rme^{\rmi m \varphi} D_{\ell, m}^{\text{ext}} \ell (\ell +1 ) P_{\ell}^{m}\var{\cos\theta}\frac{j_{\ell}\var{k_0 r}}{k_0 r},\\
 %
 \mathscr{E}_{\ell, m}^{\text{e}\theta}=&-\rme^{\rmi m \varphi}C_{\ell, m}^{\text{ext}} \frac{m}{\sin\theta}j_{\ell}\var{k_0 r}P_{\ell}^{m}(\cos\theta)-\rme^{\rmi m \varphi}D_{\ell, m}^{\text{ext}}\bigg[ \var{\ell + 1}\frac{\cos\theta}{\sin\theta} P_{\ell}^{m}\var{\cos\theta}- \nonumber \\
@@ -253,9 +281,13 @@ donde
 %
 \mathscr{E}_{\ell, m}^{\text{e}\varphi}=& \,\rmi\, \rme^{\rmi m \varphi}C_{\ell, m}^{\text{ext}}\, j_{\ell}\var{k_0 r}\Var{\var{\ell +1}\frac{\cos\theta}{\sin\theta}P_{\ell}^{m}\var{\cos\theta}-\frac{\ell-m+1}{\sin\theta}P_{\ell +1}^{m}\var{\cos\theta}} \nonumber \\
 &+\rmi\,\rme^{\rmi m \varphi}D_{\ell, m}^{\text{ext}}\frac{m}{\sin\theta}P_{\ell}\var{\cos\theta}\Var{\var{\ell +1}\frac{j_{\ell}\var{k_0 r}}{k_0 r}-j_{\ell + 1}(k_0 r)},
-\end{align}
+\end{empheq}
+%-------------------------------------------------
+%
 y
-\begin{align}
+%
+%-------Components of ext electric field ----------
+\begin{empheq}[box=\mymath]{align}
 & \qquad\qquad \mathscr{H}_{\ell, m}^{\text{er}}=\rme^{\rmi m \varphi} C_{\ell, m}^{\text{ext}} \ell (\ell +1 ) P_{\ell}^{m}\var{\cos\theta}\frac{j_{\ell}\var{k_0 r}}{k_0 r},\\
 %
 \mathscr{H}_{\ell, m}^{\text{e}\theta}=&\,\rme^{\rmi m \varphi}D_{\ell, m}^{\text{ext}} \frac{m}{\sin\theta}j_{\ell}\var{k_0 r}P_{\ell}^{m}(\cos\theta)-\rme^{\rmi m \varphi}C_{\ell, m}^{\text{ext}}\bigg[ \var{\ell + 1}\frac{\cos\theta}{\sin\theta} P_{\ell}^{m}\var{\cos\theta}- \nonumber \\
@@ -263,12 +295,18 @@ y
 %
 \mathscr{H}_{\ell, m}^{\text{e}\varphi}=&- \,\rmi\, \rme^{\rmi m \varphi} D_{\ell, m}^{\text{ext}}\, j_{\ell}\var{k_0 r}\Var{\var{\ell +1}\frac{\cos\theta}{\sin\theta}P_{\ell}^{m}\var{\cos\theta}-\frac{\ell-m+1}{\sin\theta}P_{\ell +1}^{m}\var{\cos\theta}} \nonumber \\
 &+\rmi\,\rme^{\rmi m \varphi}C_{\ell, m}^{\text{ext}}\frac{m}{\sin\theta}P_{\ell}\var{\cos\theta}\Var{\var{\ell +1}\frac{j_{\ell}\var{k_0 r}}{k_0 r}-j_{\ell + 1}(k_0 r)},
-\end{align}
+\end{empheq}
+%-------------------------------------------------
+%
 donde $k_0 = \w /c$, $P_{\ell}^{m}$ son las funciones asociadas de Legendre, y los coeficientes escalares $C_{\ell, m}^{\text{ext}}$ y $D_{\ell, m}^{\text{ext}}$ están dados por 
-\begin{align}
+%
+%-------Ckm & Dlm ext coeffs ----------
+\begin{empheq}[box=\mymath]{align}
 C_{\ell, m}^{\text{ext}} =& \rmi^{\ell}\sqrt{\frac{2\ell +1}{4\pi}\frac{\var{\ell - m}!}{\var{\ell +m}!}}\psi_{\ell, m}^{\rm M, \text{ext}},\\
 D_{\ell, m}^{\text{ext}} =& \rmi^{\ell}\sqrt{\frac{2\ell +1}{4\pi}\frac{\var{\ell - m}!}{\var{\ell +m}!}}\psi_{\ell, m}^{\rm E, \text{ext}},
-\end{align} 
+\end{empheq}
+%-------------------------------------------------
+% 
 con $\psi_{\ell, m}^{E, \text{ext}}$ y $\psi_{\ell, m}^{M, \text{ext}}$ los coeficientes de la representación esférica de los potenciales auxiliares definidos en el \hyperref[AppendixScalarPotentials]{Apéndice A}.
 %
 \subsection{Campos electromagnéticos esparcidos por la nanopartícula}
@@ -303,12 +341,20 @@ t_{\ell}^{\rm M} &= \frac{x_i j_{\ell}\var{x_0}j_{\ell}^{\prime}\var{x_i}+ x_0 j
 
 donde $x_0 = k a$ y $x_i = k a \sqrt{\epsilon_i}$, con $a$ el radio de la NP y $\epsilon_i$ la función dieléctrica de la NP. La prima en las Ecs. \eqref{Eq: tlE Mie} y \eqref{Eq: tlM Mie} denota la derivada de la función. Sustituyendo los potenciales escalares esparcidos [Ecs. \eqref{Eq: psilm E scat} y \eqref{Eq: psilm M scat}] en las Ecs. \eqref{Eq: E field in terms of potentials} y \eqref{Eq: H field in terms of potentials} se obtiene 
 
+%
+\begin{mybox}{\centering  Expansión multipolar del campo electromagnético esparcido por la NP}
+\vspace{-0.3cm}
 \begin{align}
 \EE{scat} &= \sum_{\ell, m} \var{\mathscr{E}_{\ell, m}^{\text{sr}}\hat{r} +\mathscr{E}_{\ell, m}^{\text{s}\theta}\hat{\theta} + \mathscr{E}_{\ell, m}^{\text{s}\varphi}\hat{\varphi}}\\
 \HH{scat} &= \sum_{\ell, m} \var{\mathscr{H}_{\ell, m}^{\text{sr}}\hat{r} +\mathscr{H}_{\ell, m}^{\text{s}\theta}\hat{\theta} + \mathscr{H}_{\ell, m}^{\text{s}\varphi}\hat{\varphi}}
 \end{align}
+\end{mybox}	
+%
+% 
 donde
-\begin{align}
+%
+%-------E scat field components ----------
+\begin{empheq}[box=\mymath]{align}
 & \qquad\qquad \mathscr{E}_{\ell, m}^{\text{sr}}=\rme^{\rmi m \varphi} D_{\ell, m}^{\text{scat}} \ell (\ell +1 ) P_{\ell}^{m}\var{\cos\theta}\frac{h^{+}_{\ell}\var{k_0 r}}{k_0 r},\\
 %
 \mathscr{E}_{\ell, m}^{\text{s}\theta}=&-\rme^{\rmi m \varphi}C_{\ell, m}^{\text{scat}} \frac{m}{\sin\theta}h^{+}_{\ell}\var{k_0 r}P_{\ell}^{m}(\cos\theta)-\rme^{\rmi m \varphi}D_{\ell, m}^{\text{scat}}\bigg[ \var{\ell + 1}\frac{\cos\theta}{\sin\theta} P_{\ell}^{m}\var{\cos\theta}- \nonumber \\
@@ -316,9 +362,13 @@ donde
 %
 \mathscr{E}_{\ell, m}^{\text{s}\varphi}=& \,\rmi\, \rme^{\rmi m \varphi}C_{\ell, m}^{\text{scat}}\, h^{+}_{\ell}\var{k_0 r}\Var{\var{\ell +1}\frac{\cos\theta}{\sin\theta}P_{\ell}^{m}\var{\cos\theta}-\frac{\ell-m+1}{\sin\theta}P_{\ell +1}^{m}\var{\cos\theta}} \nonumber \\
 &+\rmi\,\rme^{\rmi m \varphi}D_{\ell, m}^{\text{ext}}\frac{m}{\sin\theta}P_{\ell}\var{\cos\theta}\Var{\var{\ell +1}\frac{h^{+}_{\ell}\var{k_0 r}}{k_0 r}-h^{+}_{\ell + 1}(k_0 r)},
-\end{align}
+\end{empheq}
+%-------------------------------------------------
+% 
 y
-\begin{align}
+%
+%-------H scat field components ----------
+\begin{empheq}[box=\mymath]{align}
 & \qquad\qquad \mathscr{H}_{\ell, m}^{\text{sr}}=\rme^{\rmi m \varphi} C_{\ell, m}^{\text{scat}} \ell (\ell +1 ) P_{\ell}^{m}\var{\cos\theta}\frac{h^{+}_{\ell}\var{k_0 r}}{k_0 r},\\
 %
 \mathscr{H}_{\ell, m}^{\text{s}\theta}=&\,\rme^{\rmi m \varphi}D_{\ell, m}^{\text{scat}} \frac{m}{\sin\theta}h^{+}_{\ell}\var{k_0 r}P_{\ell}^{m}(\cos\theta)-\rme^{\rmi m \varphi}C_{\ell, m}^{\text{scat}}\bigg[ \var{\ell + 1}\frac{\cos\theta}{\sin\theta} P_{\ell}^{m}\var{\cos\theta}- \nonumber \\
@@ -326,75 +376,24 @@ y
 %
 \mathscr{H}_{\ell, m}^{\text{s}\varphi}=&- \,\rmi\, \rme^{\rmi m \varphi} D_{\ell, m}^{\text{scat}}\, h^{+}_{\ell}\var{k_0 r}\Var{\var{\ell +1}\frac{\cos\theta}{\sin\theta}P_{\ell}^{m}\var{\cos\theta}-\frac{\ell-m+1}{\sin\theta}P_{\ell +1}^{m}\var{\cos\theta}} \nonumber \\
 &+\rmi\,\rme^{\rmi m \varphi}C_{\ell, m}^{\text{scat}}\frac{m}{\sin\theta}P_{\ell}\var{\cos\theta}\Var{\var{\ell +1}\frac{h^{+}_{\ell}\var{k_0 r}}{k_0 r}-h^{+}_{\ell + 1}(k_0 r)},
-\end{align}
+\end{empheq}
+%-------------------------------------------------
+% 
 donde los coeficientes escalares $C_{\ell, m}^{\text{scat}}$ y $D_{\ell, m}^{\text{scat}}$ están dados por 
-\begin{align}
+%
+%-------Clm & Dlm scat coeffs ----------
+\begin{empheq}[box=\mymath]{align}
 C_{\ell, m}^{\text{scat}} =& \rmi^{\ell}\sqrt{\frac{2\ell +1}{4\pi}\frac{\var{\ell - m}!}{\var{\ell +m}!}}t_{\ell}^{\rm M}\psi_{\ell, m}^{\rm M, \text{ext}},\\
 D_{\ell, m}^{\text{scat}} =& \rmi^{\ell}\sqrt{\frac{2\ell +1}{4\pi}\frac{\var{\ell - m}!}{\var{\ell +m}!}}t_{\ell}^{\rm E}\psi_{\ell, m}^{\rm E, \text{ext}}.
-\end{align} 
+\end{empheq}
+%-------------------------------------------------
+% 
 
 Una vez calculados el campo electromagnético total, es posible construir el tensor $\tensa{\mathcal{T}}$, dado por la Ec. \eqref{Eq: tensor maxwell freq}, y poder calcular la densidad espectral de transferencia de momento angular, dada por la Ec. \eqref{Eq: spectral density AMT}:
 \begin{equation}
 \mathcal{L}_i\var{\w} = \frac{1}{\pi} \oint_S \epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}_{jk}\varsw n^k\,dS. \nonumber
 \end{equation}
 
-\JLBG{Esto último solo lo dejé para recordar cómo poner marcos a las ecuaciones}
-%
-%-------conservation of angular momentum 2----------
-\begin{empheq}[box=\mymath]{equation}
-	\frac{\partial}{\partial r_j}M_{kj}
-	=
-	\frac{\partial}{\partial t}\left( \ell^\text{mec}_k + \ell^\text{em}_k  \right),
-	\label{angularmomentumconservation2}
-\end{empheq}
-%-------------------------------------------------
-%
-en donde
-%
-%-------Tensor M----------
-\begin{equation}
-M_{kj}
-=
-\epsilon_{kli}r_lT_{ij}
-\label{tensorM}.
-\end{equation}
-%-------------------------------------------------
-%
-La Ec. (\ref{angularmomentumconservation2}) es la forma local de la conservación del momento angular. Integrando la Ec. (\ref{angularmomentumconservation2}) en el volumen interior $V$ de alguna superficie diferenciable $S$, estática y cerrada, y utilizando el teorema de la divergencia, se encuentra que la forma global de la conservación del momento angular es \cite{Good}:
-%
-\begin{mybox}{\centering  Conservación del momento angular en electrodinámica}
-	\begin{equation}
-	\oint_S \tensb{M} \cdot d\vv{a}
-	=
-	\frac{d}{dt}\left( \vv{L}^\text{mec} + \vv{L}^\text{em}  \right)
-	\label{angularmomentumconservation3}
-	\end{equation}
-\end{mybox}	
-%
-% 
-
-\noindent
-en donde
-%
-%-------Lmech----------
-\begin{equation}
-\vv{L}^\text{mec}
-=
-\int_V \vvb{\ell}^\text{ mec} dV
-\label{Lmech}
-\end{equation}
-%-------------------------------------------------
-%
-y
-%
-%-------Lem----------
-\begin{equation}
-\vv{L}^\text{em}
-=
-\int_V \vvb{\ell}^\text{ em} dV
-\label{Lem}.
-\end{equation}
-%-------------------------------------------------
 %
 %*******************************************************
 %*******************************************************
