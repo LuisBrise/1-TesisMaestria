@@ -1,0 +1,25 @@
+% !TeX root = ./0-Tesis-de-maestria-JLBG.tex
+Desarrollando la Ec. \eqref{eq: Ly spectral density r theta} se obtiene
+%
+\begin{equation}
+\mathcal{L}_y = \frac{R^2}{\pi}\int_0^{\pi}\int_0^{2\pi} \sin\theta \Var{\cos\varphi \,\mathcal{T}_{\theta r} - \cos\theta\sin\varphi\,\mathcal{T}_{\varphi r}} \,d\varphi \, d\theta,
+\end{equation}
+% 
+donde 
+\begin{align}
+\mathcal{T}_{\theta r} &= {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} E_{\theta}\varsw E_{r}^{*}\varsw + \frac{\mu_0}{\cgs{4\pi\mu_0}} H_{\theta}\varsw H_{r}^{*}\varsw  },\\
+\mathcal{T}_{\varphi r} &= {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} E_{\varphi}\varsw E_{r}^{*}\varsw + \frac{\mu_0}{\cgs{4\pi\mu_0}} H_{\varphi}\varsw H_{r}^{*}\varsw  }.
+\end{align}
+
+Se puede realizar la separación $E_i=E_i^{\rm e}+E_i^{\rm s}$, para desarrollar el término $E_{\theta}\varsw E_{r}^{*}\varsw$ en fución de las sumas multipolar expresada en la Ecs. \eqref{Eq: multipolar ext E field} y \eqref{Eq: multipolar scat E field} de la siguiente manera
+\begin{equation}
+E^{\rm a}_{\alpha}\varsw E_{r}^{\rm b \,*}\varsw = \sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} \mathscr{E}_{\ell, m}^{\text{a}\alpha}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*},\label{eq: cross terms E field}
+\end{equation}
+donde $a$ y $b$ pueden tomar los valores de $s$ (denotando componentes de campo esparcido) o de $e$ (componentes de campo externo), y donde $alpha$ puede denotar la proyección en $\theta$ o en $\varphi$. 
+
+Se procederá a desarrollar cada una de las componentes representadas por la Ec. \eqref{eq: cross terms E field}, así como sus análogas para el campo $\vv{H}$. Posteriormente se integrarán cada una de las expresiones obtenidas de manera analítica, para obtener una expresión exacta para la contribución espectral de cada multipolo.
+
+El término $\mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
+\begin{equation}
+\mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}=-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} m \ell^{\prime}(\ell^{\prime}+1)\rme^{\rmi (m-m^{\prime})\varphi}\frac{P_{\ell}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta}-D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \ell^{\prime}(\ell^{\prime}+1)
+\end{equation}

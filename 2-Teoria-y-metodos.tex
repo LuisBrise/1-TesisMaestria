@@ -163,6 +163,24 @@ y calcular la transferencia de momento angular a través de
 \label{eq: densidad espectral momento angular}
 \end{equation}
 
+En coordenadas cartesianas la Ec. \eqref{Eq: spectral density AMT} puede ser escrita como
+\begin{align}
+\mathcal{L}_x &=\frac{1}{\pi}\Var{\oint_{S} y\, \mathcal{T}_{zk}\, dS^k - \oint_{S} z\, \mathcal{T}_{yk}\, dS^k },\\
+\mathcal{L}_y &=\frac{1}{\pi}\Var{\oint_{S} z\, \mathcal{T}_{xk}\, dS^k - \oint_{S} x\, \mathcal{T}_{zk}\, dS^k },\label{eq: Ly spectral density}\\
+\mathcal{L}_z &=\frac{1}{\pi}\Var{\oint_{S} x\, \mathcal{T}_{yk}\, dS^k - \oint_{S} y\, \mathcal{T}_{xk}\, dS^k }. 
+\end{align}
+
+Debido a que el problema tiene simetría de reflexión con respecto al plano $xz$, por tanto no puede haber componente de momento lineal transferido en la dirección $y$ \cite{PRBCoronado}. De lo anterior se puede concluir que el momento angular transferido a la NP no puede tener componente $x$ ni $z$ \cite{castellanos2021phdthesis}. Por tanto, solo es necesaria la contribución espectral $\mathcal{L}_y$. Se puede reescribir la componente espectral en términos de proyecciones esféricas en lugar de cartesianas, de la siguiente manera\cite{castellanos2021phdthesis}
+%
+\begin{mybox}{\centering  Componente espectral que contribuye a la transferencia de momento angular}
+\begin{equation}
+\mathcal{L}_y = \frac{1}{\pi}\oint \sin\theta \Var{\cos\varphi \,\mathcal{T}_{\theta r} - \cos\theta\sin\varphi\,\mathcal{T}_{\varphi r}} dS_r,
+\label{eq: Ly spectral density r theta}
+\end{equation}
+\end{mybox}	
+% 
+donde se ha asumido una superficie de integración esférica (radial).
+
 Resulta adecuado separar la contribución eléctrica de la magnética de la densidad espectral de la Ec.\eqref{eq: densidad espectral momento angular}. Para realizar esto se debe separar el tensor en la Ec. \eqref{Eq: tensor maxwell freq} en su contribución eléctrica y magnética de la siguiente manera
 \begin{equation}
 \tensa{\mathcal{T}}\varsw = \tensE{\mathcal{T}}\varsw +\tensH{\mathcal{T}}\varsw 
@@ -264,7 +282,7 @@ En el \hyperref[AppendixScalarPotentials]{Apéndice A} se muestran los detalles 
 \begin{mybox}{\centering  Expansión multipolar del campo electromagnético externo producido por el electrón}
 \vspace{-0.3cm}
 \begin{align}
-\EE{ext} &= \sum_{\ell, m} \var{\mathscr{E}_{\ell, m}^{\text{er}}\hat{r} +\mathscr{E}_{\ell, m}^{\text{e}\theta}\hat{\theta} + \mathscr{E}_{\ell, m}^{\text{e}\varphi}\hat{\varphi}}\\
+\EE{ext} &= \sum_{\ell, m} \var{\mathscr{E}_{\ell, m}^{\text{er}}\hat{r} +\mathscr{E}_{\ell, m}^{\text{e}\theta}\hat{\theta} + \mathscr{E}_{\ell, m}^{\text{e}\varphi}\hat{\varphi}}\label{Eq: multipolar ext E field}\\
 \HH{ext} &= \sum_{\ell, m} \var{\mathscr{H}_{\ell, m}^{\text{er}}\hat{r} +\mathscr{H}_{\ell, m}^{\text{e}\theta}\hat{\theta} + \mathscr{H}_{\ell, m}^{\text{e}\varphi}\hat{\varphi}}
 \end{align}
 \end{mybox}	
@@ -345,7 +363,7 @@ donde $x_0 = k a$ y $x_i = k a \sqrt{\epsilon_i}$, con $a$ el radio de la NP y $
 \begin{mybox}{\centering  Expansión multipolar del campo electromagnético esparcido por la NP}
 \vspace{-0.3cm}
 \begin{align}
-\EE{scat} &= \sum_{\ell, m} \var{\mathscr{E}_{\ell, m}^{\text{sr}}\hat{r} +\mathscr{E}_{\ell, m}^{\text{s}\theta}\hat{\theta} + \mathscr{E}_{\ell, m}^{\text{s}\varphi}\hat{\varphi}}\\
+\EE{scat} &= \sum_{\ell, m} \var{\mathscr{E}_{\ell, m}^{\text{sr}}\hat{r} +\mathscr{E}_{\ell, m}^{\text{s}\theta}\hat{\theta} + \mathscr{E}_{\ell, m}^{\text{s}\varphi}\hat{\varphi}}\label{Eq: multipolar scat E field}\\
 \HH{scat} &= \sum_{\ell, m} \var{\mathscr{H}_{\ell, m}^{\text{sr}}\hat{r} +\mathscr{H}_{\ell, m}^{\text{s}\theta}\hat{\theta} + \mathscr{H}_{\ell, m}^{\text{s}\varphi}\hat{\varphi}}
 \end{align}
 \end{mybox}	

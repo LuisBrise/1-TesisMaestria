@@ -12,11 +12,18 @@ J.~D. Jackson.
 \newblock {\em Classical Electrodynamics}.
 \newblock John Wiley \& Sons, 2007.
 
+\bibitem{PRBCoronado}
+A.~Reyes-Coronado, R.~G. Barrera, P.~E. Batson, P.~M. Echenique, A.~Rivacoba y
+  J.~Aizpurua.
+\newblock \href{https://doi.org/10.1103/PhysRevB.82.235429}{Electromagnetic
+  forces on plasmonic nanoparticles induced by fast electron beams}.
+\newblock {\em Phys. Rev. B}, 82(23):235429, 2010.
+
 \bibitem{castellanos2021phdthesis}
 José~Ángel Castellanos-Reyes.
 \newblock {\em Transferencia de momento angular de electrones rápidos a
   nanopartículas}.
-\newblock Tesis de doctorado, Facultad de Ciencias, UNAM, 9 2021.
+\newblock Tesis de doctorado, Facultad de Ciencias, UNAM, 2021.
 
 \bibitem{maciel2019electromagnetic}
 C.~Maciel-Escudero y A.~Reyes-Coronado.
@@ -45,11 +52,6 @@ F.~E. Low.
 C.~F. Bohren y D.~R. Huffman.
 \newblock {\em Absorption and Scattering of Light by Small Particles}.
 \newblock John Wiley \& Sons, 2008.
-
-\bibitem{Good}
-R.~H. Good y T.~J. Nelson.
-\newblock {\em Classical Theory of Electric and Magnetic Fields}.
-\newblock Academic Press, 2013.
 
 \bibitem{barton1989elements}
 Gy{\"o}rgy Barton y Gabriel Barton.
