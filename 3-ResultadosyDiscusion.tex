@@ -1,9 +1,11 @@
 % !TeX root = ./0-Tesis-de-maestria-JLBG.tex
-Desarrollando la Ec. \eqref{eq: Ly spectral density r theta} se obtiene
+Desarrollando las Ecs. \eqref{eq: Ly spectral density r theta}, \eqref{eq: Lx spectral density r theta} y \eqref{eq: Lz spectral density r theta} se obtiene
 %
-\begin{equation}
-\mathcal{L}_y = \frac{R^2}{\pi}\int_0^{\pi}\int_0^{2\pi} \sin\theta \Var{\cos\varphi \,\mathcal{T}_{\theta r} - \cos\theta\sin\varphi\,\mathcal{T}_{\varphi r}} \,d\varphi \, d\theta,
-\end{equation}
+\begin{align}
+\mathcal{L}_x &= \frac{R^3}{\pi}\int_0^{\pi}\int_0^{2\pi} \sin\theta \Var{\sin\varphi \,\mathcal{T}_{\theta r} + \cos\theta\cos\varphi\,\mathcal{T}_{\varphi r}} \,d\varphi \, d\theta, \label{eq: Lx spectral integral angles}\\
+\mathcal{L}_y &= \frac{R^3}{\pi}\int_0^{\pi}\int_0^{2\pi} \sin\theta \Var{\cos\varphi \,\mathcal{T}_{\theta r} - \cos\theta\sin\varphi\,\mathcal{T}_{\varphi r}} \,d\varphi \, d\theta, \label{eq: Ly spectral integral angles}\\
+\mathcal{L}_z &= \frac{R^3}{\pi}\int_0^{\pi}\int_0^{2\pi} \sin^{2}\theta \, \mathcal{T}_{\varphi r} \,d\varphi \, d\theta, \label{eq: Lz spectral integral angles}
+\end{align}
 % 
 donde 
 \begin{align}
@@ -15,9 +17,9 @@ Se puede realizar la separación $E_i=E_i^{\rm e}+E_i^{\rm s}$, para desarrollar
 \begin{equation}
 E^{\rm a}_{\alpha}\varsw E_{r}^{\rm b \,*}\varsw = \sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} \mathscr{E}_{\ell, m}^{\text{a}\alpha}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*},\label{eq: cross terms E field}
 \end{equation}
-donde $a$ y $b$ pueden tomar los valores de $s$ (denotando componentes de campo esparcido) o de $e$ (componentes de campo externo), y donde $alpha$ puede denotar la proyección en $\theta$ o en $\varphi$. 
+donde $a$ y $b$ pueden tomar los valores de $s$ (denotando componentes de campo esparcido) o de $e$ (componentes de campo externo), y donde $\alpha$ puede denotar la proyección en $\hat{ \theta}$ o en $\hat{\varphi}$. 
 
-Se procederá a desarrollar cada una de las componentes representadas por la Ec. \eqref{eq: cross terms E field}, así como sus análogas para el campo $\vv{H}$. Posteriormente se integrarán cada una de las expresiones obtenidas de manera analítica, para obtener una expresión exacta para la contribución espectral de cada multipolo.
+Se procederá a desarrollar cada una de las componentes representadas por la Ec. \eqref{eq: cross terms E field}, así como sus análogas para el campo $\vv{H}$. Posteriormente se integrarán cada una de las expresiones obtenidas de manera analítica, para obtener una expresión exacta para la contribución espectral de la transferencia de momento angular de cada multipolo, mediante las Ecs. \eqref{eq: Lx spectral integral angles}, \eqref{eq: Ly spectral integral angles} y \eqref{eq: Lz spectral integral angles}.
 
 El término $\mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
 \begin{align}
