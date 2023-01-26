@@ -30,9 +30,9 @@ donde $Z_{\ell}^{\rm s}=h_{\ell}^{+}(k_o r)$ para el campo esparcido, y $Z_{\ell
 \begin{equation}
 f_{\ell}^{\rm a}= \var{\ell + 1} \frac{Z_{\ell}^{\rm a}}{k_0 r}-Z_{\ell+1}^{\rm a}.
 \end{equation}
-Análogamente, el término $\mathscr{E}_{\ell, m}^{\text{a}\\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
+Análogamente, el término $\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
 \begin{align}
-\mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} =& \, \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 r} \Var{\var{\ell +1} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta} -\var{\ell - m +1}\frac{P_{\ell+1}^m P_{\ell^{\prime}}}{\sin\theta} }\nonumber\\
+\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} =& \, \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 r} \Var{\var{\ell +1} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta} -\var{\ell - m +1}\frac{P_{\ell+1}^m P_{\ell^{\prime}}}{\sin\theta} }\nonumber\\
 & + D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta} \Bigg\} \, \rmi \, \ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi }
 \end{align}
 
@@ -44,6 +44,10 @@ Es útil calcular primero la integral en $\varphi$, teniendo en cuenta que
 y para calcular la integral en $\theta$ se definen las siguientes cantidades
 \begin{align}
 IU_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{dx}{\sqrt{1-x^2}}, \\
-IV_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{x^2}{\sqrt{1-x^2}}, \, dx \\
-IW_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{x}{\sqrt{1-x^2}}, \, dx \\
+IV_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{x^2}{\sqrt{1-x^2}} \, dx, \\
+IW_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{x}{\sqrt{1-x^2}} \, dx, \\
 \end{align}
+y se toma en cuenta la relación de ortogonalidad de las funciones asociadas de Legendre \cite{Abramowitz}
+\begin{equation}
+\int_{-1}^{1} P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m}(x) = \Delta_{\ell, \ell^{\prime}} \qquad \text{con} \qquad \Delta_{\ell, \ell^{\prime}}= \frac{2(\ell+m)!}{(2\ell+1)(\ell-m)!} \delta_{\ell, \ell^{\prime}}.
+\end{equation}
