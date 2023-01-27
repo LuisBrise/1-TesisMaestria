@@ -43,16 +43,111 @@ Es útil calcular primero la integral en $\varphi$, teniendo en cuenta que
 \end{align}
 y para calcular la integral en $\theta$ se definen las siguientes cantidades
 \begin{align}
+IM_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \,x \, dx, \\
 IU_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{dx}{\sqrt{1-x^2}}, \\
 IV_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{x^2}{\sqrt{1-x^2}} \, dx, \\
 IW_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{x}{\sqrt{1-x^2}} \, dx, 
 \end{align}
-y se toma en cuenta la relación de ortogonalidad de las funciones asociadas de Legendre \cite{Abramowitz}
+que pueden ser calculadas mediante cuadraturas Gaussianas \cite{kahaner1989numerical}, que dan resultados exactos al ser utilizadas para integrar polinomios\footnote{Debe tenerse en cuenta que solo las funciones asociadas de Legendre $P_{\ell}^m$ de orden $m$ par son polinomios, por lo que solo las integrales pares en $m$ se calcularán de forma exacta.}. Se debe tomar en cuenta la relación de ortogonalidad de las funciones asociadas de Legendre \cite{Abramowitz}
 \begin{equation}
 \int_{-1}^{1} P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m}(x) \, dx = \Delta_{\ell \ell^{\prime}} \qquad \text{con} \qquad \Delta_{\ell \ell^{\prime}}= \frac{2(\ell+m)!}{(2\ell+1)(\ell-m)!} \delta_{\ell \ell^{\prime}}.
 \end{equation}
 Con esto en mente se puede proceder a calcular las siguientes integrales
 \begin{align}
-\int_{0}^{\pi}\int_{0}^{2\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\sin\theta \sin\varphi =& \, \Bigg\{-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} m \frac{P_{\ell}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta}-D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 r}\nonumber\\
-& \times \Bigg[ (\ell+1) \frac{P_{\ell}^m P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta}-(l-m+1)\frac{P_{\ell+1}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta} \Bigg] \Bigg\}\ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi },
+\int_{0}^{4\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \sin\varphi \, d\Omega =& 
+%
+\, \rmi \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
+%
+-D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \nonumber \\
+%
+& \times \Bigg[ (\ell+1) IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
+%
+-(l-m+1) IU_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg] \Bigg\}\ell^{\prime}(\ell^{\prime}+1),\\
+%
+%
+%
+\int_{0}^{4\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \cos\varphi \, d\Omega =& 
+%
+\, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
+%
+-D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \nonumber \\
+%
+& \times \Bigg[ (\ell+1) IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
+%
+-(l-m+1) IU_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg] \Bigg\}\ell^{\prime}(\ell^{\prime}+1),\\
+%
+%
+%
+\int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\cos\theta\sin\varphi \, d\Omega
+%
+ =& \, - \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
+% 
+&-\var{\ell - m +1} IW_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg]
+%
+ + D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),  \\
+%
+%
+%
+\int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\cos\theta\cos\varphi \, d\Omega
+%
+ =& \, \rmi \, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
+% 
+&-\var{\ell - m +1} IW_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg]
+%
+ + D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \, \ell^{\prime}(\ell^{\prime}+1),\\
+%
+%
+%
+\int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\sin\theta \, d\Omega
+%
+ =& \, \rmi \, 2\pi \, \delta_{m m^{\prime}} \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IM_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
+% 
+&-\var{\ell - m +1} \Delta_{\ell + 1, \ell^{\prime}}  \Bigg]
+%
++ D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} \Delta_{\ell \ell^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),
 \end{align}
+y definiendo las siguientes cantidades
+\begin{align}
+I\mathscr{E}S_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \theta b r} 
+=& \, \frac{R^3}{\pi} \int_{0}^{4\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \sin\varphi \, d\Omega ,
+\\
+%
+%
+%
+I\mathscr{E}C_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \theta b r} 
+=& \, \frac{R^3}{\pi} \int_{0}^{4\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \cos\varphi \, d\Omega,
+\\
+%
+%
+%
+I\mathscr{E}CS_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}
+=& \, \frac{R^3}{\pi} \int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\cos\theta\sin\varphi \, d\Omega,  \\
+%
+%
+%
+I\mathscr{E}CC_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}
+ =& \, \frac{R^3}{\pi} \int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\cos\theta\cos\varphi \, d\Omega, \\
+%
+%
+%
+I\mathscr{E}S_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}
+ =& \, \frac{R^3}{\pi} \int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\sin\theta \, d\Omega ,
+\end{align}
+se pueden reescribir las Ecs. \eqref{eq: Lx spectral integral angles}, \eqref{eq: Ly spectral integral angles} y \eqref{eq: Lz spectral integral angles} como 
+%
+\begin{align}
+\mathcal{L}_x &= 
+\sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} 
+\var{I\mathscr{E}S_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \theta b r} + 
+I\mathscr{E}CC_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}}, \label{eq: Lx spectral integral angles solved}\\
+% 
+\mathcal{L}_y &= 
+\sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}}
+\var{I\mathscr{E}C_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \theta b r} + 
+I\mathscr{E}CS_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}}, \label{eq: Ly spectral integral angles solved}\\ 
+%
+\mathcal{L}_z &= 
+\sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}}
+I\mathscr{E}S_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}. \label{eq: Lz spectral integral angles solved}
+\end{align}
+%
