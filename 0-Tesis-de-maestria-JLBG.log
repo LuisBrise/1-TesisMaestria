@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  26 JAN 2023 08:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.6)  26 JAN 2023 14:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -28,7 +28,7 @@ File: bk11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 Package: babel 2022/01/26 3.70 The Babel package
 \babel@savecnt=\count194
 \U@D=\dimen139
-\l@unhyphenated=\language12
+\l@unhyphenated=\language87
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -1407,11 +1407,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25
 
-])
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 58.
+LaTeX Info: Redefining \% on input line 58.
+ [26])
 LaTeX Info: Redefining \. on input line 383.
 LaTeX Info: Redefining \% on input line 383.
 
-[26] (./Conclusionesyperspectivas.tex)
+[27] [28
+
+] (./Conclusionesyperspectivas.tex)
 
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 384.
@@ -1435,16 +1442,14 @@ Package blindtext Warning: spanish not defined, using English instead.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
-
-]
+ [29]
 
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 384.
 
 LaTeX Info: Redefining \. on input line 384.
 LaTeX Info: Redefining \% on input line 384.
-[28] Including 'toexclude' comment.
+[30] Including 'toexclude' comment.
 \openout5 = `comment.cut'.
 
  Straight input of comment.cut.
@@ -1486,7 +1491,7 @@ l.24 \begin{equation}
                      
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [31
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{equation.3.0
 .4}) has been already used, duplicate ignored
@@ -1568,7 +1573,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
- [30]pdfTeX warning (ext4): destination with the same identifier (name{equation
+ [32]pdfTeX warning (ext4): destination with the same identifier (name{equation
 .3.0.16}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1593,24 +1598,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [31]
+ [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
- [32])
+ [34])
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 
-[33]) (./0-Tesis-de-maestria-JLBG.bbl (./0-Tesis-de-maestria-JLBG.brf)
+[35]) (./0-Tesis-de-maestria-JLBG.bbl (./0-Tesis-de-maestria-JLBG.brf)
 \tf@brf=\write8
 \openout8 = `0-Tesis-de-maestria-JLBG.brf'.
 
- [34
+ [36
 
 
 ])
-[35] (./0-Tesis-de-maestria-JLBG.aux
+[37] (./0-Tesis-de-maestria-JLBG.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
@@ -1619,15 +1624,15 @@ d.
 (rerunfilecheck)             Checksum: 21617A66ABF00C930A0EA9CD1BB07E16;2412.
 Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.brf' has not change
 d.
-(rerunfilecheck)             Checksum: 14B9A7300BCF580363AA441B2FC7109F;1770.
+(rerunfilecheck)             Checksum: 3CA0F79C8C663818370F2FD46EA6EEE7;1770.
  ) 
 Here is how much of TeX's memory you used:
- 33923 strings out of 480071
- 662104 string characters out of 5891616
- 1008281 words of memory out of 5000000
- 51008 multiletter control sequences out of 15000+600000
+ 33925 strings out of 478287
+ 662118 string characters out of 5849290
+ 1012788 words of memory out of 5000000
+ 51239 multiletter control sequences out of 15000+600000
  488728 words of font info for 98 fonts, out of 8000000 for 9000
- 107 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  90i,17n,99p,1239b,995s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
@@ -1654,10 +1659,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on 0-Tesis-de-maestria-JLBG.pdf (35 pages, 749355 bytes).
+Output written on 0-Tesis-de-maestria-JLBG.pdf (37 pages, 750824 bytes).
 PDF statistics:
- 738 PDF objects out of 1000 (max. 8388607)
- 613 compressed objects within 7 object streams
- 202 named destinations out of 1000 (max. 500000)
+ 749 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 204 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
