@@ -8,6 +8,6 @@
 \contentsline {subsection}{\numberline {2.0.2}Transferencia de momento angular de un electrón rápido a una nanopartícula}{20}{subsection.2.0.2}%
 \contentsline {subsection}{\numberline {2.0.3}Campos electromagnéticos esparcidos por la nanopartícula}{22}{subsection.2.0.3}%
 \contentsline {chapter}{\numberline {3}Resultados y discusión}{25}{chapter.3}%
-\contentsline {chapter}{Conclusiones y perspectivas}{29}{chapter*.17}%
-\contentsline {chapter}{Apéndice A\\ Método del potencial escalar}{31}{chapter*.18}%
-\contentsline {chapter}{Referencias}{37}{chapter*.19}%
+\contentsline {chapter}{Conclusiones y perspectivas}{31}{chapter*.17}%
+\contentsline {chapter}{Apéndice A\\ Método del potencial escalar}{33}{chapter*.18}%
+\contentsline {chapter}{Referencias}{39}{chapter*.19}%
