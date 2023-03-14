@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  28 FEB 2023 05:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  14 MAR 2023 07:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1283,55 +1283,24 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 9
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(./1-Introduccion.tex)
+(./1-Introduccion.tex) [11
 
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 99.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 99.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 99.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 99.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 99.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11
+] [12
 
 ]
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 99.
-
-LaTeX Info: Redefining \. on input line 99.
-LaTeX Info: Redefining \% on input line 99.
-[12]
 Cap\'{\i }tulo 2.
 (./2-Teoria-y-metodos.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 10.
 
-[13
-
-]
+[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
  [14]
-<17-imagenes/2-TeoriaMetodos/system.pdf, id=222, 653.3208pt x 427.35661pt>
+<17-imagenes/2-TeoriaMetodos/system.pdf, id=255, 653.3208pt x 427.35661pt>
 File: 17-imagenes/2-TeoriaMetodos/system.pdf Graphic file (type pdf)
 <use 17-imagenes/2-TeoriaMetodos/system.pdf>
 Package pdftex.def Info: 17-imagenes/2-TeoriaMetodos/system.pdf  used on input 
@@ -1980,15 +1949,21 @@ LaTeX Info: Redefining \% on input line 26.
 Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.out' has not change
 d.
 (rerunfilecheck)             Checksum: 21617A66ABF00C930A0EA9CD1BB07E16;2412.
-Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.brf' has not change
-d.
-(rerunfilecheck)             Checksum: E1EF11EF73EC6B0F842C11E55705AA44;1829.
+
+
+Package rerunfilecheck Warning: File `0-Tesis-de-maestria-JLBG.brf' has changed
+.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `0-Tesis-de-maestria-JLBG.brf':
+(rerunfilecheck)             Before: 631C03BD5D6802B35F624FF3FC954DFB;2628
+(rerunfilecheck)             After:  7038CF73963998DFF7DC5543158C9389;2770.
  ) 
 Here is how much of TeX's memory you used:
- 33945 strings out of 480071
- 662594 string characters out of 5891616
- 1008518 words of memory out of 5000000
- 51023 multiletter control sequences out of 15000+600000
+ 34081 strings out of 480071
+ 665428 string characters out of 5891616
+ 1008726 words of memory out of 5000000
+ 51146 multiletter control sequences out of 15000+600000
  488728 words of font info for 98 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
  90i,17n,99p,1239b,995s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2018,10 +1993,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb>
-Output written on 0-Tesis-de-maestria-JLBG.pdf (40 pages, 769542 bytes).
+Output written on 0-Tesis-de-maestria-JLBG.pdf (40 pages, 775276 bytes).
 PDF statistics:
- 776 PDF objects out of 1000 (max. 8388607)
- 644 compressed objects within 7 object streams
- 209 named destinations out of 1000 (max. 500000)
+ 844 PDF objects out of 1000 (max. 8388607)
+ 711 compressed objects within 8 object streams
+ 222 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

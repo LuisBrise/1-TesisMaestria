@@ -1,6 +1,85 @@
  \newcommand{\noop}[1]{}
 \begin{thebibliography}{10}
 
+\bibitem{ashkin1970acceleration}
+A.~Ashkin.
+\newblock \href{https://doi.org/10.1103/PhysRevLett.24.156}{Acceleration and
+  Trapping of Particles by Radiation Pressure}.
+\newblock {\em Phys. Rev. Lett.}, 24(4):156, 1970.
+
+\bibitem{ashkin1987optical}
+Arthur Ashkin y James~M Dziedzic.
+\newblock Optical trapping and manipulation of viruses and bacteria.
+\newblock {\em Science}, 235(4795):1517--1520, 1987.
+
+\bibitem{Ashkin}
+A.~Ashkin.
+\newblock \href{https://doi.org/10.1109/2944.902132}{History of optical
+  trapping and manipulation of small-neutral particle, atoms, and molecules}.
+\newblock {\em IEEE J. Sel. Top. Quantum Electron.}, 6(6):841--856, 2000.
+
+\bibitem{custance2009atomic}
+O.~Custance, R.~Perez y S.~Morita.
+\newblock \href{https://doi.org/10.1038/nnano.2009.347}{Atomic force microscopy
+  as a tool for atom manipulation}.
+\newblock {\em Nat. Nanotechnol.}, 4(12):803--810, 2009.
+
+\bibitem{dholakia2011shaping}
+K.~Dholakia y T.~{\v{C}}i{\v{z}}m{\'a}r.
+\newblock \href{https://doi.org/10.1038/nphoton.2011.80}{Shaping the future of
+  manipulation}.
+\newblock {\em Nat. Photonics}, 5(6):335--342, 2011.
+
+\bibitem{marago2013optical}
+O.~M. Marag{\`o}, P.~H. Jones, P.~G. Gucciardi, G.~Volpe y A.~C. Ferrari.
+\newblock \href{https://doi.org/10.1038/nnano.2013.208}{Optical trapping and
+  manipulation of nanostructures}.
+\newblock {\em Nat. Nanotechnol.}, 8(11):807–819, 2013.
+
+\bibitem{romo2020controlled}
+J.~M. Romo-Herrera, R.~A. Alvarez-Puebla y L.~M. Liz-Marz{\'a}n.
+\newblock \href{https://doi.org/10.1039/C0NR00804D}{Controlled assembly of
+  plasmonic colloidal nanoparticle clusters}.
+\newblock {\em Nanoscale}, 3(4):1304--1315, 2011.
+
+\bibitem{GarciadeAbajo0}
+F.~J. G.~de Abajo.
+\newblock \href{https://doi.org/10.1103/PhysRevB.70.115422}{Momentum transfer
+  to small particles by passing electron beams}.
+\newblock {\em Phys. Rev. B}, 70(11):115422, 2004.
+
+\bibitem{Batson01}
+P.~E. Batson.
+\newblock \href{https://doi.org/10.1017/S1431927608080197}{Motion of Gold Atoms
+  on Carbon in the Aberration-Corrected {STEM}}.
+\newblock {\em Microsc. Microanal.}, 14(1):89, 2008.
+
+\bibitem{zheng2012electron}
+H.~Zheng, U.~M. Mirsaidov, L.~Wang y P.~Matsudaira.
+\newblock \href{https://doi.org/10.1021/nl302788g}{Electron Beam Manipulation
+  of Nanoparticles}.
+\newblock {\em Nano Lett.}, 12(11):5644--5648, 2012.
+
+\bibitem{Batson}
+P.~E. Batson, A.~Reyes-Coronado, R.~G. Barrera, A.~Rivacoba, P.~M. Echenique y
+  J.~Aizpurua.
+\newblock \href{https://doi.org/10.1021/nl201795u}{Plasmonic Nanobilliards:
+  Controlling Nanoparticle Movement Using Forces Induced by Swift Electrons}.
+\newblock {\em Nano Lett.}, 11(8):3388--3393, 2011.
+
+\bibitem{oleshko2005electron}
+V.~Oleshko y J.~M. Howe.
+\newblock \href{https://doi.org/10.1017/S1431927605502484}{``{E}lectron
+  tweezers'' as a Tool for In-situ Manipulation and Processing of Individual
+  Metal Nanoparticles in a Two-Phase Partially Molten Alloy}.
+\newblock {\em Microsc. Microanal.}, 11(S02):1512--1513, 2005.
+
+\bibitem{Oleshko}
+V.~Oleshko y J.~M. Howe.
+\newblock \href{https://doi.org/10.1016/j.ultramic.2011.08.015}{Are electron
+  tweezers possible?}
+\newblock {\em Ultramicroscopy}, 111(11):1599--1606, 2011.
+
 \bibitem{deabajo2021optical}
 F.~J.~G. de~Abajo y V.~D. Giulio.
 \newblock \href{https://doi.org/10.1021/acsphotonics.0c01950}{Optical
