@@ -80,6 +80,80 @@ V.~Oleshko y J.~M. Howe.
   tweezers possible?}
 \newblock {\em Ultramicroscopy}, 111(11):1599--1606, 2011.
 
+\bibitem{OLESHKO2013203}
+V.~Oleshko y J.~M. Howe.
+\newblock \href{https://doi.org/10.1016/B978-0-12-407700-3.00003-X}{Chapter
+  Three - Electron Tweezers as a Tool for High-Precision Manipulation of
+  Nanoobjects}.
+\newblock volumen 179 de {\em Advances in Imaging and Electron Physics},
+  p\'ags. 203--262. Elsevier, 2013.
+
+\bibitem{xu2010transmission}
+S.~Xu, W.~Sun, M.~Zhang, J.~Xu y L.~Peng.
+\newblock \href{https://doi.org/10.1039/B9NR00144A}{Transmission electron
+  microscope observation of a freestanding nanocrystal in a {C}oulomb potential
+  well}.
+\newblock {\em Nanoscale}, 2(2):248--253, 2010.
+
+\bibitem{PRBCoronado}
+A.~Reyes-Coronado, R.~G. Barrera, P.~E. Batson, P.~M. Echenique, A.~Rivacoba y
+  J.~Aizpurua.
+\newblock \href{https://doi.org/10.1103/PhysRevB.82.235429}{Electromagnetic
+  forces on plasmonic nanoparticles induced by fast electron beams}.
+\newblock {\em Phys. Rev. B}, 82(23):235429, 2010.
+
+\bibitem{Lagos2}
+M.~J. Lagos, A.~Reyes-Coronado, A.~Kone\v{c}n\'a, P.~M. Echenique, J.~Aizpurua
+  y P.~E. Batson.
+\newblock \href{https://doi.org/10.1103/PhysRevB.93.205440}{Attosecond and
+  femtosecond forces exerted on gold nanoparticles induced by swift electrons}.
+\newblock {\em Phys. Rev. B}, 93(20):205440, 2016.
+
+\bibitem{Batson2}
+P.~E. Batson, A.~Reyes-Coronado, R.~G. Barrera, A.~Rivacoba, P.~M. Echenique y
+  J.~Aizpurua.
+\newblock \href{https://doi.org/10.1016/j.ultramic.2012.05.004}{Nanoparticle
+  movement: Plasmonic forces and physical constraints}.
+\newblock {\em Ultramicroscopy}, 123:50--58, 2012.
+
+\bibitem{castrejon2021effects}
+J~Castrej{\'o}n-Figueroa, J{\'A}~Castellanos-Reyes y A~Reyes-Coronado.
+\newblock Effects of a noncausal electromagnetic response on the linear
+  momentum transfer from a swift electron to a metallic nanoparticle.
+\newblock {\em Physical Review B}, 104(23):235416, 2021.
+
+\bibitem{castrejon2021phdthesis}
+Jesús Castrejón-Figueroa.
+\newblock {\em Transferencia de momento lineal de electrones rápidos a
+  nanopartículas}.
+\newblock Tesis de doctorado, Facultad de Ciencias, UNAM, 2021.
+
+\bibitem{GarciadeAbajo-1}
+F.~J. G.~de Abajo.
+\newblock \href{https://doi.org/10.1103/RevModPhys.82.209}{Optical excitations
+  in electron microscopy}.
+\newblock {\em Rev. Mod. Phys.}, 82(1):209--275, 2010.
+
+\bibitem{castellanos2021phdthesis}
+José~Ángel Castellanos-Reyes.
+\newblock {\em Transferencia de momento angular de electrones rápidos a
+  nanopartículas}.
+\newblock Tesis de doctorado, Facultad de Ciencias, UNAM, 2021.
+
+\bibitem{castellanos2021angular}
+J.~{\'A}. Castellanos-Reyes, J.~Castrej{\'o}n-Figueroa y A.~Reyes-Coronado.
+\newblock \href{https://doi.org/10.1016/j.ultramic.2021.113274}{Angular
+  dynamics of small nanoparticles induced by non-vortex electron beams}.
+\newblock {\em Ultramicroscopy}, 225:113274, 2021.
+
+\bibitem{castellanos2023theory}
+Jos{\'e}~{\'A}ngel Castellanos-Reyes, Jes{\'u}s Castrej{\'o}n-Figueroa y
+  Alejandro Reyes-Coronado.
+\newblock Theory and simulations of angular momentum transfer from swift
+  electrons to spherical nanoparticles in scanning transmission electron
+  microscopy.
+\newblock {\em Physical Review B}, 107(5):054307, 2023.
+
 \bibitem{deabajo2021optical}
 F.~J.~G. de~Abajo y V.~D. Giulio.
 \newblock \href{https://doi.org/10.1021/acsphotonics.0c01950}{Optical
@@ -90,19 +164,6 @@ F.~J.~G. de~Abajo y V.~D. Giulio.
 J.~D. Jackson.
 \newblock {\em Classical Electrodynamics}.
 \newblock John Wiley \& Sons, 2007.
-
-\bibitem{PRBCoronado}
-A.~Reyes-Coronado, R.~G. Barrera, P.~E. Batson, P.~M. Echenique, A.~Rivacoba y
-  J.~Aizpurua.
-\newblock \href{https://doi.org/10.1103/PhysRevB.82.235429}{Electromagnetic
-  forces on plasmonic nanoparticles induced by fast electron beams}.
-\newblock {\em Phys. Rev. B}, 82(23):235429, 2010.
-
-\bibitem{castellanos2021phdthesis}
-José~Ángel Castellanos-Reyes.
-\newblock {\em Transferencia de momento angular de electrones rápidos a
-  nanopartículas}.
-\newblock Tesis de doctorado, Facultad de Ciencias, UNAM, 2021.
 
 \bibitem{maciel2019electromagnetic}
 C.~Maciel-Escudero y A.~Reyes-Coronado.

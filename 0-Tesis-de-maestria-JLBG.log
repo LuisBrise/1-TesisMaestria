@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  14 MAR 2023 07:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  21 MAR 2023 08:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,7 +1125,7 @@ Including 'toexclude' comment.
 \openout5 = `comment.cut'.
 
  Straight input of comment.cut. (./comment.cut
-<17-imagenes/Unam.png, id=91, 260.47313pt x 261.97874pt>
+<17-imagenes/Unam.png, id=103, 260.47313pt x 261.97874pt>
 File: 17-imagenes/Unam.png Graphic file (type png)
 <use 17-imagenes/Unam.png>
 Package pdftex.def Info: 17-imagenes/Unam.png  used on input line 9.
@@ -1283,24 +1283,26 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 9
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-(./1-Introduccion.tex) [11
+(./1-Introduccion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [12
+ [11
+
+])
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+
+[12]
+Cap\'{\i }tulo 2.
+(./2-Teoria-y-metodos.tex [13
 
 ]
-Cap\'{\i }tulo 2.
-(./2-Teoria-y-metodos.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 10.
-
-[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
  [14]
-<17-imagenes/2-TeoriaMetodos/system.pdf, id=255, 653.3208pt x 427.35661pt>
+<17-imagenes/2-TeoriaMetodos/system.pdf, id=318, 653.3208pt x 427.35661pt>
 File: 17-imagenes/2-TeoriaMetodos/system.pdf Graphic file (type pdf)
 <use 17-imagenes/2-TeoriaMetodos/system.pdf>
 Package pdftex.def Info: 17-imagenes/2-TeoriaMetodos/system.pdf  used on input 
@@ -1347,24 +1349,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 248.
 LaTeX Info: Redefining \% on input line 248.
  [19]
-Underfull \vbox (badness 2012) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 281.
-LaTeX Info: Redefining \% on input line 281.
+LaTeX Info: Redefining \. on input line 279.
+LaTeX Info: Redefining \% on input line 279.
  [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 336.
-LaTeX Info: Redefining \% on input line 336.
+LaTeX Info: Redefining \. on input line 327.
+LaTeX Info: Redefining \% on input line 327.
  [21]
-LaTeX Info: Redefining \. on input line 363.
-LaTeX Info: Redefining \% on input line 363.
-
-[22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 408.
-LaTeX Info: Redefining \% on input line 408.
+LaTeX Info: Redefining \. on input line 358.
+LaTeX Info: Redefining \% on input line 358.
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 394.
+LaTeX Info: Redefining \% on input line 394.
  [23])
 LaTeX Info: Redefining \. on input line 100.
 LaTeX Info: Redefining \% on input line 100.
@@ -1379,18 +1382,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
  [26]
-Underfull \vbox (badness 4013) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 166.
-LaTeX Info: Redefining \% on input line 166.
+LaTeX Info: Redefining \. on input line 136.
+LaTeX Info: Redefining \% on input line 136.
  [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 231.
-LaTeX Info: Redefining \% on input line 231.
+LaTeX Info: Redefining \. on input line 214.
+LaTeX Info: Redefining \% on input line 214.
  [28])
 LaTeX Info: Redefining \. on input line 383.
 LaTeX Info: Redefining \% on input line 383.
@@ -1437,283 +1440,113 @@ LaTeX Info: Redefining \% on input line 384.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 11.
 
-(./A-Apendice-ScalarPotentials.texpdfTeX warning (ext4): destination with the s
-ame identifier (name{equation.3.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 \end{align}
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{equation.3.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.15 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \begin{equation}
-                     
+(./A-Apendice-ScalarPotentials.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33
 
-]pdfTeX warning (ext4): destination with the same identifier (name{equation.3.0
-.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.33 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.33 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.33 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.35 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.35 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.35 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.35 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.42 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.9}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.42 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.10}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.48 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.11}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.48 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.12}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.55 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.13}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.55 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.14}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.60 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.15}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.60 \end{align}
-                
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
  [34]pdfTeX warning (ext4): destination with the same identifier (name{equation
-.3.0.16}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.16}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.16}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.16}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.17}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.66 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.17}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.66 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.17}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.66 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.17}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.66 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.18}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.70 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.18}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.70 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.18}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.70 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.18}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.70 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.19}) has been already used, duplicate ignored
+.3.3.20}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.78 \end{align}
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.20}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.78 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.21}) has been already used, duplicate ignored
+me{equation.3.3.21}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.81 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.21}) has been already used, duplicate ignored
+r (name{equation.3.3.21}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.81 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.21}) has been already used, duplicate ignored
+r (name{equation.3.3.21}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.81 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.21}) has been already used, duplicate ignored
+r (name{equation.3.3.21}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.81 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.22}) has been already used, duplicate ignored
+r (name{equation.3.3.22}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.89 \end{align}
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.23}) has been already used, duplicate ignored
+me{equation.3.3.23}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.89 \end{align}
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.24}) has been already used, duplicate ignored
+me{equation.3.3.24}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.89 \end{align}
                 pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.0.25}) has been already used, duplicate ignored
+me{equation.3.3.25}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.91 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.25}) has been already used, duplicate ignored
+r (name{equation.3.3.25}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.91 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.25}) has been already used, duplicate ignored
+r (name{equation.3.3.25}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.91 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.25}) has been already used, duplicate ignored
+r (name{equation.3.3.25}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.91 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.26}) has been already used, duplicate ignored
+r (name{equation.3.3.26}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.95 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.26}) has been already used, duplicate ignored
+r (name{equation.3.3.26}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.95 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.26}) has been already used, duplicate ignored
+r (name{equation.3.3.26}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.95 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.26}) has been already used, duplicate ignored
+r (name{equation.3.3.26}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.95 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.0.27}) has been already used, duplicate ignored
+r (name{equation.3.3.27}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.101 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.27}) has been already used, duplicate ignored
+er (name{equation.3.3.27}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.101 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.27}) has been already used, duplicate ignored
+er (name{equation.3.3.27}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.101 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.27}) has been already used, duplicate ignored
+er (name{equation.3.3.27}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.101 \begin{equation}
@@ -1723,182 +1556,182 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
  [35]pdfTeX warning (ext4): destination with the same identifier (name{equation
-.3.0.28}) has been already used, duplicate ignored
+.3.3.28}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.105 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.28}) has been already used, duplicate ignored
+er (name{equation.3.3.28}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.105 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.28}) has been already used, duplicate ignored
+er (name{equation.3.3.28}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.105 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.28}) has been already used, duplicate ignored
+er (name{equation.3.3.28}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.105 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.29}) has been already used, duplicate ignored
+er (name{equation.3.3.29}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.110 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.29}) has been already used, duplicate ignored
+er (name{equation.3.3.29}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.110 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.29}) has been already used, duplicate ignored
+er (name{equation.3.3.29}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.110 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.29}) has been already used, duplicate ignored
+er (name{equation.3.3.29}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.110 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.30}) has been already used, duplicate ignored
+er (name{equation.3.3.30}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.116 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.30}) has been already used, duplicate ignored
+er (name{equation.3.3.30}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.116 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.30}) has been already used, duplicate ignored
+er (name{equation.3.3.30}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.116 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.30}) has been already used, duplicate ignored
+er (name{equation.3.3.30}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.116 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.31}) has been already used, duplicate ignored
+er (name{equation.3.3.31}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.121 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.31}) has been already used, duplicate ignored
+er (name{equation.3.3.31}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.121 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.31}) has been already used, duplicate ignored
+er (name{equation.3.3.31}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.121 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.31}) has been already used, duplicate ignored
+er (name{equation.3.3.31}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.121 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.32}) has been already used, duplicate ignored
+er (name{equation.3.3.32}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.125 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.32}) has been already used, duplicate ignored
+er (name{equation.3.3.32}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.125 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.32}) has been already used, duplicate ignored
+er (name{equation.3.3.32}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.125 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.32}) has been already used, duplicate ignored
+er (name{equation.3.3.32}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.125 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.33}) has been already used, duplicate ignored
+er (name{equation.3.3.33}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.130 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.33}) has been already used, duplicate ignored
+er (name{equation.3.3.33}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.130 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.33}) has been already used, duplicate ignored
+er (name{equation.3.3.33}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.130 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.33}) has been already used, duplicate ignored
+er (name{equation.3.3.33}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.130 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.34}) has been already used, duplicate ignored
+er (name{equation.3.3.34}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.135 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.34}) has been already used, duplicate ignored
+er (name{equation.3.3.34}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.135 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.34}) has been already used, duplicate ignored
+er (name{equation.3.3.34}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.135 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.34}) has been already used, duplicate ignored
+er (name{equation.3.3.34}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.135 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.35}) has been already used, duplicate ignored
+er (name{equation.3.3.35}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.139 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.35}) has been already used, duplicate ignored
+er (name{equation.3.3.35}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.139 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.35}) has been already used, duplicate ignored
+er (name{equation.3.3.35}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.139 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.35}) has been already used, duplicate ignored
+er (name{equation.3.3.35}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.139 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.36}) has been already used, duplicate ignored
+er (name{equation.3.3.36}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.143 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.36}) has been already used, duplicate ignored
+er (name{equation.3.3.36}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.143 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.36}) has been already used, duplicate ignored
+er (name{equation.3.3.36}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.143 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.36}) has been already used, duplicate ignored
+er (name{equation.3.3.36}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.143 \begin{equation}
@@ -1908,22 +1741,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
  [36]pdfTeX warning (ext4): destination with the same identifier (name{equation
-.3.0.37}) has been already used, duplicate ignored
+.3.3.37}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.147 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.37}) has been already used, duplicate ignored
+er (name{equation.3.3.37}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.147 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.37}) has been already used, duplicate ignored
+er (name{equation.3.3.37}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.147 \begin{equation}
                       pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.0.37}) has been already used, duplicate ignored
+er (name{equation.3.3.37}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.147 \begin{equation}
@@ -1938,35 +1771,32 @@ LaTeX Info: Redefining \% on input line 11.
  [38
 
 
-] [39])
+] [39]
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
+ [40])
 LaTeX Info: Redefining \. on input line 506.
 LaTeX Info: Redefining \% on input line 506.
- [40]
+ [41]
 (./0-Tesis-de-maestria-JLBG.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
 Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.out' has not change
 d.
-(rerunfilecheck)             Checksum: 21617A66ABF00C930A0EA9CD1BB07E16;2412.
-
-
-Package rerunfilecheck Warning: File `0-Tesis-de-maestria-JLBG.brf' has changed
-.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `0-Tesis-de-maestria-JLBG.brf':
-(rerunfilecheck)             Before: 631C03BD5D6802B35F624FF3FC954DFB;2628
-(rerunfilecheck)             After:  7038CF73963998DFF7DC5543158C9389;2770.
+(rerunfilecheck)             Checksum: 26575A93242980954F6AE30C2CC647B9;3745.
+Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.brf' has not change
+d.
+(rerunfilecheck)             Checksum: 233714773F68ABB7C9C16CEB3065EDCC;4291.
  ) 
 Here is how much of TeX's memory you used:
- 34081 strings out of 480071
- 665428 string characters out of 5891616
- 1008726 words of memory out of 5000000
- 51146 multiletter control sequences out of 15000+600000
- 488728 words of font info for 98 fonts, out of 8000000 for 9000
+ 34204 strings out of 480071
+ 667956 string characters out of 5891616
+ 1008302 words of memory out of 5000000
+ 51237 multiletter control sequences out of 15000+600000
+ 489035 words of font info for 99 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 90i,17n,99p,1239b,995s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 90i,17n,99p,3078b,994s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
@@ -1993,10 +1823,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb>
-Output written on 0-Tesis-de-maestria-JLBG.pdf (40 pages, 775276 bytes).
+Output written on 0-Tesis-de-maestria-JLBG.pdf (41 pages, 784492 bytes).
 PDF statistics:
- 844 PDF objects out of 1000 (max. 8388607)
- 711 compressed objects within 8 object streams
- 222 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 963 PDF objects out of 1000 (max. 8388607)
+ 828 compressed objects within 9 object streams
+ 254 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 

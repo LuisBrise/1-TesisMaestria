@@ -1,4 +1,5 @@
 % !TeX root = ./0-Tesis-de-maestria-JLBG.tex
+\section{Desarrollo de las densidades espectrales de la transferencia de momento angular}
 Desarrollando las Ecs. \eqref{eq: Ly spectral density r theta}, \eqref{eq: Lx spectral density r theta} y \eqref{eq: Lz spectral density r theta} se obtiene
 %
 \begin{align}
@@ -50,6 +51,7 @@ y finalmente el término $\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\e
 & + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta} \Bigg\} \, \rmi \, \ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi },
 \end{align}
 
+\section{Cálculo semi-analítico de las integrales necesarias para la transferencia de momento angular total}
 Es útil calcular primero la integral en $\varphi$, teniendo en cuenta que 
 \begin{align}
 \int_0^{2\pi} \rme^{\rmi (m-m^{\prime}) \varphi} \cos\varphi  \, d\varphi &= \pi \var{ \delta_{m+1, m^{\prime}} + \delta_{m-1, m^{\prime}} },\\
@@ -67,6 +69,8 @@ que pueden ser calculadas mediante cuadraturas Gaussianas \cite{kahaner1989numer
 \begin{equation}
 \int_{-1}^{1} P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m}(x) \, dx = \Delta_{\ell \ell^{\prime}} \qquad \text{con} \qquad \Delta_{\ell \ell^{\prime}}= \frac{2(\ell+m)!}{(2\ell+1)(\ell-m)!} \delta_{\ell \ell^{\prime}}.
 \end{equation}
+
+\section{Transferencia de momento angular total}
 Con esto en mente se puede proceder a calcular las siguientes integrales
 \begin{align}
 \int_{0}^{4\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \sin\varphi \, d\Omega =& 
