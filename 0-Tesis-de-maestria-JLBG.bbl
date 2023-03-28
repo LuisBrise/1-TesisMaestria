@@ -154,11 +154,36 @@ Jos{\'e}~{\'A}ngel Castellanos-Reyes, Jes{\'u}s Castrej{\'o}n-Figueroa y
   microscopy.
 \newblock {\em Physical Review B}, 107(5):054307, 2023.
 
+\bibitem{quijada2010lifetime}
+M.~Quijada, R.~D. Mui{\~n}o, A.~G. Borisov, J.~A. Alonso y P.~M. Echenique.
+\newblock \href{https://doi.org/10.1088/1367-2630/12/5/053023}{Lifetime of
+  electronic excitations in metal nanoparticles}.
+\newblock {\em New J. Phys.}, 12(5):053023, 2010.
+
+\bibitem{de1999relativistic}
+F.~J. Garc\'{\i}a~de Abajo.
+\newblock Relativistic energy loss and induced photon emission in the
+  interaction of a dielectric sphere with an external electron beam.
+\newblock {\em Phys. Rev. B}, 59:3095--3107, Jan 1999.
+
 \bibitem{deabajo2021optical}
 F.~J.~G. de~Abajo y V.~D. Giulio.
 \newblock \href{https://doi.org/10.1021/acsphotonics.0c01950}{Optical
   Excitations with Electron Beams: Challenges and Opportunities}.
 \newblock {\em ACS Photonics}, 8(4):945--974, 2021.
+
+\bibitem{Rivacoba1}
+A.~Rivacoba y P.~M. Echenique.
+\newblock \href{https://doi.org/10.1016/0304-3991(88)90238-0}{Deflection of
+  {STEM} electrons by dielectric spheres}.
+\newblock {\em Ultramicroscopy}, 26(4):389 -- 392, 1988.
+
+\bibitem{krehl2018spectral}
+J.~Krehl, G.~Guzzinati, J.~Schultz, P.~Potapov, D.~Pohl, J.~Martin,
+  J.~Verbeeck, A.~Fery, B.~B{\"u}chner y A.~Lubk.
+\newblock \href{https://doi.org/10.1038/s41467-018-06572-9}{Spectral field
+  mapping in plasmonic nanostructures with nanometer resolution}.
+\newblock {\em Nat. Commun.}, 9(1):1--6, 2018.
 
 \bibitem{jackson}
 J.~D. Jackson.
@@ -170,12 +195,6 @@ C.~Maciel-Escudero y A.~Reyes-Coronado.
 \newblock \href{https://doi.org/10.1016/j.wavemoti.2019.01.005}{Electromagnetic
   fields produced by a swift electron: A source of white light}.
 \newblock {\em Wave Motion}, 86:137--149, 2019.
-
-\bibitem{de1999relativistic}
-F.~J. Garc\'{\i}a~de Abajo.
-\newblock Relativistic energy loss and induced photon emission in the
-  interaction of a dielectric sphere with an external electron beam.
-\newblock {\em Phys. Rev. B}, 59:3095--3107, Jan 1999.
 
 \bibitem{Abramowitz}
 M.~Abramowitz, I.~A. Stegun y R.~H. Romer.

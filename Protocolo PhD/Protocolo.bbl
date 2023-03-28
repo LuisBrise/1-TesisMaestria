@@ -1,0 +1,195 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{10}
+
+\bibitem{ashkin1970acceleration}
+A.~Ashkin.
+\newblock \href{https://doi.org/10.1103/PhysRevLett.24.156}{Acceleration and
+  Trapping of Particles by Radiation Pressure}.
+\newblock {\em Phys. Rev. Lett.}, 24(4):156, 1970.
+
+\bibitem{ashkin1987optical}
+Arthur Ashkin and James~M Dziedzic.
+\newblock Optical trapping and manipulation of viruses and bacteria.
+\newblock {\em Science}, 235(4795):1517--1520, 1987.
+
+\bibitem{Ashkin}
+A.~Ashkin.
+\newblock \href{https://doi.org/10.1109/2944.902132}{History of optical
+  trapping and manipulation of small-neutral particle, atoms, and molecules}.
+\newblock {\em IEEE J. Sel. Top. Quantum Electron.}, 6(6):841--856, 2000.
+
+\bibitem{custance2009atomic}
+O.~Custance, R.~Perez, and S.~Morita.
+\newblock \href{https://doi.org/10.1038/nnano.2009.347}{Atomic force microscopy
+  as a tool for atom manipulation}.
+\newblock {\em Nat. Nanotechnol.}, 4(12):803--810, 2009.
+
+\bibitem{dholakia2011shaping}
+K.~Dholakia and T.~{\v{C}}i{\v{z}}m{\'a}r.
+\newblock \href{https://doi.org/10.1038/nphoton.2011.80}{Shaping the future of
+  manipulation}.
+\newblock {\em Nat. Photonics}, 5(6):335--342, 2011.
+
+\bibitem{marago2013optical}
+O.~M. Marag{\`o}, P.~H. Jones, P.~G. Gucciardi, G.~Volpe, and A.~C. Ferrari.
+\newblock \href{https://doi.org/10.1038/nnano.2013.208}{Optical trapping and
+  manipulation of nanostructures}.
+\newblock {\em Nat. Nanotechnol.}, 8(11):807–819, 2013.
+
+\bibitem{romo2020controlled}
+J.~M. Romo-Herrera, R.~A. Alvarez-Puebla, and L.~M. Liz-Marz{\'a}n.
+\newblock \href{https://doi.org/10.1039/C0NR00804D}{Controlled assembly of
+  plasmonic colloidal nanoparticle clusters}.
+\newblock {\em Nanoscale}, 3(4):1304--1315, 2011.
+
+\bibitem{GarciadeAbajo0}
+F.~J. G.~de Abajo.
+\newblock \href{https://doi.org/10.1103/PhysRevB.70.115422}{Momentum transfer
+  to small particles by passing electron beams}.
+\newblock {\em Phys. Rev. B}, 70(11):115422, 2004.
+
+\bibitem{Batson01}
+P.~E. Batson.
+\newblock \href{https://doi.org/10.1017/S1431927608080197}{Motion of Gold Atoms
+  on Carbon in the Aberration-Corrected {STEM}}.
+\newblock {\em Microsc. Microanal.}, 14(1):89, 2008.
+
+\bibitem{zheng2012electron}
+H.~Zheng, U.~M. Mirsaidov, L.~Wang, and P.~Matsudaira.
+\newblock \href{https://doi.org/10.1021/nl302788g}{Electron Beam Manipulation
+  of Nanoparticles}.
+\newblock {\em Nano Lett.}, 12(11):5644--5648, 2012.
+
+\bibitem{Batson}
+P.~E. Batson, A.~Reyes-Coronado, R.~G. Barrera, A.~Rivacoba, P.~M. Echenique,
+  and J.~Aizpurua.
+\newblock \href{https://doi.org/10.1021/nl201795u}{Plasmonic Nanobilliards:
+  Controlling Nanoparticle Movement Using Forces Induced by Swift Electrons}.
+\newblock {\em Nano Lett.}, 11(8):3388--3393, 2011.
+
+\bibitem{oleshko2005electron}
+V.~Oleshko and J.~M. Howe.
+\newblock \href{https://doi.org/10.1017/S1431927605502484}{``{E}lectron
+  tweezers'' as a Tool for In-situ Manipulation and Processing of Individual
+  Metal Nanoparticles in a Two-Phase Partially Molten Alloy}.
+\newblock {\em Microsc. Microanal.}, 11(S02):1512--1513, 2005.
+
+\bibitem{Oleshko}
+V.~Oleshko and J.~M. Howe.
+\newblock \href{https://doi.org/10.1016/j.ultramic.2011.08.015}{Are electron
+  tweezers possible?}
+\newblock {\em Ultramicroscopy}, 111(11):1599--1606, 2011.
+
+\bibitem{OLESHKO2013203}
+V.~Oleshko and J.~M. Howe.
+\newblock \href{https://doi.org/10.1016/B978-0-12-407700-3.00003-X}{Chapter
+  Three - Electron Tweezers as a Tool for High-Precision Manipulation of
+  Nanoobjects}.
+\newblock volume 179 of {\em Advances in Imaging and Electron Physics}, pages
+  203--262. Elsevier, 2013.
+
+\bibitem{xu2010transmission}
+S.~Xu, W.~Sun, M.~Zhang, J.~Xu, and L.~Peng.
+\newblock \href{https://doi.org/10.1039/B9NR00144A}{Transmission electron
+  microscope observation of a freestanding nanocrystal in a {C}oulomb potential
+  well}.
+\newblock {\em Nanoscale}, 2(2):248--253, 2010.
+
+\bibitem{PRBCoronado}
+A.~Reyes-Coronado, R.~G. Barrera, P.~E. Batson, P.~M. Echenique, A.~Rivacoba,
+  and J.~Aizpurua.
+\newblock \href{https://doi.org/10.1103/PhysRevB.82.235429}{Electromagnetic
+  forces on plasmonic nanoparticles induced by fast electron beams}.
+\newblock {\em Phys. Rev. B}, 82(23):235429, 2010.
+
+\bibitem{Lagos2}
+M.~J. Lagos, A.~Reyes-Coronado, A.~Kone\v{c}n\'a, P.~M. Echenique, J.~Aizpurua,
+  and P.~E. Batson.
+\newblock \href{https://doi.org/10.1103/PhysRevB.93.205440}{Attosecond and
+  femtosecond forces exerted on gold nanoparticles induced by swift electrons}.
+\newblock {\em Phys. Rev. B}, 93(20):205440, 2016.
+
+\bibitem{Batson2}
+P.~E. Batson, A.~Reyes-Coronado, R.~G. Barrera, A.~Rivacoba, P.~M. Echenique,
+  and J.~Aizpurua.
+\newblock \href{https://doi.org/10.1016/j.ultramic.2012.05.004}{Nanoparticle
+  movement: Plasmonic forces and physical constraints}.
+\newblock {\em Ultramicroscopy}, 123:50--58, 2012.
+
+\bibitem{castrejon2021effects}
+J~Castrej{\'o}n-Figueroa, J{\'A}~Castellanos-Reyes, and A~Reyes-Coronado.
+\newblock Effects of a noncausal electromagnetic response on the linear
+  momentum transfer from a swift electron to a metallic nanoparticle.
+\newblock {\em Physical Review B}, 104(23):235416, 2021.
+
+\bibitem{castrejon2021phdthesis}
+Jesús Castrejón-Figueroa.
+\newblock {\em Transferencia de momento lineal de electrones rápidos a
+  nanopartículas}.
+\newblock PhD thesis, Facultad de Ciencias, UNAM, 2021.
+
+\bibitem{GarciadeAbajo-1}
+F.~J. G.~de Abajo.
+\newblock \href{https://doi.org/10.1103/RevModPhys.82.209}{Optical excitations
+  in electron microscopy}.
+\newblock {\em Rev. Mod. Phys.}, 82(1):209--275, 2010.
+
+\bibitem{castellanos2021phdthesis}
+José~Ángel Castellanos-Reyes.
+\newblock {\em Transferencia de momento angular de electrones rápidos a
+  nanopartículas}.
+\newblock PhD thesis, Facultad de Ciencias, UNAM, 2021.
+
+\bibitem{castellanos2021angular}
+J.~{\'A}. Castellanos-Reyes, J.~Castrej{\'o}n-Figueroa, and A.~Reyes-Coronado.
+\newblock \href{https://doi.org/10.1016/j.ultramic.2021.113274}{Angular
+  dynamics of small nanoparticles induced by non-vortex electron beams}.
+\newblock {\em Ultramicroscopy}, 225:113274, 2021.
+
+\bibitem{castellanos2023theory}
+Jos{\'e}~{\'A}ngel Castellanos-Reyes, Jes{\'u}s Castrej{\'o}n-Figueroa, and
+  Alejandro Reyes-Coronado.
+\newblock Theory and simulations of angular momentum transfer from swift
+  electrons to spherical nanoparticles in scanning transmission electron
+  microscopy.
+\newblock {\em Physical Review B}, 107(5):054307, 2023.
+
+\bibitem{quijada2010lifetime}
+M.~Quijada, R.~D. Mui{\~n}o, A.~G. Borisov, J.~A. Alonso, and P.~M. Echenique.
+\newblock \href{https://doi.org/10.1088/1367-2630/12/5/053023}{Lifetime of
+  electronic excitations in metal nanoparticles}.
+\newblock {\em New J. Phys.}, 12(5):053023, 2010.
+
+\bibitem{de1999relativistic}
+F.~J. Garc\'{\i}a~de Abajo.
+\newblock Relativistic energy loss and induced photon emission in the
+  interaction of a dielectric sphere with an external electron beam.
+\newblock {\em Phys. Rev. B}, 59:3095--3107, Jan 1999.
+
+\bibitem{deabajo2021optical}
+F.~J.~G. de~Abajo and V.~D. Giulio.
+\newblock \href{https://doi.org/10.1021/acsphotonics.0c01950}{Optical
+  Excitations with Electron Beams: Challenges and Opportunities}.
+\newblock {\em ACS Photonics}, 8(4):945--974, 2021.
+
+\bibitem{Rivacoba1}
+A.~Rivacoba and P.~M. Echenique.
+\newblock \href{https://doi.org/10.1016/0304-3991(88)90238-0}{Deflection of
+  {STEM} electrons by dielectric spheres}.
+\newblock {\em Ultramicroscopy}, 26(4):389 -- 392, 1988.
+
+\bibitem{krehl2018spectral}
+J.~Krehl, G.~Guzzinati, J.~Schultz, P.~Potapov, D.~Pohl, J.~Martin,
+  J.~Verbeeck, A.~Fery, B.~B{\"u}chner, and A.~Lubk.
+\newblock \href{https://doi.org/10.1038/s41467-018-06572-9}{Spectral field
+  mapping in plasmonic nanostructures with nanometer resolution}.
+\newblock {\em Nat. Commun.}, 9(1):1--6, 2018.
+
+\bibitem{RIVACOBA2019112835}
+A.~Rivacoba.
+\newblock
+  \href{https://www.sciencedirect.com/science/article/pii/S0304399118304431}{Electron
+  spill-out effects in plasmon excitations by fast electrons}.
+\newblock {\em Ultramicroscopy}, 207:112835, 2019.
+
+\end{thebibliography}

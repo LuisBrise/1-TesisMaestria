@@ -3,14 +3,14 @@
 \contentsline {chapter}{Resumen}{7}{chapter*.4}%
 \contentsline {chapter}{Abstract}{9}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introducción}{11}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Teoría y métodos}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Conservación del momento angular en electrodinámica}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Transferencia de momento angular de un electrón rápido a una nanopartícula}{20}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Campos electromagnéticos esparcidos por la nanopartícula}{22}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Resultados y discusión}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Desarrollo de las densidades espectrales de la transferencia de momento angular}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Cálculo semi-analítico de las integrales necesarias para la transferencia de momento angular total}{27}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Transferencia de momento angular total}{27}{section.3.3}%
-\contentsline {chapter}{Conclusiones y perspectivas}{31}{chapter*.17}%
-\contentsline {chapter}{Apéndice A\\ Método de los potenciales escalares}{33}{chapter*.18}%
-\contentsline {chapter}{Referencias}{39}{chapter*.19}%
+\contentsline {chapter}{\numberline {2}Teoría y métodos}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Conservación del momento angular en electrodinámica}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Transferencia de momento angular de un electrón rápido a una nanopartícula}{22}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Campos electromagnéticos esparcidos por la nanopartícula}{24}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Resultados y discusión}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Desarrollo de las densidades espectrales de la transferencia de momento angular}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Cálculo semi-analítico de las integrales necesarias para la transferencia de momento angular total}{29}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Transferencia de momento angular total}{29}{section.3.3}%
+\contentsline {chapter}{Conclusiones y perspectivas}{33}{chapter*.20}%
+\contentsline {chapter}{Apéndice A\\ Método de los potenciales escalares}{35}{chapter*.21}%
+\contentsline {chapter}{Referencias}{41}{chapter*.22}%
