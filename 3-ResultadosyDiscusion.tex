@@ -1,4 +1,10 @@
 % !TeX root = ./0-Tesis-de-maestria-JLBG.tex
+\label{cap: resultados}
+
+En este capítulo se exponen los resultados de las expresiones analíticas que describen la contribución espectral en la TMA de la interacción entre un electrón rápido y una NP esférica. Se desarrollan los términos de las densidades espectrales de la TMA mediante la transformada de Fourier del tensor de esfuerzos de Maxwell, expandiendo los términos cruzados de los campos electromagnéticos y calculando las integrales analíticamente sobre la superficie esférica $S$ que rodea la NP.
+
+No obstante, cabe mencionar que para obtener una información completa del comportamiento de la NP, estas expresiones deben integrarse en el espacio de frecuencias. Para ello, se utiliza el método de Cuadraturas de Gauss-Kronrod, que permite estimar el error numérico cometido al realizar dicha integración.
+
 \section{Desarrollo de las densidades espectrales de la transferencia de momento angular}
 Desarrollando las Ecs. \eqref{eq: Ly spectral density r theta}, \eqref{eq: Lx spectral density r theta} y \eqref{eq: Lz spectral density r theta} se obtiene
 %
@@ -13,15 +19,15 @@ donde
 \mathcal{T}_{\theta r} &= {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} E_{\theta}\varsw E_{r}^{*}\varsw + \frac{\mu_0}{\cgs{4\pi\mu_0}} H_{\theta}\varsw H_{r}^{*}\varsw  },\\
 \mathcal{T}_{\varphi r} &= {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} E_{\varphi}\varsw E_{r}^{*}\varsw + \frac{\mu_0}{\cgs{4\pi\mu_0}} H_{\varphi}\varsw H_{r}^{*}\varsw  }.
 \end{align}
-
-Se puede realizar la separación $E_i=E_i^{\rm e}+E_i^{\rm s}$ y $H_i=H_i^{\rm e}+H_i^{\rm s}$, para desarrollar los términos $E_{\alpha}\varsw E_{r}^{*}\varsw$ y $H_{\alpha}\varsw H_{r}^{*}\varsw$ en fución de las sumas multipolar expresada en la Ecs. \eqref{Eq: multipolar ext E field} y \eqref{Eq: multipolar scat E field} de la siguiente manera
+%
+Se puede separar $E_i=E_i^{\rm e}+E_i^{\rm s}$ y $H_i=H_i^{\rm e}+H_i^{\rm s}$, para desarrollar los términos $E_{\alpha}\varsw E_{r}^{*}\varsw$ y $H_{\alpha}\varsw H_{r}^{*}\varsw$ en fución de las sumas multipolar expresada en la Ecs. \eqref{Eq: multipolar ext E field} y \eqref{Eq: multipolar scat E field} de la siguiente manera
 \begin{align}
 E^{\rm a}_{\alpha}\varsw E_{r}^{\rm b \,*}\varsw &= \sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} \mathscr{E}_{\ell, m}^{\text{a}\alpha}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*},\label{eq: cross terms E field}\\
 H^{\rm a}_{\alpha}\varsw H_{r}^{\rm b \,*}\varsw &= \sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} \mathscr{H}_{\ell, m}^{\text{a}\alpha}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*},\label{eq: cross terms H field}
 \end{align}
 donde $a$ y $b$ pueden tomar los valores de $s$ (denotando componentes de campo esparcido) o de $e$ (componentes de campo externo), y donde $\alpha$ puede denotar la proyección en $\hat{ \theta}$ o en $\hat{\varphi}$. 
 
-Se procederá a desarrollar cada una de las componentes eléctricas $\mathscr{E}_{\ell, m}^{\text{a}\alpha}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ representadas por la Ec. \eqref{eq: cross terms E field}, así como sus análogas para el campo $\vv{H}$ representadas por la Ec. \eqref{eq: cross terms H field}. Posteriormente se integrarán cada una de las expresiones obtenidas de manera analítica, para obtener una expresión exacta para la contribución espectral de la transferencia de momento angular de cada multipolo, mediante las Ecs. \eqref{eq: Lx spectral integral angles}, \eqref{eq: Ly spectral integral angles} y \eqref{eq: Lz spectral integral angles}.
+%Se procederá a desarrollar cada una de las componentes eléctricas $\mathscr{E}_{\ell, m}^{\text{a}\alpha}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ representadas por la Ec. \eqref{eq: cross terms E field}, así como sus análogas para el campo $\vv{H}$ representadas por la Ec. \eqref{eq: cross terms H field}. Posteriormente se integrarán cada una de las expresiones obtenidas de manera analítica, para obtener una expresión exacta para la contribución espectral de la TMA de cada multipolo, mediante las Ecs. \eqref{eq: Lx spectral integral angles}, \eqref{eq: Ly spectral integral angles} y \eqref{eq: Lz spectral integral angles}.
 
 El término $\mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
 \begin{align}
@@ -48,17 +54,18 @@ Análogamente, el término $\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{
 y finalmente el término $\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
 \begin{align}
 \mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} =& \, \Bigg\{ -D_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 r} \Var{\var{\ell +1} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta} -\var{\ell - m +1}\frac{P_{\ell+1}^m P_{\ell^{\prime}}}{\sin\theta} }\nonumber\\
-& + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta} \Bigg\} \, \rmi \, \ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi },
+& + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta} \Bigg\} \, \rmi \, \ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi }.
 \end{align}
 
 \section{Cálculo semi-analítico de las integrales necesarias para la transferencia de momento angular total}
-Es útil calcular primero la integral en $\varphi$, teniendo en cuenta que 
+La integral en $\varphi$ se puede calcular teniendo en cuenta que 
 \begin{align}
 \int_0^{2\pi} \rme^{\rmi (m-m^{\prime}) \varphi} \cos\varphi  \, d\varphi &= \pi \var{ \delta_{m+1, m^{\prime}} + \delta_{m-1, m^{\prime}} },\\
 \int_0^{2\pi} \rme^{\rmi (m-m^{\prime}) \varphi} \sin\varphi  \, d\varphi &= \rmi \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} },
 \end{align}
 \vspace{-0.8 cm}
 y para calcular la integral en $\theta$ se definen las siguientes cantidades
+
 \begin{align}
 IM_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \,x \, dx, \\
 IU_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{dx}{\sqrt{1-x^2}}, \\
@@ -71,7 +78,7 @@ que pueden ser calculadas mediante cuadraturas Gaussianas \cite{kahaner1989numer
 \end{equation}
 
 \section{Transferencia de momento angular total}
-Con esto en mente se puede proceder a calcular las siguientes integrales
+Las integrales de los términos cruzados de los campos electromagnéticos en las Ecs. \eqref{eq: Lx spectral integral angles}, \eqref{eq: Ly spectral integral angles} y\eqref{eq: Lz spectral integral angles} se escriben como
 \begin{align}
 \int_{0}^{4\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \sin\varphi \, d\Omega =& 
 %
@@ -162,13 +169,11 @@ Con esto en mente se puede proceder a calcular las siguientes integrales
 % 
 &-\var{\ell - m +1} IW_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg]
 %
- + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \, \ell^{\prime}(\ell^{\prime}+1),
+ + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \, \ell^{\prime}(\ell^{\prime}+1),\\
 % 
 %
 %
 %
-\end{align}
-\begin{align}
 \int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\sin\theta \, d\Omega
 %
  =& \, \rmi \, 2\pi \, \delta_{m m^{\prime}} \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IM_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
@@ -234,3 +239,4 @@ ICS_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}}, \label{eq: Ly spectr
 IS_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}. \label{eq: Lz spectral integral angles solved}
 \end{align}
 %
+En el \hyperref[AppendixAMTextField]{Apéndice B} se muestra el cálculo de $\Delta L_{\rm ext}$, que corresponde exclusivamente al efecto del campo electromagnético generado por el electrón. Al obtener resultados que se anulan, se fortalece la confianza en la validez de las expresiones semi-analíticas, presentadas en las Ecs. \eqref{eq: Lx spectral integral angles solved}, \eqref{eq: Ly spectral integral angles solved} y \eqref{eq: Lz spectral integral angles solved}, utilizadas para calcular la TMA. De este modo se respalda la precisión de los resultados obtenidos.

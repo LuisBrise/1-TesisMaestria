@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  28 MAR 2023 08:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  10 APR 2023 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1125,7 +1125,7 @@ Including 'toexclude' comment.
 \openout5 = `comment.cut'.
 
  Straight input of comment.cut. (./comment.cut
-<17-imagenes/Unam.png, id=103, 260.47313pt x 261.97874pt>
+<17-imagenes/Unam.png, id=115, 260.47313pt x 261.97874pt>
 File: 17-imagenes/Unam.png Graphic file (type png)
 <use 17-imagenes/Unam.png>
 Package pdftex.def Info: 17-imagenes/Unam.png  used on input line 9.
@@ -1164,16 +1164,17 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-))
-\tf@toc=\write7
-\openout7 = `0-Tesis-de-maestria-JLBG.toc'.
+)
+Underfull \vbox (badness 1292) has occurred while \output is active []
 
  [3
 
-] [4
+])
+\tf@toc=\write7
+\openout7 = `0-Tesis-de-maestria-JLBG.toc'.
 
-]
-(./0-0-Agradecimientos.tex)
+
+[4] (./0-0-Agradecimientos.tex)
 
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 84.
@@ -1197,7 +1198,9 @@ Package blindtext Warning: spanish not defined, using English instead.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [5
+
+]
 
 Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 84.
@@ -1284,10 +1287,10 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 9
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (./1-Introduccion.tex
-<17-imagenes/1-Intro/STEM.png, id=226, 1017.8025pt x 625.33624pt>
+<17-imagenes/1-Intro/STEM.png, id=245, 1017.8025pt x 625.33624pt>
 File: 17-imagenes/1-Intro/STEM.png Graphic file (type png)
 <use 17-imagenes/1-Intro/STEM.png>
-Package pdftex.def Info: 17-imagenes/1-Intro/STEM.png  used on input line 11.
+Package pdftex.def Info: 17-imagenes/1-Intro/STEM.png  used on input line 14.
 (pdftex.def)             Requested size: 300.29344pt x 184.50122pt.
 
 
@@ -1299,29 +1302,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [11
 
 ]
-<17-imagenes/1-Intro/Batson.png, id=261, 1093.08376pt x 745.78625pt>
+<17-imagenes/1-Intro/Batson.png, id=277, 1093.08376pt x 745.78625pt>
 File: 17-imagenes/1-Intro/Batson.png Graphic file (type png)
 <use 17-imagenes/1-Intro/Batson.png>
-Package pdftex.def Info: 17-imagenes/1-Intro/Batson.png  used on input line 19.
+Package pdftex.def Info: 17-imagenes/1-Intro/Batson.png  used on input line 22.
 
 (pdftex.def)             Requested size: 300.29344pt x 204.88133pt.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 
 [12 <./17-imagenes/1-Intro/STEM.png> <./17-imagenes/1-Intro/Batson.png>]
-<17-imagenes/1-Intro/system.pdf, id=302, 702.78307pt x 486.54211pt>
-File: 17-imagenes/1-Intro/system.pdf Graphic file (type pdf)
-<use 17-imagenes/1-Intro/system.pdf>
-Package pdftex.def Info: 17-imagenes/1-Intro/system.pdf  used on input line 29.
+<17-imagenes/1-Intro/system_NP.pdf, id=300, 554.82875pt x 441.01773pt>
+File: 17-imagenes/1-Intro/system_NP.pdf Graphic file (type pdf)
+<use 17-imagenes/1-Intro/system_NP.pdf>
+Package pdftex.def Info: 17-imagenes/1-Intro/system_NP.pdf  used on input line 
+30.
+(pdftex.def)             Requested size: 250.24199pt x 198.91374pt.
 
-(pdftex.def)             Requested size: 250.24199pt x 173.23962pt.
-)
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+ [13 <./17-imagenes/1-Intro/system_NP.pdf>])
 LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
-
-[13] [14 <./17-imagenes/1-Intro/system.pdf>]
+ [14]
 Cap\'{\i }tulo 2.
-(./2-Teoria-y-metodos.tex [15
+(./2-Teoria-y-metodos.tex
+Underfull \vbox (badness 5189) has occurred while \output is active []
+
+ [15
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1329,19 +1339,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 70.
 LaTeX Info: Redefining \% on input line 70.
  [16]
-<17-imagenes/2-TeoriaMetodos/system.pdf, id=388, 653.3208pt x 427.35661pt>
-File: 17-imagenes/2-TeoriaMetodos/system.pdf Graphic file (type pdf)
-<use 17-imagenes/2-TeoriaMetodos/system.pdf>
-Package pdftex.def Info: 17-imagenes/2-TeoriaMetodos/system.pdf  used on input 
-line 90.
-(pdftex.def)             Requested size: 250.24199pt x 163.68834pt.
+<17-imagenes/2-TeoriaMetodos/system_complete.pdf, id=430, 554.82875pt x 441.017
+73pt>
+File: 17-imagenes/2-TeoriaMetodos/system_complete.pdf Graphic file (type pdf)
+<use 17-imagenes/2-TeoriaMetodos/system_complete.pdf>
+Package pdftex.def Info: 17-imagenes/2-TeoriaMetodos/system_complete.pdf  used 
+on input line 91.
+(pdftex.def)             Requested size: 250.24199pt x 198.91374pt.
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
 
-Underfull \vbox (badness 1728) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
- [17 <./17-imagenes/2-TeoriaMetodos/system.pdf>]
-LaTeX Font Info:    Trying to load font information for U+eus on input line 144
+[17 <./17-imagenes/2-TeoriaMetodos/system_complete.pdf>]
+LaTeX Font Info:    Trying to load font information for U+eus on input line 145
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
@@ -1349,57 +1358,56 @@ File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 151.
-LaTeX Info: Redefining \% on input line 151.
+LaTeX Info: Redefining \. on input line 145.
+LaTeX Info: Redefining \% on input line 145.
  [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
+LaTeX Info: Redefining \. on input line 194.
+LaTeX Info: Redefining \% on input line 194.
  [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 226.
-LaTeX Info: Redefining \% on input line 226.
+LaTeX Info: Redefining \. on input line 227.
+LaTeX Info: Redefining \% on input line 227.
  [20]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-45.
+44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 245.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 248.
-LaTeX Info: Redefining \% on input line 248.
+LaTeX Info: Redefining \. on input line 252.
+LaTeX Info: Redefining \% on input line 252.
  [21]
+LaTeX Info: Redefining \. on input line 282.
+LaTeX Info: Redefining \% on input line 282.
+
+[22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 279.
-LaTeX Info: Redefining \% on input line 279.
- [22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 327.
-LaTeX Info: Redefining \% on input line 327.
+LaTeX Info: Redefining \. on input line 337.
+LaTeX Info: Redefining \% on input line 337.
  [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 358.
-LaTeX Info: Redefining \% on input line 358.
+LaTeX Info: Redefining \. on input line 362.
+LaTeX Info: Redefining \% on input line 362.
  [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 394.
-LaTeX Info: Redefining \% on input line 394.
+LaTeX Info: Redefining \. on input line 409.
+LaTeX Info: Redefining \% on input line 409.
  [25])
 LaTeX Info: Redefining \. on input line 100.
 LaTeX Info: Redefining \% on input line 100.
 
-[26])
+[26]
 Cap\'{\i }tulo 3.
 (./3-ResultadosyDiscusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1409,55 +1417,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 59.
-LaTeX Info: Redefining \% on input line 59.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
  [28]
+LaTeX Info: Redefining \. on input line 143.
+LaTeX Info: Redefining \% on input line 143.
+
+[29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 136.
-LaTeX Info: Redefining \% on input line 136.
- [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 214.
-LaTeX Info: Redefining \% on input line 214.
+LaTeX Info: Redefining \. on input line 219.
+LaTeX Info: Redefining \% on input line 219.
  [30])
-LaTeX Info: Redefining \. on input line 383.
-LaTeX Info: Redefining \% on input line 383.
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
 
-[31] [32
+[31]) [32
 
-] (./Conclusionesyperspectivas.tex)
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 384.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 384.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 384.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 384.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 384.
-
-
+] (./4-Conclusionesyperspectivas.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 384.
-
+ [33])
 LaTeX Info: Redefining \. on input line 384.
 LaTeX Info: Redefining \% on input line 384.
+
 [34] Including 'toexclude' comment.
 \openout5 = `comment.cut'.
 
@@ -1467,7 +1450,7 @@ LaTeX Info: Redefining \% on input line 384.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 11.
 
-(./A-Apendice-ScalarPotentials.tex
+(./Apendice-A-ScalarPotentials.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35
@@ -1477,361 +1460,77 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 60.
 LaTeX Info: Redefining \% on input line 60.
- [36]pdfTeX warning (ext4): destination with the same identifier (name{equation
-.3.3.20}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.78 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.3.21}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.81 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.21}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.81 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.21}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.81 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.21}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.81 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.22}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.89 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.3.23}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.89 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.3.24}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.89 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.3.3.25}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.91 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.25}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.91 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.25}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.91 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.25}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.91 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.26}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.26}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.26}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.26}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \begin{equation}
-                     pdfTeX warning (ext4): destination with the same identifie
-r (name{equation.3.3.27}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.101 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.27}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.101 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.27}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.101 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.27}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.101 \begin{equation}
-                      
+ [36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [37]pdfTeX warning (ext4): destination with the same identifier (name{equation
-.3.3.28}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.105 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.28}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.105 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.28}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.105 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.28}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.105 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.29}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.110 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.29}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.110 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.29}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.110 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.29}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.110 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.30}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.116 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.30}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.116 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.30}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.116 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.30}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.116 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.31}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.121 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.31}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.121 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.31}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.121 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.31}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.121 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.32}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.125 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.32}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.125 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.32}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.125 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.32}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.125 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.33}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.130 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.33}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.130 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.33}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.130 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.33}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.130 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.34}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.34}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.34}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.34}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.135 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.35}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.139 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.35}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.139 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.35}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.139 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.35}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.139 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.36}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.143 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.36}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.143 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.36}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.143 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.36}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.143 \begin{equation}
-                      
+ [37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
- [38]pdfTeX warning (ext4): destination with the same identifier (name{equation
-.3.3.37}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.147 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.37}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.147 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.37}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.147 \begin{equation}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.3.3.37}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.147 \begin{equation}
-                      )
+ [38])
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
- [39]) (./0-Tesis-de-maestria-JLBG.bbl
-(./0-Tesis-de-maestria-JLBG.brf)
+
+[39] [40
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 22.
+
+(./Apendice-B-TMA_ext.tex
+<17-imagenes/3-AppendixB/system_S.pdf, id=853, 554.82875pt x 441.01773pt>
+File: 17-imagenes/3-AppendixB/system_S.pdf Graphic file (type pdf)
+<use 17-imagenes/3-AppendixB/system_S.pdf>
+Package pdftex.def Info: 17-imagenes/3-AppendixB/system_S.pdf  used on input li
+ne 6.
+(pdftex.def)             Requested size: 250.24199pt x 198.91374pt.
+<17-imagenes/3-AppendixB/Results.pdf, id=854, 1209.24208pt x 810.90355pt>
+File: 17-imagenes/3-AppendixB/Results.pdf Graphic file (type pdf)
+<use 17-imagenes/3-AppendixB/Results.pdf>
+Package pdftex.def Info: 17-imagenes/3-AppendixB/Results.pdf  used on input lin
+e 11.
+(pdftex.def)             Requested size: 500.484pt x 335.61545pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [41 <./17-imagenes/3-AppendixB/system_S.pdf>]) [42 <./17-imagenes/3-AppendixB
+/Results.pdf>] (./0-Tesis-de-maestria-JLBG.bbl (./0-Tesis-de-maestria-JLBG.brf)
 \tf@brf=\write8
 \openout8 = `0-Tesis-de-maestria-JLBG.brf'.
 
- [40
+[43
 
 
-] [41]
+]
 LaTeX Info: Redefining \. on input line 168.
 LaTeX Info: Redefining \% on input line 168.
- [42])
+ [44])
 LaTeX Info: Redefining \. on input line 506.
 LaTeX Info: Redefining \% on input line 506.
- [43]
-(./0-Tesis-de-maestria-JLBG.aux
+ [45] (./0-Tesis-de-maestria-JLBG.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.out' has not change
 d.
-(rerunfilecheck)             Checksum: F5C6AF9CB19F32F34B8CA243D75FDA31;3745.
-
-Package rerunfilecheck Warning: File `0-Tesis-de-maestria-JLBG.brf' has changed
-.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `0-Tesis-de-maestria-JLBG.brf':
-(rerunfilecheck)             Before: EE0D9E7CDC62F489D9141844327ECE4D;5069
-(rerunfilecheck)             After:  2D9B2EC0C4DCCB907968C08C340CD371;5069.
+(rerunfilecheck)             Checksum: 961BA3B566FF40A5F59E2B9D62B7EF80;4442.
+Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.brf' has not change
+d.
+(rerunfilecheck)             Checksum: BE53D15E70A04A42F44CA3A3B9F777D1;5676.
  ) 
 Here is how much of TeX's memory you used:
- 34274 strings out of 480071
- 669770 string characters out of 5891616
- 1008784 words of memory out of 5000000
- 51295 multiletter control sequences out of 15000+600000
+ 34339 strings out of 480071
+ 671265 string characters out of 5891616
+ 1013119 words of memory out of 5000000
+ 51327 multiletter control sequences out of 15000+600000
  489035 words of font info for 99 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 90i,17n,99p,3296b,994s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 90i,17n,99p,2381b,994s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
@@ -1858,10 +1557,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb>
-Output written on 0-Tesis-de-maestria-JLBG.pdf (43 pages, 2573377 bytes).
+Output written on 0-Tesis-de-maestria-JLBG.pdf (45 pages, 2628572 bytes).
 PDF statistics:
- 1043 PDF objects out of 1200 (max. 8388607)
- 892 compressed objects within 9 object streams
- 262 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1217 PDF objects out of 1440 (max. 8388607)
+ 1027 compressed objects within 11 object streams
+ 288 named destinations out of 1000 (max. 500000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 

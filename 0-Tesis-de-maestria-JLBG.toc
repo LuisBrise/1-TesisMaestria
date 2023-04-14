@@ -11,6 +11,9 @@
 \contentsline {section}{\numberline {3.1}Desarrollo de las densidades espectrales de la transferencia de momento angular}{27}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Cálculo semi-analítico de las integrales necesarias para la transferencia de momento angular total}{29}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Transferencia de momento angular total}{29}{section.3.3}%
-\contentsline {chapter}{Conclusiones y perspectivas}{33}{chapter*.20}%
-\contentsline {chapter}{Apéndice A\\ Método de los potenciales escalares}{35}{chapter*.21}%
-\contentsline {chapter}{Referencias}{41}{chapter*.22}%
+\contentsline {chapter}{Conclusiones y trabajo a futuro}{33}{chapter*.21}%
+\contentsline {section}{\numberline {3.4}Conclusiones}{33}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Trabajo a futuro}{34}{section.3.5}%
+\contentsline {chapter}{Apéndice A\\ Método de los potenciales escalares}{35}{chapter*.22}%
+\contentsline {chapter}{Apéndice B\\ Transferencia de momento angular debida al campo externo}{41}{chapter*.23}%
+\contentsline {chapter}{Referencias}{43}{chapter*.26}%

@@ -1,0 +1,173 @@
+% !TeX root = ./0-Tesis-de-maestria-JLBG.tex
+\label{AppendixScalarPotentials}
+Para construir la solución buscada se define ahora la transformada de Fourier espaciotemporal como
+\begin{align}
+\vv{F}\varsk = &\intt{\intTE{ \vv{F}\vars \rme^{-\rmi \var{\vv{q}\cdot\vv{r}-\w t}} }},\nonumber \\
+\vv{F}\vars = \frac{1}{\var{2\pi}^4}&\intw{\intTER{ \vv{F}\varsk \rme^{\rmi\var{\vv{q}\cdot\vv{r}-\w t}} }},
+\end{align}
+donde T.E. significa integrar sobre todo el espacio y T.E.R. significa integrar sobre todo el espacio recíproco. 
+
+Si ahora calculamos solo la Transformada de Fourier temporal de las Ecuaciones de Maxwell, Ecs. \eqref{eq: Maxwell equations}, se obtiene
+\begin{align}
+\nabla\cdot\vv{E} =& \cgs{4\pi\epsilon_0}\frac{\rho_{\text{tot}}}{\epsilon_0}, \qquad \qquad \nabla\times\vv{E}= \rmi \,\w\cgs{\frac{1}{c}}\vv{B}, \nonumber \\
+\nabla\cdot\vv{B} =& 0, \qquad \qquad \qquad \qquad \nabla\times\vv{B}=\cgs{\frac{4\pi}{\mu_0 c}}\mu_0\vv{J}_{\text{tot}}- \rmi \, \w\frac{\cgs{c}}{c^2}\vv{E}.
+\label{eq: Maxwell equations freq}
+\end{align}
+Al desacoplarlas, aplicando las relaciones constitutivas $\vv{D}=\epsilon(\w)\vv{E}$ y $\vv{B} = \mu(\w) \vv{H}$, y sin considerar las fuentes se obtiene
+\begin{align*}
+(\nabla^2 + k^2)\vv{E} = 0, \\
+(\nabla^2 + k^2)\vv{H} = 0.
+\end{align*}
+en donde $k^2= \cgs{c^{-2}} \w^2 \epsilon(\w) \mu(\w)$.
+
+El campo eléctrico $\vv{E}$ puede ser descrito de la siguiente manera \cite{Low}
+\begin{equation}
+\vv{E} = \nabla \frac{1}{\nabla^2}\var{\nabla\cdot\vv{E}} + \vv{L}\frac{1}{L^2}\var{\vv{L}\cdot\vv{E}}-\var{\vv{L}\times\nabla}\frac{1}{L^2\nabla^2}\Var{ \var{\vv{L}\times\nabla}\cdot\vv{E}},
+\label{Eq: electric field identity tensor}
+\end{equation}
+en donde $\vv{L}=-i\vv{r}\times\nabla$ es el operador de momento angular orbital. A partir de la Ec. \eqref{Eq: electric field identity tensor} se pueden definir las funciones escalares: longitudinal, eléctrica y magnética: \cite{Low}
+\begin{align}
+\psi^{\rm L} &= \frac{1}{\nabla^2} \nabla\cdot \vv{E}, \\
+\psi^{\rm E} &= \frac{-i k}{L^2 \Delta^2}\var{\vv{L}\times\nabla}\cdot\vv{E}, \\
+\psi^{\rm M} &= \frac{1}{L^2}\vv{L}\cdot\vv{E},
+\end{align}
+en donde cada uno satisface la ecuación escalar de Helmholtz sin fuentes:
+\begin{equation}
+\var{\nabla^2 + k^2}\psi^{\{\rm L,E,M\}}=0.
+\end{equation}
+Por tanto, los campos electromagnéticos se pueden escribir a partir de los potenciales escalares como\footnote{En el trabajo original de García de Abajo, se hace la suposición de que los campos electromagnéticos están en el vacío; i.e. $k = \w /c$.}
+\begin{align}
+\vv{E} &= \nabla\psi^{\rm L} + \vv{L}\psi^{\rm M}-\frac{i}{k}\nabla\times\vv{L}\psi^{\rm E},\\
+\vv{H} &= \frac{\cgs{c}}{c}\var{-\frac{i}{k}\nabla\times\vv{L}\psi^{\rm M}-\vv{L}\psi^{\rm E}}.
+\end{align} 
+
+En el problema de interés para este trabajo se considera al electrón viajando en vacío y a velocidad constante, por lo que los modos longitudinales no contribuyen ($\nabla\cdot\vv{E}=0$), es decir, $\psi^{\rm L} = 0$. Las funciones escalares restantes se pueden expresar en términos de una base esférica de la siguiente manera \cite{de1999relativistic}
+\begin{align}
+\psi^{\rm E, ext}\var{\vv{r}} = \sum_{\ell=1}^{\infty}\sum_{m=-\ell}^{\ell}(i)^{\ell} j_{\ell}(kr) Y_{\ell, m}\var{\Omega_r}\psi_{\ell,m}^{\rm E, ext},\label{Eq: scalar potential psi E in spherical base}\\
+\psi^{\rm M, ext}\var{\vv{r}} = \sum_{\ell=1}^{\infty}\sum_{m=-\ell}^{\ell}(i)^{\ell} j_{\ell}(kr) Y_{\ell, m}\var{\Omega_r}\psi_{\ell,m}^{\rm M, ext}, \label{Eq: scalar potential psi M in spherical base}
+\end{align}
+donde $j_{\ell}(x)$ son las funciones esféricas de Bessel de orden $\ell$, $Y_{\ell, m}$ son los armónicos esféricos escalares, $(r, \Omega_r)$ son las coordenadas esféricas del vector $\vv{r}$, y $\psi_{\ell,m}^{\rm E, ext}$ y $\psi_{\ell,m}^{\rm M, ext}$ son funciones escalares a determinar. Las Ecs. \eqref{Eq: scalar potential psi E in spherical base} y \eqref{Eq: scalar potential psi M in spherical base} son válidas en la región $a < r < b$, donde $a$ es el radio de la NP y $b$ es el parámetro de impacto del electrón medido desde el centro de la NP.  
+
+Aplicando ahora la transformada de Fourier a las Ecs. \eqref{eq: scalar potential} y \eqref{eq: vector potential} se obtiene 
+\begin{align}
+\var{-q^2+\frac{\w^2}{c^2}}\phi\varsk =& -\cgs{4\pi\epsilon_0}\frac{1}{\epsilon_0}\rho_{\text{tot}}\varsk, \\
+\var{-q^2+\frac{\w^2}{c^2}}\vv{A}\varsk =& - \cgs{\frac{4\pi}{\mu_0 c}}\mu_0\vv{J}_{\text{tot}}\varsk, 
+\end{align}
+y usando el hecho de que $\vv{J} = \rho \vv{v}$ y $\mu_0 \epsilon_0 c^2 = 1$ se obtiene
+\begin{align}
+\phi\varsk &= \cgs{4\pi\epsilon_0}\frac{1}{q^2-\w^2/c^2} \frac{\rho_{\rm tot}\varsk}{\epsilon_0}, \label{eqap: phi Fourier kw} \\
+\vv{A}\varsk &= \cgs{\frac{4\pi}{\mu_0 c}}\frac{\mu_0}{q^2-\w^2/c^2}\,\vv{J}_{\text{tot}}\varsk = \cgs{c}\frac{\vv{v}}{c^2}\phi\varsk. \label{eqap: A Fourier kw}
+\end{align}
+Ahora, calculando la transformada de Fourier de la Ec. \eqref{eq: E field potentials} se sigue que
+\begin{equation}
+\vv{E}\varsk = - \rmi \vv{k} \phi\varsk + \cgs{\frac{1}{c}}\rmi \w \vv{A}\varsk \label{eqap: E Fourier kw}.
+\end{equation}
+Sustituyendo la Ec. \eqref{eqap: A Fourier kw} en la Ec. \eqref{eqap: E Fourier kw} resulta que
+\begin{equation}
+\vv{E}\varsk = \rmi \var{-\vv{q}+\frac{\w}{c^2}\vv{v}}\phi\varsk, 
+\end{equation}
+y calculando la Transformada Inversa de Fourier en el espacio de la expresión anterior, se obtiene
+\begin{equation}
+\vv{E}\varsw = \var{-\nabla+\rmi \frac{\w}{c^2}\vv{v}}\phi\varsw.
+\end{equation}
+
+Realizando el proceso análogo para calcular el campo magnético $\vv{B}\varsw$ se derivan:
+\begin{align}
+\vv{B}\varsk &= \rmi \vv{k}\times\vv{A}\varsk = \cgs{c}\rmi \vv{k}\times\frac{\vv{v}}{c^2}\phi\varsk,\\
+\vv{B}\varsw &= \cgs{c}\nabla \phi\varsw\times\frac{\vv{v}}{c^2}.
+\end{align}
+
+Considerando la densidad de carga del electrón en movimiento es $\rho_{\text tot}\vars = -e \delta(\vv{r}-\vv{r}_t)$, donde $\vv{r}_t = (b,0,vt)$ es el vector posición del electrón, y calculando la transformada de Fourier de la Ec. \eqref{eq: scalar potential} se obtiene la Ec. de Helmholtz
+\begin{equation}
+\nabla^2\phi\varsw + k^2\phi\varsw = -\cgs{4\pi\epsilon_0}\frac{e}{\epsilon_0}\intt{\rme^{\rmi \w t} \delta(\vv{r}-\vv{r}_t)},
+\end{equation}
+donde $k = \w/c$ es el número de onda en el vacío y la solución para $\phi\varsw$ se escribe como \cite{maciel2019electromagnetic, de1999relativistic, barton1989elements} 
+\begin{align}
+\phi\varsw &= -e\intTE{G_0(\vv{r}-\vv{r}\,^{\prime})\intt{\rme^{\rmi \w t}\delta(\vv{r}-\vv{r}_t)}}^{\prime},\\
+		   &= -e\intt{\rme^{\rmi \w t} \intTE{ G_0(\vv{r}-\vv{r}\,^{\prime}) \delta(\vv{r}-\vv{r}_t)}^{\prime}},\\
+		   &= -e\intt{\rme^{\rmi \w t}G_0\var{\vv{r}-\vv{r}_t}},
+\end{align}
+con 
+\begin{equation}
+G_0\var{\vv{r}-\vv{r}_t} = \frac{\cgs{4\pi\epsilon_0}}{4\pi\epsilon_0}\frac{\rme^{\rmi k \abs{\vv{r}-\vv{r}_t}}}{\abs{\vv{r}-\vv{r}_t}},
+\end{equation}
+la función de Green de la ecuación de Helmholtz. De esta forma, el campo eléctrico del electrón se puede escribir como
+\begin{equation}
+\EE{ext}\varsw = e\var{\nabla-\rmi \frac{k\vv{v}}{c}} \intt{\rme^{\rmi \w t} G_0 \var{\vv{r}-\vv{r}_t}}. 
+\label{eqap: electric field green apendix}
+\end{equation}
+
+Al reescribir la función de Green en una base esférica se obtiene \cite{de1999relativistic}
+\begin{equation}
+G_0(\vv{r},\vv{r}_t)=\frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} k \sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) h_{\ell}^{(+)}(k \, r_t) Y_{\ell,m}\var{\Omega_r} Y_{\ell, m}^{*}\var{\Omega_{r_t}}, \label{eqap: green spherical apendix}
+\end{equation}
+donde $h_{\ell}^{(+)}(x)= \rmi \, h_{\ell}^{(1)}(x)$ es la función esférica de Hankel de orden $\ell$ \cite{Abramowitz}. Sustituyendo la Ec. \eqref{eqap: green spherical apendix} en la Ec. \eqref{eqap: electric field green apendix} se tiene que 
+\begin{equation}
+\EE{ext}\varsw = e\var{\nabla-\rmi \frac{k\vv{v}}{c}} \sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) Y_{\ell,m}\var{\Omega_r} \phi_{\ell, m},
+\label{eqap: ext electric field spherical}
+\end{equation}
+donde 
+\begin{equation}
+\phi_{\ell, m} = \frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} k \intt{e^{i \omega t} h_{\ell}^{+}(k r_{t}) Y_{\ell, m}^{*}(\Omega_{r_t}) }.
+\label{eqap: phi lm apendix}
+\end{equation}
+
+Para calcular las constantes $\phi_{\ell, m}$ de la Ec. \eqref{eqap: phi lm apendix} se calcula la transformada de Fourier de la función de Green en el espacio de frecuencias \cite{maciel2019electromagnetic}
+\begin{equation}
+\intt{\rme^{\rmi \w t} \,\frac{\rme^{\rmi k \abs{\vv{r}-\vv{r}_t}}}{\abs{\vv{r}-\vv{r}_t}}} = \frac{2}{v} K_0\wR \, \rme^{\rmi \w z/v},
+\label{eqap: green fourier transform}
+\end{equation}
+donde $R = \sqrt{(x-b)^2+y^2}$, $v$ la rapidez de electrón y $K_0$ la función Bessel modificada del segundo tipo de orden cero. A partir de las Ecs. \eqref{eqap: electric field green apendix}, \eqref{eqap: ext electric field spherical} y \eqref{eqap: green fourier transform} se puede obtener la ecuaciación
+\begin{equation}
+\sum_{\ell=0}^{\infty}\sum_{m=-\ell}^{\ell} j_{\ell}(k \, r) Y_{\ell,m}\var{\Omega_r} \phi_{\ell, m} = \frac{\cgs{4\pi\epsilon_0}}{4\pi\epsilon_0}\frac{2}{v} K_0\wR \, \rme^{\rmi \w z/v},
+\end{equation}
+y al usar la ortonormalidad de los armónicos esféricos
+\begin{equation}
+\phi_{\ell,m} = \frac{\cgs{4\pi\epsilon_0}}{4\pi\epsilon_0}\frac{2}{v \,j_{\ell}(k\,r)} \int_{0}^{4\pi} Y_{\ell,m}^{*}(\Omega_r) K_0\wR \rme^{\rmi \w z /v} \, d\Omega_{r}.
+\label{eq: appendix coeffs phi l m}
+\end{equation}
+Al realizar la integral de la Ec.  \eqref{eq: appendix coeffs phi l m} se obtiene \cite{de1999relativistic}
+\begin{equation}
+\phi_{\ell,m} = \frac{\cgs{4\pi\epsilon_0}}{\epsilon_0} k \frac{A_{\ell, m}^{+}}{\omega}K_m\wb,
+\label{eq: phi lm GdA AlmKm}
+\end{equation}
+donde $K_m$ es la función Bessel modificada del segundo tipo de orden m, y los coeficientes $A_{\ell, m}^{+}$ están dados por
+\begin{equation}
+A_{\ell, m}^{+} = \frac{1}{\beta^{\ell +1}}\sum_{j=m}^{\ell}\frac{\rmi^{\ell - j} (2\ell + 1)!! \alpha_{\ell, m}}{\gamma^j 2^j (l-j)! [(j-m)/2]! [(j+m)/2]! } I_{j, \ell - j}^{\ell, m},
+\end{equation}
+con
+\begin{equation}
+\alpha_{\ell, m} = \sqrt{\frac{2\ell + 1}{4\pi}\frac{(\ell-m)!}{(\ell +m)!}} \quad \text{y} \quad \beta = \frac{v}{c}.
+\end{equation}
+Los números $I_{j, \ell - j}^{\ell, m}$ se calculan mediante la siguiente relación de recurrencia
+\begin{equation}
+(\ell - m) I_{i_1,i_2}^{\ell,m}=(2\ell-1)I_{i_1,i_2+1}^{\ell-1,m}-(\ell + m -1)I_{i_1,i_2}^{\ell-2,m},
+\end{equation}
+con los valores iniciales $I_{i_1,i_2}^{m-1,m}=0$, $I_{i_1,i_2}^{m-2,m}=0$ y
+\begin{equation}
+I_{i_1,i_2}^{m,m} = 
+\left\{ 
+  \begin{array}{ c l }
+    (-1)^m (2m-1)!! B\var{\frac{i_1 + m +2}{2}, \frac{i_2+1}{2}}, & \quad \textrm{si } i_2 \textrm{ es par} \\
+    0,                 & \quad \textrm{si } i_2 \textrm{ es impar}
+  \end{array},
+\right.
+\end{equation}
+y donde B(x,y) es la función beta \citep{Abramowitz}.
+
+A partir de las Ecs. \eqref{Eq: scalar potential psi E in spherical base}, \eqref{Eq: scalar potential psi M in spherical base}, \eqref{eqap: ext electric field spherical} y \eqref{eq: phi lm GdA AlmKm}, se obtiene 
+\begin{align}
+\psi_{\ell, m}^{\rm E, ext} &= \cgs{4\pi\epsilon_0}\frac{e}{4\pi\epsilon_0}\frac{-2\pi(i)^{\ell-1}k}{c \gamma}\frac{B_{\ell,m}}{\ell(\ell+1)}K_m\wb, \\
+\psi_{\ell, m}^{\rm M, ext} &= \cgs{4\pi\epsilon_0}\frac{e}{4\pi\epsilon_0}\frac{-4\pi(i)^{\ell-1}k v}{c^2}\frac{m\, A^{+}_{\ell,m}}{\ell(\ell+1)}K_m\wb,
+\end{align}
+con
+\begin{equation}
+B_{\ell, m} = A_{\ell,m+1}^{+}\sqrt{(\ell + m+1)(\ell-m)}-A_{\ell,m-1}^{+}\sqrt{(\ell - m+1)(\ell+m)}.
+\end{equation}
+
+Finalmente, se pueden escribir los campos electromagnéticos externos como 
+\begin{align}
+\EE{ext} &= \sum_{\ell,m}\var{\mathscr{E}_{\ell, m}^{er}\hat{r} + \mathscr{E}_{\ell, m}^{e\theta}\hat{\theta}+\mathscr{E}_{\ell, m}^{e\varphi}\hat{\varphi}},\\
+\HH{ext} &= \sum_{\ell,m}\var{\mathscr{H}_{\ell, m}^{er}\hat{r} + \mathscr{H}_{\ell, m}^{e\theta}\hat{\theta}+\mathscr{H}_{\ell, m}^{e\varphi}\hat{\varphi}},
+\end{align}
+en donde las componentes de los campos externos están mostradas en las Ecs. \eqref{eq: Elmer}-\eqref{eq: Hlmep} del texto principal.
