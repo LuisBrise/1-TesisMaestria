@@ -1,12 +1,25 @@
 % !TeX root = ./0-Tesis-de-maestria-JLBG.tex
 \label{cap: resultados}
 
-En este capítulo se exponen los resultados de las expresiones analíticas que describen la contribución espectral en la TMA de la interacción entre un electrón rápido y una NP esférica. Se desarrollan los términos de las densidades espectrales de la TMA mediante la transformada de Fourier del tensor de esfuerzos de Maxwell, expandiendo los términos cruzados de los campos electromagnéticos y calculando las integrales analíticamente sobre la superficie esférica $S$ que rodea la NP.
+En este capítulo se presentan los resultados de las expresiones analíticas que describen la contribución espectral de la transferencia de momento angular (TMA) en la interacción entre un electrón rápido y una NP esférica. En particular, se desarrollan los términos de las densidades espectrales de la TMA mediante la transformada de Fourier del tensor de esfuerzos de Maxwell, expandiendo los términos cruzados de los campos electromagnéticos y calculando las integrales analíticamente sobre la superficie esférica $S$ que encierra la NP.
 
-No obstante, cabe mencionar que para obtener una información completa del comportamiento de la NP, estas expresiones deben integrarse en el espacio de frecuencias. Para ello, se utiliza el método de Cuadraturas de Gauss-Kronrod, que permite estimar el error numérico cometido al realizar dicha integración.
+Cabe mencionar que para obtener información completa del comportamiento de la NP, las expresiones mostradas al final de la sección en las Ecs. \eqref{eq: Lx spectral integral angles solved}-\eqref{eq: Lz spectral integral angles solved} deben integrarse en el espacio de frecuencias. Para ello, se utiliza el método de Cuadraturas de Gauss-Kronrod que permite estimar el error numérico cometido al realizar la integración \cite{kahaner1989numerical}.
 
 \section{Desarrollo de las densidades espectrales de la transferencia de momento angular}
-Desarrollando las Ecs. \eqref{eq: Ly spectral density r theta}, \eqref{eq: Lx spectral density r theta} y \eqref{eq: Lz spectral density r theta} se obtiene
+A partir de la conservación de momento angular en electrodinámica, Ec. \eqref{Eq: Delta L in time}, transformando al espacio de frecuencias se obtiene la Ec. \eqref{eq: angular momentum transfer index notation freq domain}
+\begin{equation}
+\Delta L_i = \frac{1}{\pi} \intwo{\oint_S \epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}_{jk}\varsw n^k\,dS}, \nonumber
+\end{equation} 
+donde se ha definido la densidad espectral de momento angular en la Ec. \eqref{Eq: spectral density AMT}  como
+\begin{equation}
+\mathcal{L}_i\var{\w} = \frac{1}{\pi} \oint_S \epsilon_{i}^{\,\,\,\, lj} r_l \mathcal{T}_{jk}\varsw n^k\,dS, \nonumber
+\end{equation}
+dando como resultado la TMA en términos de la densidad espectral $\mathcal{L}$ \eqref{eq: densidad espectral momento angular}
+\begin{equation}
+\Delta \vv{L} = \intwo{\vv{\mathcal{L}}\var{\w}}. \nonumber
+\end{equation}
+
+Desarrollando las componentes $x$, $y$ y $z$ de la densidad espectral $\mathcal{L}$, escritas en las Ecs. \eqref{eq: Ly spectral density r theta}, \eqref{eq: Lx spectral density r theta} y \eqref{eq: Lz spectral density r theta}, se obtiene
 %
 \begin{align}
 \mathcal{L}_x &= \frac{R^3}{\pi}\int_0^{\pi}\int_0^{2\pi} \sin\theta \Var{\sin\varphi \,\mathcal{T}_{\theta r} + \cos\theta\cos\varphi\,\mathcal{T}_{\varphi r}} \,d\varphi \, d\theta, \label{eq: Lx spectral integral angles}\\
@@ -16,55 +29,55 @@ Desarrollando las Ecs. \eqref{eq: Ly spectral density r theta}, \eqref{eq: Lx sp
 % 
 donde 
 \begin{align}
-\mathcal{T}_{\theta r} &= {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} E_{\theta}\varsw E_{r}^{*}\varsw + \frac{\mu_0}{\cgs{4\pi\mu_0}} H_{\theta}\varsw H_{r}^{*}\varsw  },\\
-\mathcal{T}_{\varphi r} &= {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} E_{\varphi}\varsw E_{r}^{*}\varsw + \frac{\mu_0}{\cgs{4\pi\mu_0}} H_{\varphi}\varsw H_{r}^{*}\varsw  }.
+\mathcal{T}_{\theta r} &= {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} E_{\theta}\varsw E_{r}^{*}\varsw + \frac{\mu_0}{\cgs{4\pi\mu_0}} H_{\theta}\varsw H_{r}^{*}\varsw  },\label{Eq: T theta r}\\
+\mathcal{T}_{\varphi r} &= {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} E_{\varphi}\varsw E_{r}^{*}\varsw + \frac{\mu_0}{\cgs{4\pi\mu_0}} H_{\varphi}\varsw H_{r}^{*}\varsw  }. \label{Eq: T phi r}
 \end{align}
 %
-Se puede separar $E_i=E_i^{\rm e}+E_i^{\rm s}$ y $H_i=H_i^{\rm e}+H_i^{\rm s}$, para desarrollar los términos $E_{\alpha}\varsw E_{r}^{*}\varsw$ y $H_{\alpha}\varsw H_{r}^{*}\varsw$ en fución de las sumas multipolar expresada en la Ecs. \eqref{Eq: multipolar ext E field} y \eqref{Eq: multipolar scat E field} de la siguiente manera
+Se puede separar $E_i=E_i^{\rm ext}+E_i^{\rm scat}$ y $H_i=H_i^{\rm ext}+H_i^{\rm scat}$, para desarrollar los términos $E_{\alpha}\varsw E_{r}^{*}\varsw$ y $H_{\alpha}\varsw H_{r}^{*}\varsw$ en función de las sumas multipolares expresadas en la Ecs. \eqref{Eq: multipolar ext E field} y \eqref{Eq: multipolar scat E field}, de la siguiente manera
 \begin{align}
 E^{\rm a}_{\alpha}\varsw E_{r}^{\rm b \,*}\varsw &= \sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} \mathscr{E}_{\ell, m}^{\text{a}\alpha}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*},\label{eq: cross terms E field}\\
 H^{\rm a}_{\alpha}\varsw H_{r}^{\rm b \,*}\varsw &= \sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} \mathscr{H}_{\ell, m}^{\text{a}\alpha}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*},\label{eq: cross terms H field}
 \end{align}
-donde $a$ y $b$ pueden tomar los valores de $s$ (denotando componentes de campo esparcido) o de $e$ (componentes de campo externo), y donde $\alpha$ puede denotar la proyección en $\hat{ \theta}$ o en $\hat{\varphi}$. 
+donde $a$ y $b$ pueden tomar los valores de <<$\rm scat$>> (denotando componentes de campo esparcido) o de <<$\rm ext$>> (componentes de campo externo), y donde $\alpha$ corresponde a la proyección en $\hat{ \theta}$ o en $\hat{\varphi}$. 
 
 %Se procederá a desarrollar cada una de las componentes eléctricas $\mathscr{E}_{\ell, m}^{\text{a}\alpha}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ representadas por la Ec. \eqref{eq: cross terms E field}, así como sus análogas para el campo $\vv{H}$ representadas por la Ec. \eqref{eq: cross terms H field}. Posteriormente se integrarán cada una de las expresiones obtenidas de manera analítica, para obtener una expresión exacta para la contribución espectral de la TMA de cada multipolo, mediante las Ecs. \eqref{eq: Lx spectral integral angles}, \eqref{eq: Ly spectral integral angles} y \eqref{eq: Lz spectral integral angles}.
 
 El término $\mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
 \begin{align}
-\mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}=& \, \Bigg\{-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} m \frac{P_{\ell}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta}-D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 r}\nonumber\\
+\mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}= \, \Bigg\{&-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k r} m \frac{P_{\ell}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta}-D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k r}\nonumber\\
 & \times \Var{(\ell+1) \frac{P_{\ell}^m P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta}-(l-m+1)\frac{P_{\ell+1}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta}}\Bigg\}\ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi },
 \end{align}
-donde $Z_{\ell}^{\rm s}=h_{\ell}^{+}(k_o r)$ para el campo esparcido, y $Z_{\ell}^{\rm e}=j_{\ell}(k_o r)$ para el campo externo, y se ha definido:
+donde $k=\w/c$, $P_{\ell}^{m}$ es la función asociada de Legendre de grado $\ell$ y orden $m$, los coeficientes $C_{\ell, m}^{a}$ y $D_{\ell, m}^{a}$ están definidos en las Ecs. \eqref{Eq: C ext l,m}, \eqref{Eq: D ext l,m}, \eqref{Eq: C scat l,m} y \eqref{Eq: D scat l,m},  $Z_{\ell}^{\rm s}=h_{\ell}^{+}(k r)$ para el campo esparcido, y $Z_{\ell}^{\rm e}=j_{\ell}(k r)$ para el campo externo, y se ha definido:
 \begin{equation}
-f_{\ell}^{\rm a}= \var{\ell + 1} \frac{Z_{\ell}^{\rm a}}{k_0 r}-Z_{\ell+1}^{\rm a}.
+f_{\ell}^{\rm a}= \var{\ell + 1} \frac{Z_{\ell}^{\rm a}}{k r}-Z_{\ell+1}^{\rm a}.
 \end{equation}
 %
-El término $\mathscr{H}_{\ell, m}^{\text{a}\theta}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
+Así mismo, el término $\mathscr{H}_{\ell, m}^{\text{a}\theta}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
 \begin{align}
-\mathscr{H}_{\ell, m}^{\text{a}\theta}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}=& \, \Bigg\{ D_{\ell,m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} m \frac{P_{\ell}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta}-C_{\ell, m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 r}\nonumber\\
-& \times \Var{(\ell+1) \frac{P_{\ell}^m P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta}-(l-m+1)\frac{P_{\ell+1}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta}}\Bigg\}\ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi },
+\mathscr{H}_{\ell, m}^{\text{a}\theta}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}= \, \Bigg\{& D_{\ell,m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k r} m \frac{P_{\ell}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta}-C_{\ell, m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k r}\nonumber\\
+& \times \Var{(\ell+1) \frac{P_{\ell}^m P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta}-(l-m+1)\frac{P_{\ell+1}^{m}P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta}}\Bigg\}\ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi }.
 \end{align}
 %
 Análogamente, el término $\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
 \begin{align}
-\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} =& \, \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 r} \Var{\var{\ell +1} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta} -\var{\ell - m +1}\frac{P_{\ell+1}^m P_{\ell^{\prime}}}{\sin\theta} }\nonumber\\
-& + D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta} \Bigg\} \, \rmi \, \ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi },
+\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} = \, \Bigg\{& C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k r} \Var{\var{\ell +1} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta} -\var{\ell - m +1}\frac{P_{\ell+1}^m P_{\ell^{\prime}}}{\sin\theta} }\nonumber\\
+& + D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k r} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta} \Bigg\} \, \rmi \, \ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi },
 \end{align}
 %
-y finalmente el término $\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
+y, finalmente, el término $\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}$ se puede escribir como
 \begin{align}
-\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} =& \, \Bigg\{ -D_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 r} \Var{\var{\ell +1} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta} -\var{\ell - m +1}\frac{P_{\ell+1}^m P_{\ell^{\prime}}}{\sin\theta} }\nonumber\\
-& + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 r} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta} \Bigg\} \, \rmi \, \ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi }.
+\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} = \, \Bigg\{& -D_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k r} \Var{\var{\ell +1} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}\cos\theta}{\sin\theta} -\var{\ell - m +1}\frac{P_{\ell+1}^m P_{\ell^{\prime}}}{\sin\theta} }\nonumber\\
+& + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k r} \frac{P_{\ell}^{m} P_{\ell^{\prime}}^{m^{\prime}}}{\sin\theta} \Bigg\} \, \rmi \, \ell^{\prime}(\ell^{\prime}+1)  \rme^{\rmi (m-m^{\prime})\varphi }.
 \end{align}
 
-\section{Cálculo semi-analítico de las integrales necesarias para la transferencia de momento angular total}
-La integral en $\varphi$ se puede calcular teniendo en cuenta que 
+\section{Cálculo semi-analítico de las integrales necesarias para la transferencia de momento angular}
+Las integrales en $\varphi$ se pueden calcular teniendo en cuenta que 
 \begin{align}
 \int_0^{2\pi} \rme^{\rmi (m-m^{\prime}) \varphi} \cos\varphi  \, d\varphi &= \pi \var{ \delta_{m+1, m^{\prime}} + \delta_{m-1, m^{\prime}} },\\
 \int_0^{2\pi} \rme^{\rmi (m-m^{\prime}) \varphi} \sin\varphi  \, d\varphi &= \rmi \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} },
 \end{align}
 \vspace{-0.8 cm}
-y para calcular la integral en $\theta$ se definen las siguientes cantidades
+donde $\delta_{i,j}$ es la delta de Kronecker y para calcular las integrales en $\theta$ se definen las siguientes cantidades
 
 \begin{align}
 IM_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \,x \, dx, \\
@@ -72,19 +85,28 @@ IU_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\p
 IV_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{x^2}{\sqrt{1-x^2}} \, dx, \\
 IW_{\ell,\ell^{\prime}}^{m,m^{\prime}} &=\int_{-1}^1 P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m^{\prime}}(x) \, \frac{x}{\sqrt{1-x^2}} \, dx, 
 \end{align}
-que pueden ser calculadas mediante cuadraturas Gaussianas \cite{kahaner1989numerical}, que dan resultados exactos al ser utilizadas para integrar polinomios\footnote{Debe tenerse en cuenta que solo las funciones asociadas de Legendre $P_{\ell}^m$ de orden $m$ par son polinomios, por lo que solo las integrales pares en $m$ se calcularán de forma exacta.}. Se debe tomar en cuenta la relación de ortogonalidad de las funciones asociadas de Legendre \cite{Abramowitz}
+que se pueden calcular mediante cuadraturas Gaussianas \cite{kahaner1989numerical}, que dan resultados exactos al ser utilizadas para integrar polinomios\footnote{Debe tenerse en cuenta que solo las funciones asociadas de Legendre $P_{\ell}^m$ de orden $m$ par son polinomios, debido al factor $(1-x^2)^{m/2}$ que las acompaña. Por lo anterior, solo las integrales pares en $m$ se calcularán de forma exacta.}. Para el caso particular en el que solo se integran dos funciones asociadas de Legendre, se utiliza la relación de ortogonalidad \cite{Abramowitz}
 \begin{equation}
 \int_{-1}^{1} P_{\ell}^{m}(x) P_{\ell^{\prime}}^{m}(x) \, dx = \Delta_{\ell \ell^{\prime}} \qquad \text{con} \qquad \Delta_{\ell \ell^{\prime}}= \frac{2(\ell+m)!}{(2\ell+1)(\ell-m)!} \delta_{\ell \ell^{\prime}}.
 \end{equation}
 
 \section{Transferencia de momento angular total}
-Las integrales de los términos cruzados de los campos electromagnéticos en las Ecs. \eqref{eq: Lx spectral integral angles}, \eqref{eq: Ly spectral integral angles} y\eqref{eq: Lz spectral integral angles} se escriben como
+Para obtener la TMA, es necesario integrar la densidad espectral $\mathcal{L}$ sobre el espacio de frecuencias. Para calcular la densidad espectral, es necesario resolver las integrales de superficie sobre el cascarón esférico $S$ que encierra a la NP (ver Ecs. \eqref{eq: Lx spectral integral angles}-\eqref{eq: Lz spectral integral angles}). Por tanto, se requiere calcular la integral de superficie de las componentes $\mathcal{T}_{\theta r}$ y $\mathcal{T}_{\varphi r}$, descritos en las Ecs. \eqref{Eq: T theta r} y \eqref{Eq: T phi r}. Al sustituir las Ecs. \eqref{eq: cross terms E field} y \eqref{eq: cross terms H field} en las Ecs. \eqref{Eq: T theta r} y \eqref{Eq: T phi r} se obtiene
+\begin{align}
+\mathcal{T}_{\theta r} &= \sum_{a,b}\sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} + \frac{\mu_0}{\cgs{4\pi\mu_0}} \mathscr{H}_{\ell, m}^{\text{a}\theta}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}  }, \label{Eq: T theta t sum}\\
+\mathcal{T}_{\varphi r} &= \sum_{a,b}\sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} {\rm Re}\Var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} \mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} + \frac{\mu_0}{\cgs{4\pi\mu_0}} \mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}  }, \label{Eq: T phi t sum}
+\end{align}
+donde la suma sobre $a, b$ considera las interacciones $\mathcal{T}_{\rm ss}$, $\mathcal{T}_{\rm ee}$, $\mathcal{T}_{\rm es}$ y $\mathcal{T}_{\rm se}$, descritas en las Ecs. \eqref{Eq: tensor de esfuerzos inicio 2}-\eqref{eq: tensor de esfuerzos final}.
+
+%\mathscr{E}_{\ell, m}^{\text{a}\alpha}
+
+Las integrales de los términos cruzados en la contribución multipolar al tensor $\tensa{\mathcal{T}}$ de los campos electromagnéticos mostrada en en las Ecs. \eqref{Eq: T theta t sum} y \eqref{Eq: T phi t sum} se escriben como
 \begin{align}
 \int_{0}^{4\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \sin\varphi \, d\Omega =& 
 %
-\, \rmi \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
+\, \rmi \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
 %
--D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \nonumber \\
+-D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \nonumber \\
 %
 & \times \Bigg[ (\ell+1) IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
 %
@@ -93,36 +115,36 @@ Las integrales de los términos cruzados de los campos electromagnéticos en las
 %
 \int_{0}^{4\pi} \mathscr{H}_{\ell, m}^{\text{a}\theta}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \sin\varphi \, d\Omega =& 
 %
-\, \rmi \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{D_{\ell,m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
+\, \rmi \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{D_{\ell,m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
 %
--C_{\ell, m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \nonumber \\
-%
-& \times \Bigg[ (\ell+1) IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
-%
--(l-m+1) IU_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg] \Bigg\}\ell^{\prime}(\ell^{\prime}+1),
-%
-%
-%
-%
-\end{align}
-\vspace{-0.8cm}
-\begin{align}
-\int_{0}^{4\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \cos\varphi \, d\Omega =& 
-%
-\, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
-%
--D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \nonumber \\
+-C_{\ell, m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \nonumber \\
 %
 & \times \Bigg[ (\ell+1) IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
 %
 -(l-m+1) IU_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg] \Bigg\}\ell^{\prime}(\ell^{\prime}+1),\\
 %
 %
+%
+%
+\int_{0}^{4\pi} \mathscr{E}_{\ell, m}^{\text{a}\theta}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \cos\varphi \, d\Omega =& 
+%
+\, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{-C_{\ell,m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
+%
+-D_{\ell, m}^{\rm a}D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \nonumber \\
+%
+& \times \Bigg[ (\ell+1) IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
+%
+-(l-m+1) IU_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg] \Bigg\}\ell^{\prime}(\ell^{\prime}+1),
+%
+\end{align}
+\vspace{-0.8cm}
+\begin{align}
+%
 \int_{0}^{4\pi} \mathscr{H}_{\ell, m}^{\text{a}\theta}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} \cos\varphi \, d\Omega =& 
 %
-\, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{D_{\ell,m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
+\, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{D_{\ell,m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *}\frac{Z_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b\, *}}{k R} m IU_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
 %
--C_{\ell, m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \nonumber \\
+-C_{\ell, m}^{\rm a}C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{f_{\ell}^{\rm a}Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \nonumber \\
 %
 & \times \Bigg[ (\ell+1) IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} 
 %
@@ -133,11 +155,11 @@ Las integrales de los términos cruzados de los campos electromagnéticos en las
 %
 \int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\cos\theta\sin\varphi \, d\Omega
 %
- =& \, - \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\
+ =& \, - \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\
 %
 &-\var{\ell - m +1} IW_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg]
 %
- + D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),  
+ + D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),  
 %
 %
 \end{align}
@@ -145,51 +167,51 @@ Las integrales de los términos cruzados de los campos electromagnéticos en las
 \begin{align} 
 \int_0^{4\pi}\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\cos\theta\sin\varphi \, d\Omega
 %
- =& \, - \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{ -D_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
+ =& \, - \pi \var{ \delta_{m-1, m^{\prime}} - \delta_{m+1, m^{\prime}} } \Bigg\{ -D_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
 % 
 &-\var{\ell - m +1} IW_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg]
 %
- + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),  \\
+ + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),  \\
 % 
 %
 %
 %
 \int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\cos\theta\cos\varphi \, d\Omega
 %
- =& \, \rmi \, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
+ =& \, \rmi \, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
 % 
 &-\var{\ell - m +1} IW_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg]
 %
- + D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \, \ell^{\prime}(\ell^{\prime}+1),\\
+ + D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \, \ell^{\prime}(\ell^{\prime}+1),\\
 %
 %
 \int_0^{4\pi}\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\cos\theta\cos\varphi \, d\Omega
 %
- =& \, \rmi \, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{ -D_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
+ =& \, \rmi \, \pi \var{ \delta_{m-1, m^{\prime}} + \delta_{m+1, m^{\prime}} } \Bigg\{ -D_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \Bigg[\var{\ell +1} IV_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
 % 
 &-\var{\ell - m +1} IW_{\ell + 1, \ell^{\prime}}^{m, m^{\prime}} \Bigg]
 %
- + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \, \ell^{\prime}(\ell^{\prime}+1),\\
+ + C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k R} IW_{\ell, \ell^{\prime}}^{m, m^{\prime}} \, \ell^{\prime}(\ell^{\prime}+1),\\
 % 
 %
 %
 %
 \int_0^{4\pi}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\sin\theta \, d\Omega
 %
- =& \, \rmi \, 2\pi \, \delta_{m m^{\prime}} \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IM_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
+ =& \, \rmi \, 2\pi \, \delta_{m m^{\prime}} \Bigg\{ C_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \Bigg[\var{\ell +1} IM_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
 % 
 &-\var{\ell - m +1} \Delta_{\ell + 1, \ell^{\prime}}  \Bigg]
 %
-+ D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} \Delta_{\ell \ell^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),\\
++ D_{\ell, m}^{\rm a} D_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k R} \Delta_{\ell \ell^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),\\
 %
 %
 \int_0^{4\pi}\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}\sin\theta \, d\Omega
 %
- =& \, \rmi \, 2\pi \, \delta_{m m^{\prime}} \Bigg\{ -D_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k_0 R} \Bigg[\var{\ell +1} IM_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
+ =& \, \rmi \, 2\pi \, \delta_{m m^{\prime}} \Bigg\{ -D_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} \frac{Z_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b \, *}}{k R} \Bigg[\var{\ell +1} IM_{\ell, \ell^{\prime}}^{m, m^{\prime}} \nonumber \\ 
 % 
 &-\var{\ell - m +1} \Delta_{\ell + 1, \ell^{\prime}}  \Bigg]
 %
-+ C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k_0 R} \Delta_{\ell \ell^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),
++ C_{\ell, m}^{\rm a} C_{\ell^{\prime}, m^{\prime}}^{\rm b \, *} m \frac{f_{\ell}^{\rm a} Z_{\ell^{\prime}}^{\rm b\, *}}{k R} \Delta_{\ell \ell^{\prime}} \Bigg\} \, \ell^{\prime}(\ell^{\prime}+1),
 \end{align}
 y definiendo las siguientes cantidades
 \begin{align}
@@ -205,9 +227,11 @@ IC_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \theta b r}
 %
 % 
 ICS_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}
-=& \, \frac{R^3}{\pi} \int_0^{4\pi} \var{ \frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} \mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} + \frac{\mu_0}{\cgs{4\pi\mu_0}} \mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}}\cos\theta\sin\varphi \, d\Omega,  \\
+=& \, \frac{R^3}{\pi} \int_0^{4\pi} \var{ \frac{\epsilon_0}{\cgs{4\pi\epsilon_0}} \mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} + \frac{\mu_0}{\cgs{4\pi\mu_0}} \mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}}\cos\theta\sin\varphi \, d\Omega,  
 %
-%
+\end{align}
+\vspace{-0.8cm}
+\begin{align}
 %
 ICC_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}
  =& \, \frac{R^3}{\pi} \int_0^{4\pi}\var{\frac{\epsilon_0}{\cgs{4\pi\epsilon_0}}\mathscr{E}_{\ell, m}^{\text{a}\varphi}\mathscr{E}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*} + \frac{\mu_0}{\cgs{4\pi\mu_0}}\mathscr{H}_{\ell, m}^{\text{a}\varphi}\mathscr{H}_{\ell^{\prime}, m^{\prime}}^{\text{br}\,*}}\cos\theta\cos\varphi \, d\Omega, \\
@@ -224,11 +248,8 @@ se pueden reescribir las Ecs. \eqref{eq: Lx spectral integral angles}, \eqref{eq
 \mathcal{L}_x &= 
 \sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}} 
 \var{IS_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \theta b r} + 
-ICC_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}}, \label{eq: Lx spectral integral angles solved}
+ICC_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}}, \label{eq: Lx spectral integral angles solved} \\
 % 
-\end{align}
-\vspace{-0.8cm}
-\begin{align} 
 \mathcal{L}_y &= 
 \sum_{\ell, m} \sum_{\ell^{\prime}, m^{\prime}}
 \var{IC_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \theta b r} - 
@@ -239,4 +260,6 @@ ICS_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}}, \label{eq: Ly spectr
 IS_{\ell m \ell^{\prime} m^{\prime}}^{\rm a \varphi b r}. \label{eq: Lz spectral integral angles solved}
 \end{align}
 %
-En el \hyperref[AppendixAMTextField]{Apéndice B} se muestra el cálculo de $\Delta L_{\rm ext}$, que corresponde exclusivamente al efecto del campo electromagnético generado por el electrón. Al obtener resultados que se anulan, se fortalece la confianza en la validez de las expresiones semi-analíticas, presentadas en las Ecs. \eqref{eq: Lx spectral integral angles solved}, \eqref{eq: Ly spectral integral angles solved} y \eqref{eq: Lz spectral integral angles solved}, utilizadas para calcular la TMA. De este modo se respalda la precisión de los resultados obtenidos.
+Para verificar que las Ecs. \eqref{eq: Lx spectral integral angles solved}-\eqref{eq: Lz spectral integral angles solved} son correctas, se comprueba su validez en el caso que solo intervienen los campos electromagnéticos del electrón, los cuales deben dar como resultado cero para la TMA. En el \hyperref[AppendixAMTextField]{Apéndice B} se detalla el cálculo de $\Delta L_{\rm ext}$, que corresponde exclusivamente al efecto del campo electromagnético generado por el electrón, de manera que solo intervienen los campos externos en el cálculo. Al obtener resultados que se anulan, se fortalece la confianza en la validez de las expresiones semi-analíticas, presentadas en las Ecs. \eqref{eq: Lx spectral integral angles solved}-\eqref{eq: Lz spectral integral angles solved}, utilizadas para calcular la TMA.
+
+Las Ecs. \eqref{eq: Lx spectral integral angles solved}-\eqref{eq: Lz spectral integral angles solved} proporcionan expresiones cerradas y exactas para las densidades espectrales $\mathcal{L}$, las cuales se calculaba anteriormente de forma numérica. Al contar con soluciones analíticas, se pueden integrar las Ecs. \eqref{eq: Lx spectral integral angles solved}-\eqref{eq: Lz spectral integral angles solved} en el espacio de frecuencias para calcular la TMA. Aunque la integral de frecuencias se realice numéricamente, por ejemplo, mediante la cuadratura de Gauss-Kronrod, esta metodología ha demostrado ser suficiente para realizar cálculos para NPs de hasta $50$ nm de radio en el caso de la transferencia de momento lineal. Por tanto, se espera que esta metodología resulte adecuada para realizar cálculos análogos para el caso angular.

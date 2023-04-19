@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  10 APR 2023 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.28)  19 APR 2023 08:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,7 +880,7 @@ File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 \c@bookmark@seq@number=\count358
 \Hy@SectionHShift=\skip74
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 112.
+Package hyperref Info: Option `colorlinks' set `true' on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -1015,26 +1015,26 @@ LaTeX Info: Redefining \% on input line 26.
 )
 \openout1 = `0-Tesis-de-maestria-JLBG.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 272.
-LaTeX Font Info:    ... okay on input line 272.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 272.
-LaTeX Font Info:    ... okay on input line 272.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 272.
-LaTeX Font Info:    ... okay on input line 272.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 272.
-LaTeX Font Info:    ... okay on input line 272.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 272.
-LaTeX Font Info:    ... okay on input line 272.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 272.
-LaTeX Font Info:    ... okay on input line 272.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 272.
-LaTeX Font Info:    ... okay on input line 272.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 272.
-LaTeX Font Info:    ... okay on input line 272.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 272.
-LaTeX Font Info:    ... okay on input line 272.
-LaTeX Info: Redefining \. on input line 272.
-LaTeX Info: Redefining \% on input line 272.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 271.
+LaTeX Font Info:    ... okay on input line 271.
+LaTeX Info: Redefining \. on input line 271.
+LaTeX Info: Redefining \% on input line 271.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1098,7 +1098,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count376
-Package hyperref Info: Link coloring ON on input line 272.
+Package hyperref Info: Link coloring ON on input line 271.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1111,15 +1111,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count377
 )
-LaTeX Info: Redefining \ref on input line 272.
-LaTeX Info: Redefining \pageref on input line 272.
-LaTeX Info: Redefining \nameref on input line 272.
+LaTeX Info: Redefining \ref on input line 271.
+LaTeX Info: Redefining \pageref on input line 271.
+LaTeX Info: Redefining \nameref on input line 271.
 
 (./0-Tesis-de-maestria-JLBG.out) (./0-Tesis-de-maestria-JLBG.out)
 \@outlinefile=\write6
 \openout6 = `0-Tesis-de-maestria-JLBG.out'.
 
-Package backref Info: ** backref set up for natbib ** on input line 272.
+Package backref Info: ** backref set up for natbib ** on input line 271.
 
 Including 'toexclude' comment.
 \openout5 = `comment.cut'.
@@ -1164,130 +1164,24 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-Underfull \vbox (badness 1292) has occurred while \output is active []
-
- [3
+) [3
 
 ])
 \tf@toc=\write7
 \openout7 = `0-Tesis-de-maestria-JLBG.toc'.
 
+ [4]
+(./0-0-Agradecimientos.tex) [5
 
-[4] (./0-0-Agradecimientos.tex)
+] [6
 
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 84.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 84.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 84.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 84.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 84.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5
+] (./0-1-Resumen.tex) [7] [8
 
 ]
+(./0-2-Abstract.tex) [9] [10
 
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 84.
-
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
-[6] (./0-1-Resumen.tex)
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 97.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 97.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 97.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 97.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 97.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7
-
-]
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 97.
-
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
-[8] (./0-2-Abstract.tex)
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 98.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 98.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 98.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 98.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 98.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9
-
-]
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 98.
-
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
-[10]
-Cap\'{\i }tulo 1.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 9
-9.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 9
-9.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-(./1-Introduccion.tex
-<17-imagenes/1-Intro/STEM.png, id=245, 1017.8025pt x 625.33624pt>
+] (./1-Introduccion.tex
+<17-imagenes/1-Intro/STEM.png, id=246, 1017.8025pt x 625.33624pt>
 File: 17-imagenes/1-Intro/STEM.png Graphic file (type png)
 <use 17-imagenes/1-Intro/STEM.png>
 Package pdftex.def Info: 17-imagenes/1-Intro/STEM.png  used on input line 14.
@@ -1299,10 +1193,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11
-
-]
-<17-imagenes/1-Intro/Batson.png, id=277, 1093.08376pt x 745.78625pt>
+ [11]
+<17-imagenes/1-Intro/Batson.png, id=276, 1093.08376pt x 745.78625pt>
 File: 17-imagenes/1-Intro/Batson.png Graphic file (type png)
 <use 17-imagenes/1-Intro/Batson.png>
 Package pdftex.def Info: 17-imagenes/1-Intro/Batson.png  used on input line 22.
@@ -1312,7 +1204,7 @@ LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 
 [12 <./17-imagenes/1-Intro/STEM.png> <./17-imagenes/1-Intro/Batson.png>]
-<17-imagenes/1-Intro/system_NP.pdf, id=300, 554.82875pt x 441.01773pt>
+<17-imagenes/1-Intro/system_NP.pdf, id=298, 554.82875pt x 441.01773pt>
 File: 17-imagenes/1-Intro/system_NP.pdf Graphic file (type pdf)
 <use 17-imagenes/1-Intro/system_NP.pdf>
 Package pdftex.def Info: 17-imagenes/1-Intro/system_NP.pdf  used on input line 
@@ -1321,36 +1213,46 @@ Package pdftex.def Info: 17-imagenes/1-Intro/system_NP.pdf  used on input line
 
 Underfull \vbox (badness 1484) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 40.
-LaTeX Info: Redefining \% on input line 40.
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
  [13 <./17-imagenes/1-Intro/system_NP.pdf>])
 LaTeX Info: Redefining \. on input line 99.
 LaTeX Info: Redefining \% on input line 99.
  [14]
-Cap\'{\i }tulo 2.
-(./2-Teoria-y-metodos.tex
-Underfull \vbox (badness 5189) has occurred while \output is active []
+Cap\'{\i }tulo 1.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+00.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+00.
 
- [15
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(./2-Teoria-y-metodos.tex [15
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 70.
-LaTeX Info: Redefining \% on input line 70.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
  [16]
-<17-imagenes/2-TeoriaMetodos/system_complete.pdf, id=430, 554.82875pt x 441.017
+<17-imagenes/2-TeoriaMetodos/system_complete.pdf, id=437, 554.82875pt x 441.017
 73pt>
 File: 17-imagenes/2-TeoriaMetodos/system_complete.pdf Graphic file (type pdf)
 <use 17-imagenes/2-TeoriaMetodos/system_complete.pdf>
 Package pdftex.def Info: 17-imagenes/2-TeoriaMetodos/system_complete.pdf  used 
-on input line 91.
+on input line 96.
 (pdftex.def)             Requested size: 250.24199pt x 198.91374pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 107.
 LaTeX Info: Redefining \% on input line 107.
-
-[17 <./17-imagenes/2-TeoriaMetodos/system_complete.pdf>]
-LaTeX Font Info:    Trying to load font information for U+eus on input line 145
+ [17 <./17-imagenes/2-TeoriaMetodos/system_complete.pdf>]
+LaTeX Font Info:    Trying to load font information for U+eus on input line 151
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
@@ -1358,88 +1260,107 @@ File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
  [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 194.
-LaTeX Info: Redefining \% on input line 194.
+LaTeX Info: Redefining \. on input line 200.
+LaTeX Info: Redefining \% on input line 200.
  [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 227.
-LaTeX Info: Redefining \% on input line 227.
+LaTeX Info: Redefining \. on input line 237.
+LaTeX Info: Redefining \% on input line 237.
  [20]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 2
-44.
+54.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 254.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 252.
-LaTeX Info: Redefining \% on input line 252.
+LaTeX Info: Redefining \. on input line 262.
+LaTeX Info: Redefining \% on input line 262.
  [21]
-LaTeX Info: Redefining \. on input line 282.
-LaTeX Info: Redefining \% on input line 282.
+LaTeX Info: Redefining \. on input line 292.
+LaTeX Info: Redefining \% on input line 292.
 
 [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 337.
-LaTeX Info: Redefining \% on input line 337.
+LaTeX Info: Redefining \. on input line 347.
+LaTeX Info: Redefining \% on input line 347.
  [23]
+LaTeX Info: Redefining \. on input line 375.
+LaTeX Info: Redefining \% on input line 375.
+
+[24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 362.
-LaTeX Info: Redefining \% on input line 362.
- [24]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 409.
-LaTeX Info: Redefining \% on input line 409.
+LaTeX Info: Redefining \. on input line 419.
+LaTeX Info: Redefining \% on input line 419.
  [25])
 LaTeX Info: Redefining \. on input line 100.
 LaTeX Info: Redefining \% on input line 100.
 
 [26]
-Cap\'{\i }tulo 3.
-(./3-ResultadosyDiscusion.tex
+Cap\'{\i }tulo 2.
+(./3-ResultadosyDiscusion.tex [27
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.1.
+1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.28 \end{align}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{equation.2.1.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.28 \end{align}
+                ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
-
-]
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{equation.
+2.1.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.59 \end{align}
+                ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
- [28]
-LaTeX Info: Redefining \. on input line 143.
-LaTeX Info: Redefining \% on input line 143.
-
-[29]
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
+ [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 219.
-LaTeX Info: Redefining \% on input line 219.
- [30])
+LaTeX Info: Redefining \. on input line 165.
+LaTeX Info: Redefining \% on input line 165.
+ [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
+ [31])
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
 
-[31]) [32
-
-] (./4-Conclusionesyperspectivas.tex
+[32])
+Cap\'{\i }tulo 3.
+(./4-Conclusionesyperspectivas.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33])
-LaTeX Info: Redefining \. on input line 384.
-LaTeX Info: Redefining \% on input line 384.
+ [33
+
+])
+LaTeX Info: Redefining \. on input line 383.
+LaTeX Info: Redefining \% on input line 383.
 
 [34] Including 'toexclude' comment.
 \openout5 = `comment.cut'.
@@ -1456,20 +1377,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [35
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2277) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 60.
-LaTeX Info: Redefining \% on input line 60.
+LaTeX Info: Redefining \. on input line 54.
+LaTeX Info: Redefining \% on input line 54.
  [36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
  [37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 145.
-LaTeX Info: Redefining \% on input line 145.
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
  [38])
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -1482,55 +1403,57 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\\' on input line 22.
 
 (./Apendice-B-TMA_ext.tex
-<17-imagenes/3-AppendixB/system_S.pdf, id=853, 554.82875pt x 441.01773pt>
+<17-imagenes/3-AppendixB/system_S.pdf, id=890, 554.82875pt x 441.01773pt>
 File: 17-imagenes/3-AppendixB/system_S.pdf Graphic file (type pdf)
 <use 17-imagenes/3-AppendixB/system_S.pdf>
 Package pdftex.def Info: 17-imagenes/3-AppendixB/system_S.pdf  used on input li
 ne 6.
 (pdftex.def)             Requested size: 250.24199pt x 198.91374pt.
-<17-imagenes/3-AppendixB/Results.pdf, id=854, 1209.24208pt x 810.90355pt>
+ [41 <./17-imagenes/3-AppendixB/system_S.pdf>]
+<17-imagenes/3-AppendixB/Results.pdf, id=931, 1209.24208pt x 810.90355pt>
 File: 17-imagenes/3-AppendixB/Results.pdf Graphic file (type pdf)
 <use 17-imagenes/3-AppendixB/Results.pdf>
 Package pdftex.def Info: 17-imagenes/3-AppendixB/Results.pdf  used on input lin
-e 11.
-(pdftex.def)             Requested size: 500.484pt x 335.61545pt.
+e 20.
+(pdftex.def)             Requested size: 400.38872pt x 268.48988pt.
+)
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [41 <./17-imagenes/3-AppendixB/system_S.pdf>]) [42 <./17-imagenes/3-AppendixB
-/Results.pdf>] (./0-Tesis-de-maestria-JLBG.bbl (./0-Tesis-de-maestria-JLBG.brf)
+[42 <./17-imagenes/3-AppendixB/Results.pdf>]) (./0-Tesis-de-maestria-JLBG.bbl
+(./0-Tesis-de-maestria-JLBG.brf)
 \tf@brf=\write8
 \openout8 = `0-Tesis-de-maestria-JLBG.brf'.
 
-[43
+ [43
 
 
 ]
-LaTeX Info: Redefining \. on input line 168.
-LaTeX Info: Redefining \% on input line 168.
+LaTeX Info: Redefining \. on input line 167.
+LaTeX Info: Redefining \% on input line 167.
  [44])
-LaTeX Info: Redefining \. on input line 506.
-LaTeX Info: Redefining \% on input line 506.
- [45] (./0-Tesis-de-maestria-JLBG.aux
+LaTeX Info: Redefining \. on input line 505.
+LaTeX Info: Redefining \% on input line 505.
+ [45]
+(./0-Tesis-de-maestria-JLBG.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
 Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.out' has not change
 d.
-(rerunfilecheck)             Checksum: 961BA3B566FF40A5F59E2B9D62B7EF80;4442.
+(rerunfilecheck)             Checksum: BDEECA57B63F083F09C58D570AE461C0;4404.
 Package rerunfilecheck Info: File `0-Tesis-de-maestria-JLBG.brf' has not change
 d.
-(rerunfilecheck)             Checksum: BE53D15E70A04A42F44CA3A3B9F777D1;5676.
+(rerunfilecheck)             Checksum: 97B47DDC7B5D99E80601CAF6CC3AB5D4;6561.
  ) 
 Here is how much of TeX's memory you used:
- 34339 strings out of 480071
- 671265 string characters out of 5891616
- 1013119 words of memory out of 5000000
- 51327 multiletter control sequences out of 15000+600000
+ 34358 strings out of 480071
+ 671583 string characters out of 5891616
+ 1013172 words of memory out of 5000000
+ 51343 multiletter control sequences out of 15000+600000
  489035 words of font info for 99 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
- 90i,17n,99p,2381b,994s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 90i,17n,99p,2750b,994s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
@@ -1550,17 +1473,19 @@ nts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type
 ic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb>
-Output written on 0-Tesis-de-maestria-JLBG.pdf (45 pages, 2628572 bytes).
+sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb>
+Output written on 0-Tesis-de-maestria-JLBG.pdf (45 pages, 2775392 bytes).
 PDF statistics:
- 1217 PDF objects out of 1440 (max. 8388607)
- 1027 compressed objects within 11 object streams
- 288 named destinations out of 1000 (max. 500000)
+ 2273 PDF objects out of 2487 (max. 8388607)
+ 1745 compressed objects within 18 object streams
+ 291 named destinations out of 1000 (max. 500000)
  336 words of extra memory for PDF output out of 10000 (max. 10000000)
 
